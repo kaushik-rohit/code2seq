@@ -1,0 +1,2 @@
+Loads an AnimationSheet from the given stream, using the specified version
+    number when reading properties

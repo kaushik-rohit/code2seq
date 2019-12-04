@@ -1,0 +1,1 @@
+Gets the sql statement to use for obtaining the identity value of the last insert.

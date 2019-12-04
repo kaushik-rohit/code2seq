@@ -1,0 +1,1 @@
+Return true if the folderID is a subfolder of the Suitcase or the suitcase folder  itself

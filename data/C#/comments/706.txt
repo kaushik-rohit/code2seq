@@ -1,0 +1,1 @@
+The message to display when no records are found (defaults to 'No data to display').

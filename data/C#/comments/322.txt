@@ -1,0 +1,1 @@
+Cancels command execution in asynchronous scenarios.

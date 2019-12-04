@@ -1,0 +1,3 @@
+Retrieves the list of Route resources available to the specified project. 
+    Documentation https://developers.google.com/compute/alpha/reference/routes/list
+    Generation Note: This does not always build corectly.  Google needs to standardise things I need to figuer out which ones are wrong.

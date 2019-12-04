@@ -1,0 +1,1 @@
+Teleport the player to the designated coordinates.

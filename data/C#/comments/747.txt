@@ -1,0 +1,2 @@
+Converts a set of <see cref="T:MFWSSearching.Program.ObjVer" />s into a string that can be passed to 
+    http://www.m-files.com/mfws/resources/objects/properties.html.

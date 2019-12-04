@@ -1,0 +1,1 @@
+Checks if the next instruction to be executed is a call instruction or not

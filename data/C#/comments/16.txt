@@ -1,0 +1,1 @@
+Function assigned to button toggle which removes the entity from storage

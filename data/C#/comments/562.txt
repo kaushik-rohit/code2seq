@@ -1,0 +1,1 @@
+Converts a Lean symbol instance to a Dukascopy symbol

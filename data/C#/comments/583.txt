@@ -1,0 +1,2 @@
+Use this to treat Request.Items[] as a cache by returning pre-computed items to save 
+    calculating them multiple times.

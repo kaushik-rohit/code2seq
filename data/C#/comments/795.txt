@@ -1,0 +1,1 @@
+Releases all resources used by the current instance of the <see cref="T:System.Threading.ThreadLocal`1" /> class.

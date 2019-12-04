@@ -1,0 +1,1 @@
+Return the localizability of an element to the BamlLocalizer

@@ -1,0 +1,1 @@
+Factory method. Loads a <see cref="T:ParentLoad.Business.ERCLevel.B11_CityRoadColl" /> object from the given list of B12_CityRoadDto.

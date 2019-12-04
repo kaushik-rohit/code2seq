@@ -1,0 +1,3 @@
+Matches this pattern for at least min times
+    and at most max times.
+    Return the total match length.

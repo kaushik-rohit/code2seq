@@ -1,0 +1,1 @@
+Create a new acknowledgment for the specified message.

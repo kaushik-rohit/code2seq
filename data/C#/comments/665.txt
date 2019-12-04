@@ -1,0 +1,1 @@
+Initialise the configuration timecode mode drop-down list collection

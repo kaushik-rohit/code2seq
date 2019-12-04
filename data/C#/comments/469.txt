@@ -1,0 +1,1 @@
+Process the filter on the specified image.

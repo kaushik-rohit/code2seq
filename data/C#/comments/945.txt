@@ -1,0 +1,1 @@
+Is valid queue name <see cref="!:http://msdn.microsoft.com/en-us/library/windowsazure/dd179349.aspx" />

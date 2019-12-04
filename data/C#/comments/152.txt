@@ -1,0 +1,1 @@
+Defines the local table on the store.

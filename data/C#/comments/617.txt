@@ -1,0 +1,1 @@
+Loads banner list on grid.

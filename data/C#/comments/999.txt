@@ -1,0 +1,1 @@
+Filters the given feed and returns a filtered version.

@@ -1,0 +1,2 @@
+This function will update the best value and parameters if the current
+    job has produced superior results

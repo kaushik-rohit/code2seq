@@ -1,0 +1,1 @@
+This method checks if the PID file is stored on the disk and then terminates runaway processes if they exist.

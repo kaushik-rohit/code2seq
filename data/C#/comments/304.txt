@@ -1,0 +1,1 @@
+Helper method to format a Diagnostic into an easily readable string

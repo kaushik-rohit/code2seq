@@ -1,0 +1,1 @@
+Instructs the drawing code to fill the specified path with the specified image.

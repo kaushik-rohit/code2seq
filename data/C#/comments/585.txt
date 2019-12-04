@@ -1,0 +1,2 @@
+Populates <see cref="!:TypeRegistry" /> using values specified in
+    the <c>typeAliases</c> config section.

@@ -1,0 +1,2 @@
+Checks in an instance of T owned by the object pool. This method is only intended to be called
+    by the <c>WrappedObject</c> class.

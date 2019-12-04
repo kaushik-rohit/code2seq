@@ -1,0 +1,1 @@
+Reads an update that occures when a new edict enters the PVS (potentially visible system)

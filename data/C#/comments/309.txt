@@ -1,0 +1,3 @@
+Gets one creative field value by ID. 
+    Documentation https://developers.google.com/dfareporting/v2.8/reference/creativeFieldValues/get
+    Generation Note: This does not always build corectly.  Google needs to standardise things I need to figuer out which ones are wrong.

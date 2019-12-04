@@ -1,0 +1,1 @@
+Releases all resource used by the <see cref="T:OxyPlot.Xwt.GraphicsRenderContext" /> object.

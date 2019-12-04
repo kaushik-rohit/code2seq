@@ -1,0 +1,1 @@
+Sets this line segment's end points to be the intersection of the <paramref name="sliceImage" /> on the infinite plane of the <paramref name="referenceImage" />.

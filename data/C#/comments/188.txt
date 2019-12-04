@@ -1,0 +1,1 @@
+Registers a new resource in the repository.

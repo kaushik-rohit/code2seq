@@ -1,0 +1,1 @@
+Raises the <see cref="E:GameUpdate" /> event.

@@ -1,0 +1,1 @@
+Record a value in the sample set.

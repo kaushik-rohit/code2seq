@@ -1,0 +1,2 @@
+Ensures Logging and an 'ordered cooperative shutdown' in case an Unhandled Exception is
+    thrown in Threads, ThreadPool work items or Finalizers anywhere in the PetraServer.

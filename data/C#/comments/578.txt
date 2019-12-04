@@ -1,0 +1,2 @@
+Creates a new instance of the given component.
+    This method must be used to create components instead of calling the component's constructor.

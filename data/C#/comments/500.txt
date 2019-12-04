@@ -1,0 +1,1 @@
+Converts an <see cref="!:OpenTK.NMatrix3" /> into a <see cref="!:Matrix" />.

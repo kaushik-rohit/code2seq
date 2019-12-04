@@ -1,0 +1,1 @@
+Creates a thumbnail image from a local video

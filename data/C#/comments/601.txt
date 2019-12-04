@@ -1,0 +1,1 @@
+Create a new reset message for the specified message.

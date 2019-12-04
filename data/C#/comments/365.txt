@@ -1,0 +1,1 @@
+Gets the specified font from cache.

@@ -1,0 +1,2 @@
+A utility method to handle the launch of the multiform. 
+    If the data is different than null, then it becomes the default data for the multiform

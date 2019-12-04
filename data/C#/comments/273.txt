@@ -1,0 +1,1 @@
+return localizability of a property to the BamlLocalizer

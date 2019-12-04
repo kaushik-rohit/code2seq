@@ -1,0 +1,1 @@
+Tests the <see cref="!:IXliffDataProvider.GetXliffChildren" /> method for the document.

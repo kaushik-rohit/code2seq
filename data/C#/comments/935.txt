@@ -1,0 +1,1 @@
+Gets a string representing a new clause using the information defined in the FieldAttributeInfo

@@ -1,0 +1,1 @@
+Adds padding to the input data and returns the padded data.

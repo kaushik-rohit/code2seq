@@ -1,0 +1,1 @@
+Get language for a player

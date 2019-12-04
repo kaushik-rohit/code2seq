@@ -1,0 +1,2 @@
+Determines whether the specified character is alpha
+    according to table.

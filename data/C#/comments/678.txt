@@ -1,0 +1,2 @@
+Function called when the tool has finished drawing on the map. The function then masks
+    raster pixels and saves the output masked raster to the project folder.

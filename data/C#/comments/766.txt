@@ -1,0 +1,1 @@
+Starts the <see cref="!:BackgroundTask" /> and shows the progress dialog.

@@ -1,0 +1,3 @@
+Executes Cancel Order operation.
+    Checks if order is in scheduling state, then executes if it is.
+    Otherwise, throws a WorkflowException.

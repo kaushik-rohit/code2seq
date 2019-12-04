@@ -1,0 +1,1 @@
+Copies received values from server about contents of storage container

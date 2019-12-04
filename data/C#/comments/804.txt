@@ -1,0 +1,1 @@
+Records the started process PID for the future use in OnStart() after the restart.

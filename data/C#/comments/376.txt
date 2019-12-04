@@ -1,0 +1,1 @@
+Inits the list of category types plus option ALL.

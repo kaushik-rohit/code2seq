@@ -1,0 +1,1 @@
+Loads all <see cref="T:ParentLoad.Business.ERCLevel.B11_CityRoadColl" /> collection items from the given list of B12_CityRoadDto.

@@ -1,0 +1,1 @@
+Display message in VisualStudio status bar

@@ -1,0 +1,1 @@
+gets the localizabiity attribute of a given the type

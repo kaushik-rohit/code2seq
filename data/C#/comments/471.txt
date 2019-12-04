@@ -1,0 +1,1 @@
+Converts an <see cref="!:ARPlaneAnchorAlignment" /> into a <see cref="!:PlaneAnchorType" />.

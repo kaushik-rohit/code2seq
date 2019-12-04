@@ -1,0 +1,3 @@
+Registers a new IMaxNodeFactory. The factory can be used to create a wrapper
+    for any kind of node in the scene. When the factory can't create an appropriate
+    wrapper, it should return null.

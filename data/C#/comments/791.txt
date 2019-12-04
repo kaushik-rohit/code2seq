@@ -1,0 +1,1 @@
+Loads a <see cref="T:ParentLoadSoftDelete.Business.ERLevel.E02_Continent" /> object from the given SafeDataReader.

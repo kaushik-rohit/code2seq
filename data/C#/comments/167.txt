@@ -1,0 +1,2 @@
+Executes a SQL query against the store.  This is useful for running arbitrary queries
+    that are supported by SQLite but not the SDK LINQ Provider

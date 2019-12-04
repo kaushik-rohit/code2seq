@@ -1,0 +1,1 @@
+Returns true if a string contains N or more characters 'c'.

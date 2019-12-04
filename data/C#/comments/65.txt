@@ -1,0 +1,1 @@
+Sets the <see cref="!:ICache" /> to be used.

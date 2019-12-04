@@ -1,0 +1,3 @@
+Gets a query filter that should uniquely identify
+    the current instance.  The default implementation
+    compares the Id/key field to the current instance's.

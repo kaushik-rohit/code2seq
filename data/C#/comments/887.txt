@@ -1,0 +1,1 @@
+Creates a new control that normally appears at the top of the page.  This is normally a control that would appear at the top of the page, and only have one instance (such as the ScriptManager control).

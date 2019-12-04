@@ -1,0 +1,1 @@
+Creates a speculative SemanticModel for an expression body that did not appear in the original source code.

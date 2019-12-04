@@ -1,0 +1,1 @@
+Called by Framework when ArcGIS Pro is closing

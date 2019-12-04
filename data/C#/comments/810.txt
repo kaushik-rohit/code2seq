@@ -1,0 +1,1 @@
+Emits a tone from the PC speaker.

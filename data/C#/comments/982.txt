@@ -1,0 +1,1 @@
+Rotate coordinates (inX, inY) by given angle to (outX, outY).

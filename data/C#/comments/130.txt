@@ -1,0 +1,2 @@
+Construct a placeholder for a missing dependency. Note that this is different
+    from an optional dependency - a missing dependency is an error.

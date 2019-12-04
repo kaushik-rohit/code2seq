@@ -1,0 +1,2 @@
+Parses to markdown.
+    The <paramref name="element" /> is the element to parse.

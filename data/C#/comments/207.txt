@@ -1,0 +1,2 @@
+Checks an instance of <c>T</c> from the pool. If the pool is not sufficient to 
+    allow the checkout, a new segment is created.

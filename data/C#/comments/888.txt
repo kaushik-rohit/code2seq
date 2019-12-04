@@ -1,0 +1,1 @@
+Gets every tag stored in the database

@@ -1,0 +1,2 @@
+Called by the framework in the case where the host has initiated the exit, rather than the component,
+    to give the component a chance to prepare prior to being stopped.

@@ -1,0 +1,2 @@
+Generates a new random UID hexadecimal string with the given length, in bytes.<para />
+    Note: Since hex is used, the result will be 2*length long (due to 00 to FF for each byte).

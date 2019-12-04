@@ -1,0 +1,1 @@
+Deletes items from local table that match the given query.

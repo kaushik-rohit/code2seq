@@ -1,0 +1,2 @@
+Recursive method to run through all child nodes and, for each result set tuple returned
+    by a child node, execute the inner child of the child node until there are no inner child nodes.

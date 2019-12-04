@@ -1,0 +1,1 @@
+Releases the unmanaged resources used by the <see cref="T:MongoAdapters.MongoInputAdapter" /> object and optionally releases the managed resources.

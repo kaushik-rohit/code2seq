@@ -1,0 +1,2 @@
+Get the average rgb-values from an image in a given rectangle
+        By default the function calculate the average rgb-values from the whole image

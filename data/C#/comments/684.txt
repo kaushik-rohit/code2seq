@@ -1,0 +1,1 @@
+Tries to parse a boolean value from the specificed <paramref name="candidate" />.

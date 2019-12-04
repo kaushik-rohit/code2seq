@@ -1,0 +1,1 @@
+Set new maximal price for this order instance.

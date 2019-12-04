@@ -1,0 +1,1 @@
+Determines whether the specified number evaluates to a value that is finite (i.e. not infinity).

@@ -1,0 +1,1 @@
+Convenience method to send an exception message to GrayLog.

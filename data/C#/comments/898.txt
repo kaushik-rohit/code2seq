@@ -1,0 +1,1 @@
+Sents a message to GrayLog.

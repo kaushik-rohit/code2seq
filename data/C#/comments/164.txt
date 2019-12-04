@@ -1,0 +1,1 @@
+Executes a lookup against a local table.

@@ -1,0 +1,1 @@
+Compares two <see cref="T:Manatee.Trello.Position" /> object by examining their content.

@@ -1,0 +1,2 @@
+Get the average color from an image in a given rectangle
+        By default the function calculate the average color from the whole image

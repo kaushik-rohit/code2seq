@@ -1,0 +1,1 @@
+Saves a pixelaria file's contents to its stream or file path

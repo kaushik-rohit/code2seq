@@ -1,0 +1,2 @@
+Returns a new string in which all occurances of a specifid string are replaced with a new string
+    using the provided string comparison option

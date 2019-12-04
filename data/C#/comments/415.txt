@@ -1,0 +1,1 @@
+Translates an address in format "A1" to col- and rowindex.

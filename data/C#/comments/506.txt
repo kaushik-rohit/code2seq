@@ -1,0 +1,1 @@
+This method is much faster than Activator.CreateInstance and also that woudn't work as constructors are internal

@@ -1,0 +1,1 @@
+Called from the view to indicate that the task should be cancelled.

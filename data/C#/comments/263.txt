@@ -1,0 +1,1 @@
+Copies the state from this object to <paramref name="entity" />.

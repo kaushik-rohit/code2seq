@@ -1,0 +1,1 @@
+Called when the offset of the horizontal scrollbar has been set.

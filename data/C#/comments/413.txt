@@ -1,0 +1,1 @@
+Tests that prohibited attributes are not added to the completion data.

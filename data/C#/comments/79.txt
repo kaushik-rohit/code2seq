@@ -1,0 +1,1 @@
+Creates a ghost copy of this order note.

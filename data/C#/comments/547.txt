@@ -1,0 +1,2 @@
+Walk through the ApplicationSession objects and decompress the ApplicationRequest.CompressedRequest and ApplicationRequest.CompressedResponse
+    properties setting ApplicationRequest.RequestBody and Application.ResponseBody to those values. Also sets CompressedRequest and CompressedResponse to null

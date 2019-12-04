@@ -1,0 +1,2 @@
+Serialised a map to a Json compatible IDictionary. A callback is provided for 
+    serialising each element in the input map.

@@ -1,0 +1,1 @@
+Sets a function that determines if the object can be seen

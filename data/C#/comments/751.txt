@@ -1,0 +1,1 @@
+Stops the Petra Server in a more controlled way than the <see cref="M:Ict.Common.Remoting.Server.TServerManagerBase.StopServer" /> Method.

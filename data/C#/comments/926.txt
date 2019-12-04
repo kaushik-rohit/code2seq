@@ -1,0 +1,1 @@
+Converts an array of one type to an array of another type.

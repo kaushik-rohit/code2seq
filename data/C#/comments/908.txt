@@ -1,0 +1,2 @@
+Get global instance of the
+    <see cref="T:ManagedClient.IrbisAlphabetTable" />.

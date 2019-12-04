@@ -1,0 +1,1 @@
+Waits for the pending asynchronous command execution to complete.

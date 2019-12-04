@@ -1,0 +1,1 @@
+Draws a portion of the specified <see cref="!:OxyImage" />.

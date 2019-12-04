@@ -1,0 +1,1 @@
+Instance allowing testing of arity-2 functions.

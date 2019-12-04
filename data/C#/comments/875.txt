@@ -1,0 +1,1 @@
+Determine if culture conventions are valid

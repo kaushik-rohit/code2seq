@@ -1,0 +1,1 @@
+Normalizes a URL path for a Page.

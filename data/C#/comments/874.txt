@@ -1,0 +1,1 @@
+Disposes an instance of the <see cref="T:SharpFont.FTBitmap" /> class.

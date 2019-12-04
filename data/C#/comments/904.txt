@@ -1,0 +1,1 @@
+Register the <see cref="!:IEventStore&lt;TAuthenticationToken&gt;" />

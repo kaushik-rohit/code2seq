@@ -1,0 +1,1 @@
+Enables the NAME self host server.

@@ -1,0 +1,1 @@
+<p>Creates a new reverb audio processing object (APO), and returns a reference to it.</p>

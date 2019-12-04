@@ -1,0 +1,1 @@
+Gets the cached <see cref="!:Image" /> of the specified <see cref="!:OxyImage" />.

@@ -1,0 +1,2 @@
+Recursively logs the given exception to the supplied logger. Steps through all inner
+    exceptions until there are none left, writting the message and stack strace.

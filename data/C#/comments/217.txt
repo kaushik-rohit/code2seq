@@ -1,0 +1,2 @@
+Use this function to set texture and texNativePtr when app is running 
+    GetNativeTexturePtr is a slow behavior, the value should be pre-cached

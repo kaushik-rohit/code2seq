@@ -1,0 +1,1 @@
+Serialize to binary with specified resolver.

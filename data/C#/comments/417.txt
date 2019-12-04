@@ -1,0 +1,1 @@
+Creates the header row for the XLS to define the columns the spreadsheet will have.

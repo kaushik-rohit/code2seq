@@ -1,0 +1,1 @@
+Creates a speculative SemanticModel for a method body that did not appear in the original source code.

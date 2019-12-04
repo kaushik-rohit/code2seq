@@ -1,0 +1,5 @@
+Parse a valid Bed file (one line) and
+        convert the same Range using ParseRangeGrouping(file-name) method and
+        validate the same
+        Input : Bed File
+        Validation: Range properties like ID, Start and End.

@@ -1,0 +1,1 @@
+Loads banner name on dropdown for given PortalID.

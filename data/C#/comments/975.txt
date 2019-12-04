@@ -1,0 +1,1 @@
+Removes a <see cref="!:B12_CityRoad" /> item from the collection.

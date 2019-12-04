@@ -1,0 +1,2 @@
+Loads an AnimationExportSettings from the given stream, using the specified
+    version number when reading properties

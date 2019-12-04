@@ -1,0 +1,2 @@
+Execute a query and return the first result.  This method will issue a sql TOP clause so only the 
+    specified number of values will be returned.

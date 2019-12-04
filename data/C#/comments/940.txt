@@ -1,0 +1,1 @@
+Is valid container name <see cref="!:http://msdn.microsoft.com/en-us/library/windowsazure/dd135715.aspx" />

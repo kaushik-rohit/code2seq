@@ -1,0 +1,1 @@
+Estimate password strength. See documentation for more details.

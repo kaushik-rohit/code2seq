@@ -1,0 +1,1 @@
+Initialized this instance but with some optional settings, like seed data and indexes.

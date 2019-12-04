@@ -1,0 +1,2 @@
+Gets a concrete disk-storage instance. If nothing has changed since
+    the last call, then the last state is returned.

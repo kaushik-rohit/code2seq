@@ -1,0 +1,1 @@
+Creates a caching component for <see cref="!:T" />.

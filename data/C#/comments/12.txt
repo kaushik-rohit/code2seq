@@ -1,0 +1,1 @@
+Returns the hash code for the current EventPattern&lt;TSender, TEventArgs&gt; instance.

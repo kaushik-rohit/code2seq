@@ -1,0 +1,1 @@
+Opens the specified image or icon file to a local copy. Icons are converted into bitmaps.

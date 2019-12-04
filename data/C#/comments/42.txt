@@ -1,0 +1,1 @@
+Called when the current IXenConnection's VM dictionary changes.

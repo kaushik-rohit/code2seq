@@ -1,0 +1,5 @@
+Parse a valid Bed file (three chromosomes) and
+        convert the same Range using ParseRange(file-name) method and
+        validate the same
+        Input : Bed File
+        Validation: Range properties like ID, Start and End.

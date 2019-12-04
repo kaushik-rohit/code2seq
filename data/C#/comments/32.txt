@@ -1,0 +1,1 @@
+Gets a tree iterator that starts one node before the first node.

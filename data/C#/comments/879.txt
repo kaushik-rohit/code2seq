@@ -1,0 +1,1 @@
+Main method, to run this code example as a standalone application.

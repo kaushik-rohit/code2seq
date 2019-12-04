@@ -1,0 +1,1 @@
+check if a file with this security token exists

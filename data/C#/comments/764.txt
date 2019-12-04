@@ -1,0 +1,1 @@
+Attempts to convert to a Matrix from the given object.

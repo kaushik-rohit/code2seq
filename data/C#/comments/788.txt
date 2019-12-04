@@ -1,0 +1,2 @@
+Helper method to control `SetAllowVaryBetweenGroups` 
+    option for instance binding param

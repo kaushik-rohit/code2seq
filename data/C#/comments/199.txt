@@ -1,0 +1,1 @@
+Gets the aggregate function to use in a scalar query for the fragment specified

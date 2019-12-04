@@ -1,0 +1,1 @@
+Creates a SemanticModel that creates and owns the ExecutableCodeBinder for the method of which it is a model.

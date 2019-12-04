@@ -1,0 +1,1 @@
+Retrieves the wave output volume for a sound device.

@@ -1,0 +1,6 @@
+Format a valid RangeGroup (one line file) to a
+        Bed file using Format(RangeGroup, file-path) method and
+        validate the same.
+        Input : Bed Range
+        Validation : Read the Bed file to which the range was formatted
+        using File-Info and Validate Properties like ID, Start and End

@@ -1,0 +1,3 @@
+Loads a graph by its path, adds it to the internal list
+    and returns it.
+    (Also used by the editor to open Graphs)

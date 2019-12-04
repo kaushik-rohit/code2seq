@@ -1,0 +1,1 @@
+Executes Undo of the current command from the list.

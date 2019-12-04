@@ -1,0 +1,1 @@
+Process results of a query in batches of the specified size

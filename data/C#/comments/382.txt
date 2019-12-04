@@ -1,0 +1,1 @@
+Converts a GeoJSON MultiPoint to an SqlGeography

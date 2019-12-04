@@ -1,0 +1,1 @@
+Builds a paging query and count query pair.

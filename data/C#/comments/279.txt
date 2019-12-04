@@ -1,0 +1,1 @@
+Resolve a class name back to its containing assembly

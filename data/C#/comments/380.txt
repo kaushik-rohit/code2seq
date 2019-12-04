@@ -1,0 +1,1 @@
+Converts a GeoJSON Point to an SqlGeography

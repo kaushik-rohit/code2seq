@@ -1,0 +1,1 @@
+Solves a set of equation systems of type <c>A * X = I</c>.

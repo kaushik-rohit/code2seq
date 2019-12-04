@@ -1,0 +1,2 @@
+Matches this pattern for at least min times.
+    Return the total match length.

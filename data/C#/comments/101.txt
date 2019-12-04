@@ -1,0 +1,3 @@
+Get one entry matching the specified filter.  If none exists 
+    one will be created; success will depend on the nullability
+    of the specified columns.

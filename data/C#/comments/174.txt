@@ -1,0 +1,1 @@
+Creates a new log scope, with the given properties.

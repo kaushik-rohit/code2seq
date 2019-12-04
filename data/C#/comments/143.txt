@@ -1,0 +1,1 @@
+Sets the function to get all items of the specified type

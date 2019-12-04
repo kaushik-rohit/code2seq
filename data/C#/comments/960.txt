@@ -1,0 +1,2 @@
+Gets the ObjectContextManager object for the 
+    specified database.

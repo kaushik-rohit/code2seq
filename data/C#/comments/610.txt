@@ -1,0 +1,1 @@
+Registers dependencies with an IoC container.

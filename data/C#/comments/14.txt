@@ -1,0 +1,1 @@
+calculate the similarity of image A in a given rectangle and a reference image B

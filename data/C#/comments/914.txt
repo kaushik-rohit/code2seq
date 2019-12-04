@@ -1,0 +1,2 @@
+Free global instance of
+    <see cref="T:ManagedClient.IrbisAlphabetTable" />.

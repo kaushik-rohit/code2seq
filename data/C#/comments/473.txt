@@ -1,0 +1,1 @@
+Converts an <see cref="!:DisplayOrientation" /> into a <see cref="!:UIKit.UIInterfaceOrientation" />.

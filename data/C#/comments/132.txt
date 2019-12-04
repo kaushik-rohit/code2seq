@@ -1,0 +1,2 @@
+Construct a placeholder for an "exactly one" dependency that cannot be
+    configured because multiple target implementations exist.

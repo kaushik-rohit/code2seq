@@ -1,0 +1,2 @@
+General method that gets a collection of actual diagnostics found in the source after the analyzer is run, 
+    then verifies each of them.

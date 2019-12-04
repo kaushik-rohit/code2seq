@@ -1,0 +1,1 @@
+Invoked when the content or overflow template is changed to recreate the column layout.

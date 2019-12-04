@@ -1,0 +1,1 @@
+<para>Encode fields of given value.</para>

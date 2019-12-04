@@ -1,0 +1,1 @@
+Convert an object of some base class to another child that is not de original

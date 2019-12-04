@@ -1,0 +1,2 @@
+Deserialised a list from a Json compatible IList. A callback is 
+    provided for deserialising each element in the list.

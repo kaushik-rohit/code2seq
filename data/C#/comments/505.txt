@@ -1,0 +1,1 @@
+Specify that a retry should occur any time the result of Run is null.

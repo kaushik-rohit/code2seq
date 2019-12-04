@@ -1,0 +1,1 @@
+Modifies the fileName by removing its path, or makes no changes if the fileName has no path.

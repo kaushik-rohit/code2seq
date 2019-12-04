@@ -1,0 +1,1 @@
+Sets the delete function that is used by the mapping

@@ -1,0 +1,1 @@
+Get next random number using RandomService.

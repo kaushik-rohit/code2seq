@@ -1,0 +1,2 @@
+Returns the directory that contains built roslyn binaries.  Usually this will be 
+    Binaries/Debug or Binaries/Release.

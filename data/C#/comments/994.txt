@@ -1,0 +1,1 @@
+Helper function to extract all contents of this iterating class to a path

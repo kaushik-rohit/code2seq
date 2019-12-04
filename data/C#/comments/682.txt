@@ -1,0 +1,1 @@
+Tries to parse a double from the specified <paramref name="candidate" /> which is expected to be a string value.

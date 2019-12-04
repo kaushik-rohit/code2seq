@@ -1,0 +1,3 @@
+Skips the until new line or when it hits the specified stop chars.
+    When the new line is hit, the method automatically consumes it and creates WhiteSpace token.
+    When the stopchar is hit, it is not consumed.

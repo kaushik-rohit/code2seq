@@ -1,0 +1,1 @@
+Prints a reason (optional) and then exits the application after a key press.

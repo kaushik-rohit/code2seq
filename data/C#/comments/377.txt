@@ -1,0 +1,2 @@
+Converts the given object of type <see cref="T:ICollection{string}" /> to an object of type
+        <see cref="!:ItemRestrictions" />.

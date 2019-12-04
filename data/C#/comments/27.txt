@@ -1,0 +1,1 @@
+Returns the iterator pointing to the first item greater or equal to <paramref name="item" />.

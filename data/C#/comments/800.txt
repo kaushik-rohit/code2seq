@@ -1,0 +1,1 @@
+Updates in the database all changes made to the <see cref="T:ParentLoadSoftDelete.Business.ERLevel.E02_Continent" /> object.

@@ -1,0 +1,1 @@
+Loads default values for the <see cref="T:ParentLoadSoftDelete.Business.ERLevel.E02_Continent" /> object properties.

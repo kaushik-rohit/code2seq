@@ -1,0 +1,3 @@
+Method used to load a subscene attached to the current Main Scene.
+    
+    This operation may cause lag when laoding big subscenes in-game

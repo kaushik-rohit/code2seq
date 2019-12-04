@@ -1,0 +1,2 @@
+Checks each of the actual Diagnostics found and compares them with the corresponding DiagnosticResult in the array of expected results.
+    Diagnostics are considered equal only if the DiagnosticResultLocation, Id, Severity, and Message of the DiagnosticResult match the actual diagnostic.

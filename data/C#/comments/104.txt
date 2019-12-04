@@ -1,0 +1,1 @@
+Gets Fileseek index based on fileType,body,action,direction

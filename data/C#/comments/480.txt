@@ -1,0 +1,1 @@
+places json-data into all entities of an app, with the own data stored inside

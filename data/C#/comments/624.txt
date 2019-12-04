@@ -1,0 +1,1 @@
+Obtain all portal pages of sageframe for given PortalID.

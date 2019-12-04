@@ -1,0 +1,1 @@
+Get an enumeration of all of the valid indexes in the sparse array

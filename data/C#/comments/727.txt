@@ -1,0 +1,1 @@
+Uses Kruskal's algorithm to find the minimum spanning tree of the undirected weighted graph. Returns a <see cref="!:WeightedALGraph&lt;TVertex, TWeight&gt;" /> representing the MST.

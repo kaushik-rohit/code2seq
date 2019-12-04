@@ -1,0 +1,4 @@
+Instance allowing testing of arity-0 functions.
+    <para>
+    This allows lazy evaluation of tests, for instance.
+    </para>

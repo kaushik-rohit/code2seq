@@ -1,0 +1,3 @@
+Build up the command line arguments, determine which executable is being
+    used and find the path to that executable and set the working 
+    directory.

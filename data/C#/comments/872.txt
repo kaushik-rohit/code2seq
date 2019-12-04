@@ -1,0 +1,2 @@
+Convert a bitmap object with depth 1bpp, 2bpp, 4bpp, or 8bpp to a bitmap object with depth 8bpp, making the
+    number of used bytes per line (a.k.a. the ‘pitch’) a multiple of ‘alignment’.

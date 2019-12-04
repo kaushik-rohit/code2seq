@@ -1,0 +1,1 @@
+Sets the <see cref="!:ICacheKey" /> to be used.

@@ -1,0 +1,1 @@
+Gets the item specified of the mapped type

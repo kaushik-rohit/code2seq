@@ -1,0 +1,1 @@
+Decodes the bytes in the packet-entites message.

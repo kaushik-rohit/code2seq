@@ -1,0 +1,1 @@
+Determines whether a <see cref="!:B12_CityRoad" /> item is in the collection's DeletedList.

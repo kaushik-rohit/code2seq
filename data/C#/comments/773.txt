@@ -1,0 +1,2 @@
+Runs the Macro with the given arugments.
+    Blocks until Emme exits

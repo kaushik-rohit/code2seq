@@ -1,0 +1,2 @@
+Checks preconditions of the service signature and throws and exception if the service
+    cannot be generated.

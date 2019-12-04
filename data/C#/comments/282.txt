@@ -1,0 +1,1 @@
+This methods send some ICopyable data to the remote address.

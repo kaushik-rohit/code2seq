@@ -1,0 +1,1 @@
+identify the color of a part(rectangle) from an image by a given list of reference colors

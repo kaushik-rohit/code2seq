@@ -1,0 +1,3 @@
+Using reflection to apply optional parameters to the request.  
+    
+    If the optonal parameters are null then we will just return the request as is.

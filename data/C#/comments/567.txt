@@ -1,0 +1,1 @@
+Returns the security type for a Dukascopy symbol

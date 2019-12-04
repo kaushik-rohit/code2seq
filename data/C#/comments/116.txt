@@ -1,0 +1,3 @@
+Deletes the specified Route resource. 
+    Documentation https://developers.google.com/compute/alpha/reference/routes/delete
+    Generation Note: This does not always build corectly.  Google needs to standardise things I need to figuer out which ones are wrong.

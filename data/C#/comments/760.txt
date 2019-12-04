@@ -1,0 +1,1 @@
+Attempt to retrieve multiple objects from the Cache

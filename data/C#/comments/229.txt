@@ -1,0 +1,2 @@
+Derive the location of the version control system from the environment
+        variable <code>PATH</code>.

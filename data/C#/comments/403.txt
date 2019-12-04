@@ -1,0 +1,1 @@
+When we press the start/stop button we must set it to be the correct value

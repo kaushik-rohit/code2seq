@@ -1,0 +1,2 @@
+Matches this pattern for up to max times.
+    Return the total match length.

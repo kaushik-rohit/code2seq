@@ -1,0 +1,1 @@
+Parses a Markdown snippet, and creates an HTML snippet from the result.

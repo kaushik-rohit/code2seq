@@ -1,0 +1,1 @@
+Gets the type of the filter.

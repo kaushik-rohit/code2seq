@@ -1,0 +1,2 @@
+Determins if the page is within the specified directory path. Does
+    not return true if it is in a subdirectory of the specified directory path.

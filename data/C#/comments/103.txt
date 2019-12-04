@@ -1,0 +1,4 @@
+Execute a query that should return only one result.  If more
+    than one result is returned a MultipleEntriesFoundException will 
+    be thrown.  This method is most commonly used to retrieve a
+    single NotificationSubscription instance by its Id/Key value

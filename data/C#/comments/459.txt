@@ -1,0 +1,1 @@
+Clears list of commands.

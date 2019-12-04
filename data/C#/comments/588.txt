@@ -1,0 +1,1 @@
+Converts a filter string, returning an initialised filter.

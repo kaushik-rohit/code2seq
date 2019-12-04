@@ -1,0 +1,2 @@
+Embolden a bitmap. The new bitmap will be about ‘xStrength’ pixels wider and ‘yStrength’ pixels higher. The
+    left and bottom borders are kept unchanged.

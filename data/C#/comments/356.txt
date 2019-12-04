@@ -1,0 +1,1 @@
+Trigger OnRender function delegate if CanRender()==true

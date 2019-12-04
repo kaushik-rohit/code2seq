@@ -1,0 +1,1 @@
+Returns the glints centers in a matrix form, in columns and in homogeneous coordinates

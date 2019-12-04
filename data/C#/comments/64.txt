@@ -1,0 +1,1 @@
+<p>Creates a new <strong>XAudio2</strong> object and returns a reference to its <strong><see cref="!:SharpDX.XAudio2.XAudio2" /></strong> interface.</p>

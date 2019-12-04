@@ -1,0 +1,2 @@
+Ends the build session in all builders that are building projects that belong
+    to the provided session handle.

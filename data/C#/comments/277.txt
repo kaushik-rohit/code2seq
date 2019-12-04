@@ -1,0 +1,1 @@
+Resolve a formatting tag back to the actual class name

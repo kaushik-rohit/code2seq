@@ -1,0 +1,1 @@
+Returns the iterator pointing to the specified item, or an iterator in End state if the item is not found.

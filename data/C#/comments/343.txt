@@ -1,0 +1,1 @@
+Removes padding that was added to the unencrypted data prior to encryption.

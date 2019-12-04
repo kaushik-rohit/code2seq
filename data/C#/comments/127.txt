@@ -1,0 +1,1 @@
+Creates an exact copy of this AnimationSheet object, with all animations and their respective frames cloned as well

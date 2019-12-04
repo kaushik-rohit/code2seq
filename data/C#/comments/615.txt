@@ -1,0 +1,1 @@
+Loads banner images on grid.

@@ -1,0 +1,1 @@
+Returns true if this type converter can convert to the given type.

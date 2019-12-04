@@ -1,0 +1,1 @@
+${ui_action_DrawCircle_event_OnPointerMoved_D}

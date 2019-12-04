@@ -1,0 +1,1 @@
+Loads the contents of a PixelariaFile

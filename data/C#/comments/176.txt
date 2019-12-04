@@ -1,0 +1,1 @@
+Loads a pixelaria file's contents from its stream or file path

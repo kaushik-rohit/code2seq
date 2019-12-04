@@ -1,0 +1,1 @@
+Builds a string representation of an Application Session object

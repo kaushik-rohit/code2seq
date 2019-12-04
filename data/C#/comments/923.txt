@@ -1,0 +1,1 @@
+Signs a packet given a RSA key and a Hash algorithm.

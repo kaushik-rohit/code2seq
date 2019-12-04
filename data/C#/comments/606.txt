@@ -1,0 +1,1 @@
+Matches the input against this pattern for n times.

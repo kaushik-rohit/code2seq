@@ -1,0 +1,3 @@
+Retrieves a texture.
+    This texture should only be assigned once, as reference counting is being used internally.
+    If you wish to use the same texture multiple times, call this method an equal number of times.

@@ -1,0 +1,1 @@
+Tests the <see cref="!:IXliffDataProvider.GetXliffAttributes" /> method for the element.

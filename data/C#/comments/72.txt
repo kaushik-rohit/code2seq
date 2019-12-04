@@ -1,0 +1,1 @@
+Constructs a new General order note with the specified properties.

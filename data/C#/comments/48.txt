@@ -1,0 +1,1 @@
+Force Start BeforeInitialize/Initialize. If you create presenter dynamically, maybe useful.

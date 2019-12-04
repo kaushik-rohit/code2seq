@@ -1,0 +1,1 @@
+Converts the given sequence to a new <see cref="!:HashSet&lt;T&gt;" />.

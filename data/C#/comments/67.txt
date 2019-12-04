@@ -1,0 +1,1 @@
+Disposes a temporal <see cref="!:IaonSession" /> created using <see cref="M:GSF.TimeSeries.Transport.IClientSubscriptionExtensions.CreateTemporalSession(GSF.TimeSeries.Transport.IClientSubscription)" />.

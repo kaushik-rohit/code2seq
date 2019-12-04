@@ -1,0 +1,1 @@
+Used to deinitialize the SceneMgr singleton data.

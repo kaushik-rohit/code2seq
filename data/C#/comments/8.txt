@@ -1,0 +1,1 @@
+Determines whether the current EventPattern&lt;TSender, TEventArgs&gt; object represents the same event as a specified EventPattern&lt;TSender, TEventArgs&gt; object.

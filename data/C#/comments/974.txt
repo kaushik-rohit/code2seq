@@ -1,0 +1,1 @@
+Converts the given string to a Int64.

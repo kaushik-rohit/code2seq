@@ -1,0 +1,1 @@
+Attempts to create a new IMaxNode wrapper using the registered factories.

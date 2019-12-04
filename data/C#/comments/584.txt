@@ -1,0 +1,1 @@
+Gets a filter instance using it's name.

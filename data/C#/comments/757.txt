@@ -1,0 +1,1 @@
+Deletes all roles from a user in the UserRoles table

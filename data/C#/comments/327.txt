@@ -1,0 +1,1 @@
+Seeks the <see cref="!:SummaryTimeline" /> to the time closest to a position on the screen relative to the <see cref="!:SummaryTimeline" />.

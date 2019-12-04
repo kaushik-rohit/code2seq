@@ -1,0 +1,1 @@
+Attempts to convert <paramref name="body" /> to a body index relative to a file subset, specified by the return value.

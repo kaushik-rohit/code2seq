@@ -1,0 +1,1 @@
+Requests changes to all SObjects of the specified type in the given time frame.

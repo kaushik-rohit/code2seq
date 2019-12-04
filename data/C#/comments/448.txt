@@ -1,0 +1,1 @@
+Returns a <see cref="T:LessMsi.Gui.Model.MsiPropertyInfo" /> with the specified <see cref="P:LessMsi.Gui.Model.MsiPropertyInfo.ID" /> or null if the ID is unknown.

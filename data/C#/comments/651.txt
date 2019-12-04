@@ -1,0 +1,1 @@
+Updates current folder messages info with new messages info.

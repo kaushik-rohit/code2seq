@@ -1,0 +1,1 @@
+Divides a sequence into multiple sequences by using a segment detector based on the original sequence

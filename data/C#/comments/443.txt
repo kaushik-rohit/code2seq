@@ -1,0 +1,3 @@
+Method used to load a scene and replace the current Main Scene.
+    
+    This operation may cause lag when laoding big scenes in-game

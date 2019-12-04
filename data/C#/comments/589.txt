@@ -1,0 +1,2 @@
+Gets a tag of a specified type from the current instance,
+       optionally creating a new tag if possible.

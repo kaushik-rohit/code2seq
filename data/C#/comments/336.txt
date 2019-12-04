@@ -1,0 +1,2 @@
+Init selector with the given dimensions.
+    <param name="allDimensions">All dimensions which the selector could show.</param><param name="dimensionToShow">Current dimension to show.</param>

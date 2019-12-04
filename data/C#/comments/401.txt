@@ -1,0 +1,1 @@
+Converts a GeoJSON FeatureCollection to a list of SqlGeography, each SqlGeography matching each feature in the collection

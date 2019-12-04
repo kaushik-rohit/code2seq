@@ -1,0 +1,1 @@
+Customizable piece of the default paging text (defaults to 'Last Page')

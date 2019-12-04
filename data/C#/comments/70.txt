@@ -1,0 +1,2 @@
+Gets all order notes of the specified categories associated with the specified order,
+    optionally including virtual notes.

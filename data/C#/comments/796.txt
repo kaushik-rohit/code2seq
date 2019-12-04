@@ -1,0 +1,1 @@
+Inserts a new <see cref="T:ParentLoadSoftDelete.Business.ERLevel.E02_Continent" /> object in the database.

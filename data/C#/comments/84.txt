@@ -1,0 +1,2 @@
+Gets an authentication token that can be used to connect to Neo4j instances with auth disabled.
+        This will only work if authentication is disabled on the Neo4j Instance we are connecting to.

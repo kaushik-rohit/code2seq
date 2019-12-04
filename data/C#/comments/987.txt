@@ -1,0 +1,1 @@
+Determines whether the previous (selected) and the new (value) properties are different null-wise.

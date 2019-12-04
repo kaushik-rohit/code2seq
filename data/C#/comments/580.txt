@@ -1,0 +1,1 @@
+Compare this shape to another shape based on type and properties.

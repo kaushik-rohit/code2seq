@@ -1,0 +1,1 @@
+Slippage Model. Return a decimal cash slippage approximation on the order.

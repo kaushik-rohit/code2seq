@@ -1,0 +1,2 @@
+Attempts to extract the media properties of the main
+       photo.

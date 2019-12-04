@@ -1,0 +1,1 @@
+Gets a default value for the column as defined in the schema.

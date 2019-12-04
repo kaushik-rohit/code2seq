@@ -1,0 +1,1 @@
+Converts an <see cref="!:OpenTK.NVector3" /> into a <see cref="!:Vector3" />.

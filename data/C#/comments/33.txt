@@ -1,0 +1,4 @@
+Sets a configuration key-value pair for the selected backend.
+    <para></para>
+    These configuration values will be passed to the selected backend
+    when it's constructed.

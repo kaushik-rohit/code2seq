@@ -1,0 +1,2 @@
+Adds a new command option if none exists.  If one does exist then
+        the use switch is toggled on or of.

@@ -1,0 +1,2 @@
+Set characters pool for password generation. If set it will be used for password generation.
+    Instead default characters pool will be generated.

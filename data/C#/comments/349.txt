@@ -1,0 +1,1 @@
+Downloads the specified resource as a <see cref="!:Stream" /> and includes a channel for progress notifications.

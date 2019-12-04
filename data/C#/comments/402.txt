@@ -1,0 +1,1 @@
+A utility method to set the correct text and tooltip for the star/stop button

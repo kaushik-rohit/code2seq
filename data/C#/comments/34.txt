@@ -1,0 +1,4 @@
+Sets a configuration key-value pair for the selected database adapter.
+    <para></para>
+    These configuration values will be passed to the selected database adapter
+    when it's constructed.

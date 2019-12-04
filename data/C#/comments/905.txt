@@ -1,0 +1,1 @@
+Carrega os tipos de relatório verificando a permissão do usuário.

@@ -1,0 +1,3 @@
+Convert cell value to desired type, including nullable structs.
+        When converting blank string to nullable struct (e.g. ' ' to int?) null is returned.
+        When attempted conversion fails exception is passed through.

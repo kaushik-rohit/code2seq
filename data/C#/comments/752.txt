@@ -1,0 +1,2 @@
+Stops the Petra Server.
+     A GC is invoked and waits for pending tasks before the application ends.

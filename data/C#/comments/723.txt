@@ -1,0 +1,1 @@
+Lists the storage insight instances within a workspace

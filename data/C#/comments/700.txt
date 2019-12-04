@@ -1,0 +1,1 @@
+Determines whether this instruction can complete in the current time period

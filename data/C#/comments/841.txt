@@ -1,0 +1,1 @@
+Initializes the class with empty data, as if it is a new Entity.

@@ -1,0 +1,1 @@
+These tests are for manual run. You need to stop the partition leader and then start it again and let it became the leader.

@@ -1,0 +1,1 @@
+Inserts a new role for a user in the UserRoles table

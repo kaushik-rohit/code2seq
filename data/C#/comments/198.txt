@@ -1,0 +1,1 @@
+When overridden in a derived class, executes the code required to free the handle.

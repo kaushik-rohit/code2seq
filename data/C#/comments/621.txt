@@ -1,0 +1,1 @@
+Deletes banner content for given ImageId.

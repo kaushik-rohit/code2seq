@@ -1,0 +1,1 @@
+Shortcut for Top(1, where, orderBy, database)

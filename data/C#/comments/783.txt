@@ -1,0 +1,1 @@
+Loads a <see cref="T:SelfLoadROSoftDelete.Business.ERLevel.G03_Continent_Child" /> object from the given SafeDataReader.

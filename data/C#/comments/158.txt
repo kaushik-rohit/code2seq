@@ -1,0 +1,1 @@
+Loads a Pixelaria (.plx) file from disk

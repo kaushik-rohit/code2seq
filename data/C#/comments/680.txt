@@ -1,0 +1,1 @@
+The method that is called when an End element is encountered.
