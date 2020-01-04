@@ -1,0 +1,3 @@
+Gets failure in range cut off date.
+
+@return the failure in range cut off date

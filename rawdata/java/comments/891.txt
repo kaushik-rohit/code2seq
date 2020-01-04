@@ -1,0 +1,7 @@
+<p>Reads a bit of the mapping matrix accounting for boundary wrapping.</p>
+
+@param row Row to read in the mapping matrix
+@param column Column to read in the mapping matrix
+@param numRows Number of rows in the mapping matrix
+@param numColumns Number of columns in the mapping matrix
+@return value of the given bit in the mapping matrix

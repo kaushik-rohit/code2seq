@@ -1,0 +1,4 @@
+Prepare log event log event.
+
+@param logEvent the log event
+@return the log event

@@ -1,0 +1,2 @@
+Short for {@code kill(null,modelEnvVars)}
+@deprecated Use {@link ProcessTree#killAll(Map)}

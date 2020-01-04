@@ -1,0 +1,4 @@
+Interceptor to apply headers, cookies, parameter and body arguements.
+
+@param context The context
+@return httpClient or future

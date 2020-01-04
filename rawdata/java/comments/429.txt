@@ -1,0 +1,2 @@
+Organizes the dataset to minimize sampling error
+while still allowing efficient batching.

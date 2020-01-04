@@ -1,0 +1,4 @@
+Get the original URI reference string.
+
+@return the original URI reference string
+@throws URIException If {@link #decode} fails.

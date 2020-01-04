@@ -1,0 +1,4 @@
+If not time out value is specified, expire the ticket immediately.
+
+@param ticket the ticket
+@return timeout in milliseconds.

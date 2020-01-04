@@ -1,0 +1,5 @@
+数字转字符串<br>
+调用{@link Number#toString()}，并去除尾小数点儿后多余的0
+
+@param number A Number
+@return A String.

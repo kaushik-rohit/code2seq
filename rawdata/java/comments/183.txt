@@ -1,0 +1,5 @@
+Returns the similarity of 2 words
+
+@param label1  the first word
+@param label2 the second word
+@return a normalized similarity (cosine similarity)

@@ -1,0 +1,4 @@
+Saves the trie data into a stream.
+
+@param stream
+@throws java.io.IOException

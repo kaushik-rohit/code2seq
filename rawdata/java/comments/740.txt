@@ -1,0 +1,24 @@
+Selects an element with minimum value.
+
+<p>The minimum is computed over the specified fields in lexicographical order.
+
+<p><strong>Example 1</strong>: Given a data set with elements <code>[0, 1], [1, 0]</code>, the
+results will be:
+<ul>
+<li><code>minBy(0)</code>: <code>[0, 1]</code></li>
+<li><code>minBy(1)</code>: <code>[1, 0]</code></li>
+</ul>
+
+<p><strong>Example 2</strong>: Given a data set with elements <code>[0, 0], [0, 1]</code>, the
+results will be:
+<ul>
+<li><code>minBy(0, 1)</code>: <code>[0, 0]</code></li>
+</ul>
+
+<p>If multiple values with minimum value at the specified fields exist, a random one will be
+picked.
+
+<p>Internally, this operation is implemented as a {@link ReduceFunction}.
+
+@param fields Field positions to compute the minimum over
+@return A {@link ReduceOperator} representing the minimum

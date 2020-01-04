@@ -1,0 +1,6 @@
+Array permutation operation: permute the dimensions according to the specified permutation indices.<br>
+Example: if input has shape [a,b,c] and dimensions = [2,0,1] the output has shape [c,a,b]
+
+@param name Output variable name
+@param x    Input variable
+@return Output variable (permuted input)

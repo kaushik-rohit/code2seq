@@ -1,0 +1,6 @@
+Returns a future which is completed with the result of the {@link SupplierWithException}.
+
+@param supplier to provide the future's value
+@param executor to execute the supplier
+@param <T> type of the result
+@return Future which is completed with the value of the supplier

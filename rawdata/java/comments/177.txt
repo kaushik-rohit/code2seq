@@ -1,0 +1,5 @@
+Returns a new instance of a {@link ResourceLeakDetector} with the given resource class.
+
+@param resource the resource class used to initialize the {@link ResourceLeakDetector}
+@param <T> the type of the resource class
+@return a new instance of {@link ResourceLeakDetector}

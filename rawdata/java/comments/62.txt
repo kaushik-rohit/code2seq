@@ -1,0 +1,8 @@
+Compute the activations from the input to the specified layer.<br>
+To compute activations for all layers, use feedForward(...) methods<br>
+Note: output list includes the original input. So list.get(0) is always the original input, and
+list.get(i+1) is the activations of the ith layer.
+@param layerNum Index of the last layer to calculate activations for. Layers are zero-indexed.
+feedForwardToLayer(i,input) will return the activations for layers 0..i (inclusive)
+@param input Input to the network
+@return list of activations.

@@ -1,0 +1,4 @@
+Formats the Header and Footer of this BTreePage with the given information.
+
+@param itemCount The number of items in this BTreePage.
+@param id        The Id of this BTreePage.

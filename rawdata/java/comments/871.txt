@@ -1,0 +1,3 @@
+Create warn decision state.
+
+@param flow the flow

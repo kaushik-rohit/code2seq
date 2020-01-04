@@ -1,0 +1,7 @@
+Retry the given operation the given number of times in case of a failure.
+
+@param operation to executed
+@param retries if the operation failed
+@param executor to use to run the futures
+@param <T> type of the result
+@return Future containing either the result of the operation or a {@link RetryException}

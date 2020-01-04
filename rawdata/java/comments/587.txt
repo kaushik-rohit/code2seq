@@ -1,0 +1,5 @@
+Find the main class in a given jar file.
+@param jarFile the jar file to search
+@param classesLocation the location within the jar containing classes
+@return the main class or {@code null}
+@throws IOException if the jar file cannot be read

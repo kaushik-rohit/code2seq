@@ -1,0 +1,5 @@
+转换字符串为Date
+
+@param dateStr 日期字符串
+@param dateFormat {@link SimpleDateFormat}
+@return {@link Date}

@@ -1,0 +1,5 @@
+Creates a frame protector from a completed handshake. No other methods may be called after the
+frame protector is created.
+
+@param maxFrameSize the requested max frame size, the callee is free to ignore.
+@return a new {@link io.grpc.alts.internal.TsiFrameProtector}.

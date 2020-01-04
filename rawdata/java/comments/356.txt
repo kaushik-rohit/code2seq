@@ -1,0 +1,5 @@
+根据驱动名创建方言<br>
+驱动名是不分区大小写完全匹配的
+
+@param driverName JDBC驱动类名
+@return 方言

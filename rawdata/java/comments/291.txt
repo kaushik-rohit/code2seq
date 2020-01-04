@@ -1,0 +1,5 @@
+Resolve the template for the client annotation.
+
+@param clientAnnotation client annotation reference
+@param templateString   template to be applied
+@return resolved template contents

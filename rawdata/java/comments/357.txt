@@ -1,0 +1,3 @@
+Sets algorithm.
+
+@param alg the alg

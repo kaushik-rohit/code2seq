@@ -1,0 +1,15 @@
+Retrieves the list of interconnect locations available to the specified project.
+
+<p>Sample code:
+
+<pre><code>
+try (InterconnectLocationClient interconnectLocationClient = InterconnectLocationClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+for (InterconnectLocation element : interconnectLocationClient.listInterconnectLocations(project.toString()).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param project Project ID for this request.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

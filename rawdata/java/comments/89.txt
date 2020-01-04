@@ -1,0 +1,5 @@
+Tells whether or not the given client address is allowed to access the API.
+
+@param addr the client address to be checked
+@return {@code true} if the given client address is allowed to access the API, {@code false} otherwise.
+@since 2.6.0

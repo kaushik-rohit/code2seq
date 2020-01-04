@@ -1,0 +1,7 @@
+Look ahead one position in the stream without consuming the byte found
+there.
+
+@return the next byte in the stream, as an integer.
+
+@exception OtpErlangDecodeException
+if the next byte cannot be read.

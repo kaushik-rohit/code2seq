@@ -1,0 +1,34 @@
+Given an {@link org.apache.calcite.rel.core.Aggregate}
+and the ordinals of the arguments to a
+particular call to an aggregate function, creates a 'select distinct'
+relational expression which projects the group columns and those
+arguments but nothing else.
+
+<p>For example, given
+
+<blockquote>
+<pre>select f0, count(distinct f1), count(distinct f2)
+from t group by f0</pre>
+</blockquote>
+
+<p>and the argument list
+
+<blockquote>{2}</blockquote>
+
+<p>returns
+
+<blockquote>
+<pre>select distinct f0, f2 from t</pre>
+</blockquote>
+
+<p>The <code>sourceOf</code> map is populated with the source of each
+column; in this case sourceOf.get(0) = 0, and sourceOf.get(1) = 2.
+
+@param relBuilder Relational expression builder
+@param aggregate Aggregate relational expression
+@param argList   Ordinals of columns to make distinct
+@param filterArg Ordinal of column to filter on, or -1
+@param sourceOf  Out parameter, is populated with a map of where each
+output field came from
+@return Aggregate relational expression which projects the required
+columns

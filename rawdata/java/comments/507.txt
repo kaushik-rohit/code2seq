@@ -1,0 +1,5 @@
+Sorts the views by {@link View#getDisplayName()}.
+
+@param views the views.
+@return the sorted views
+@since 2.37

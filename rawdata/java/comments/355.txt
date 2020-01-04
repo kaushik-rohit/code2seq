@@ -1,0 +1,9 @@
+Lookup the {@link KvStateLocation} for the given job and queryable state name.
+
+<p>The job manager will be queried for the location only if forced or no
+cached location can be found. There are no guarantees about
+
+@param jobId              JobID the state instance belongs to.
+@param queryableStateName Name under which the state instance has been published.
+@param forceUpdate        Flag to indicate whether to force a update via the lookup service.
+@return Future holding the KvStateLocation

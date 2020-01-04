@@ -1,0 +1,1 @@
+Serialize JTS {@link Geometry} shape into an ESRI shape

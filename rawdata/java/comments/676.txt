@@ -1,0 +1,2 @@
+Node has one child that is a leaf
+@return whether the node has one child and the child is a leaf

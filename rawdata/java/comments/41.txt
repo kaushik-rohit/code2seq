@@ -1,0 +1,6 @@
+创建文件及其父目录，如果这个文件存在，直接返回这个文件<br>
+此方法不对File对象类型做判断，如果File不存在，无法判断其类型
+
+@param file 文件对象
+@return 文件，若路径为null，返回null
+@throws IORuntimeException IO异常

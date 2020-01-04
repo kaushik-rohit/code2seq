@@ -1,0 +1,1 @@
+Installs log handler to monitor all Hudson logs.

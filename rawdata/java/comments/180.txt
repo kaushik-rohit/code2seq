@@ -1,0 +1,5 @@
+Adds the element to the queue, or fails with an exception, if the queue is closed.
+Checking whether the queue is open and adding the element is one atomic operation.
+
+@param element The element to add.
+@throws IllegalStateException Thrown, if the queue is closed.

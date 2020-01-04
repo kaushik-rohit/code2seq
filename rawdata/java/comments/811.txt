@@ -1,0 +1,6 @@
+Attempt to match one of the registered URIs to the that of the requested one.
+
+@param redirectUris the set of the registered URIs to try and find a match. This cannot be null or empty.
+@param requestedRedirect the URI used as part of the request
+@return redirect uri
+@throws RedirectMismatchException if no match was found

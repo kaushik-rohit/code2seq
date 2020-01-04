@@ -1,0 +1,20 @@
+Lists products in an unspecified order.
+
+<p>Possible errors:
+
+<p>&#42; Returns INVALID_ARGUMENT if page_size is greater than 100 or less than 1.
+
+<p>Sample code:
+
+<pre><code>
+try (ProductSearchClient productSearchClient = ProductSearchClient.create()) {
+LocationName parent = LocationName.of("[PROJECT]", "[LOCATION]");
+for (Product element : productSearchClient.listProducts(parent.toString()).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param parent The project OR ProductSet from which Products should be listed.
+<p>Format: `projects/PROJECT_ID/locations/LOC_ID`
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

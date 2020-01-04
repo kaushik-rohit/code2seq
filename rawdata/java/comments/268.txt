@@ -1,0 +1,13 @@
+Writes a {@link Tuple} DataSet as CSV file(s) to the specified location with the specified field and line delimiters.
+
+<p><b>Note: Only a Tuple DataSet can written as a CSV file.</b>
+For each Tuple field the result of {@link Object#toString()} is written.
+
+@param filePath The path pointing to the location the CSV file is written to.
+@param rowDelimiter The row delimiter to separate Tuples.
+@param fieldDelimiter The field delimiter to separate Tuple fields.
+@param writeMode The behavior regarding existing files. Options are NO_OVERWRITE and OVERWRITE.
+
+@see Tuple
+@see CsvOutputFormat
+@see DataSet#writeAsText(String) Output files and directories

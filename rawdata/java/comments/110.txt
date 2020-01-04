@@ -1,0 +1,2 @@
+Appends the {@link X509Certificate} value to the {@link ByteBuf} (last arg) and returns it.
+If the {@link ByteBuf} didn't exist yet it'll create it using the {@link ByteBufAllocator}.

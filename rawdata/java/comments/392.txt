@@ -1,0 +1,3 @@
+Find by surrogate.
+@param surrogate username to retrieve authorized principals
+@return list of surrogate documents

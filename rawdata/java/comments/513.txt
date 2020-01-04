@@ -1,0 +1,2 @@
+Add additional URLs to be includes in the next restart.
+@param urls the urls to add

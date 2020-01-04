@@ -1,0 +1,4 @@
+Returns a decorated {@link Launcher} for the given node.
+
+@param node Node for which this launcher is created.
+@return Decorated instance of the Launcher.

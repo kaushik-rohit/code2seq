@@ -1,0 +1,1 @@
+Parse an authority into a URI for retrieving the host and port.

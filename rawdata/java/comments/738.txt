@@ -1,0 +1,4 @@
+Gets string value.
+
+@param primaryKey the primary key
+@return the string value

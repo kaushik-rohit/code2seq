@@ -1,0 +1,6 @@
+Element-wise minimum operation: out[i] = min(first[i], second[i])<br>
+Supports broadcasting
+
+@param first  First input array
+@param second Second input array
+@return Output variable

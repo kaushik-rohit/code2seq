@@ -1,0 +1,1 @@
+some hadoop version Path.mergePaths does not exist

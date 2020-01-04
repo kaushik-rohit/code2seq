@@ -1,0 +1,5 @@
+Gets the redirect response.
+
+@param url        the url
+@param parameters the parameters
+@return the redirect response

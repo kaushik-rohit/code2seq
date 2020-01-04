@@ -1,0 +1,5 @@
+Return whether the given request features {@link MediaType#APPLICATION_FORM_URLENCODED} or
+{@link MediaType#MULTIPART_FORM_DATA}.
+
+@param request The request
+@return True if it is form data

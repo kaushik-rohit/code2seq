@@ -1,0 +1,15 @@
+Sets the access control policy on the specified resource. Replaces any existing policy.
+
+<p>Sample code:
+
+<pre><code>
+try (SnapshotClient snapshotClient = SnapshotClient.create()) {
+ProjectGlobalSnapshotResourceName resource = ProjectGlobalSnapshotResourceName.of("[PROJECT]", "[RESOURCE]");
+GlobalSetPolicyRequest globalSetPolicyRequestResource = GlobalSetPolicyRequest.newBuilder().build();
+Policy response = snapshotClient.setIamPolicySnapshot(resource, globalSetPolicyRequestResource);
+}
+</code></pre>
+
+@param resource Name or id of the resource for this request.
+@param globalSetPolicyRequestResource
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

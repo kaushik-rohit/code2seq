@@ -1,0 +1,14 @@
+Applies the given window function to each window. The window function is called for each
+evaluation of the window for each key individually. The output of the window function is
+interpreted as a regular non-windowed stream.
+
+<p>Arriving data is incrementally aggregated using the given fold function.
+
+@param initialValue The initial value of the fold.
+@param foldFunction The fold function that is used for incremental aggregation.
+@param function The window function.
+@param foldAccumulatorType Type information for the result type of the fold function
+@param resultType Type information for the result type of the window function
+@return The data stream that is the result of applying the window function to the window.
+
+@deprecated use {@link #aggregate(AggregateFunction, AllWindowFunction, TypeInformation, TypeInformation)} instead

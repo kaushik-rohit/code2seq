@@ -1,0 +1,13 @@
+Classifies a document into categories.
+
+<p>Sample code:
+
+<pre><code>
+try (LanguageServiceClient languageServiceClient = LanguageServiceClient.create()) {
+Document document = Document.newBuilder().build();
+ClassifyTextResponse response = languageServiceClient.classifyText(document);
+}
+</code></pre>
+
+@param document Input document.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

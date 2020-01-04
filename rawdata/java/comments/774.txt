@@ -1,0 +1,6 @@
+Helper method to create a new alternate rule.
+
+@param original  the original
+@param alternate the alternate
+@param order the order in which the rule is applied. {@link org.springframework.core.Ordered}
+@return the alternate type rule

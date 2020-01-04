@@ -1,0 +1,3 @@
+Return 32-bit signed int from buffer. (little-endian)
+
+@see mysql-5.1.60/include/my_global.h - sint4korr

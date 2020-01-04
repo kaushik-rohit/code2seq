@@ -1,0 +1,8 @@
+Go thru each listener and offer him to take over the connection. The
+first observer that returns true gets exclusive rights.
+
+@param httpMessage Contains HTTP request &amp; response.
+@param inSocket Encapsulates the TCP connection to the browser.
+@param method Provides more power to process response.
+
+@return Boolean to indicate if socket should be kept open.

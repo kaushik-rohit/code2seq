@@ -1,0 +1,1 @@
+Create a new big-endian buffer that holds a sequence of the specified 64-bit integers.

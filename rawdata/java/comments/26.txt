@@ -1,0 +1,4 @@
+@deprecated Implementation of CLI command "disconnect-node" moved to {@link hudson.cli.DisconnectNodeCommand}.
+
+@param cause
+Record the note about why you are disconnecting this node

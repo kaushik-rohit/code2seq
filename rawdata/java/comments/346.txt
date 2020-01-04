@@ -1,0 +1,5 @@
+Score the given multi layer network
+@param model the model to score
+@param testSet the test set
+@param regressionValue the regression function to use
+@return the score from the given test set

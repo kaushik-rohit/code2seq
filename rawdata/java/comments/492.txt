@@ -1,0 +1,6 @@
+Adds the given {@code panel} to the given {@code tabbedPanel}.
+
+@param tabbedPanel the tabbed panel to add the panel
+@param panel the panel to add
+@param visible {@code true} if the panel should be visible, {@code false} otherwise.
+@see #addPanels(TabbedPanel2, List, boolean)

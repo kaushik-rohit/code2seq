@@ -1,0 +1,5 @@
+Add '/' at the ending.
+
+@param target target string.
+
+@return rule result.

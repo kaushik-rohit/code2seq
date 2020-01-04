@@ -1,0 +1,2 @@
+Returns whether the system needs a restart, and if it is supported
+e.g. { restartRequired: true, restartSupported: false }

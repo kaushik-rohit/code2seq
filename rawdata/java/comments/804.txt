@@ -1,0 +1,2 @@
+/* (non-Javadoc)
+@see org.parosproxy.paros.db.paros.TableAlert#deleteAllAlerts()

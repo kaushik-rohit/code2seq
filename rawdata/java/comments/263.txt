@@ -1,0 +1,6 @@
+Uploads the payload to the given s3 object key.
+It is expected that the caller retrieves the object key using {@link #getLocation(Operation, PayloadType, String)} before making this call.
+
+@param path        the s3 key of the object to be uploaded
+@param payload     an {@link InputStream} containing the json payload which is to be uploaded
+@param payloadSize the size of the json payload in bytes

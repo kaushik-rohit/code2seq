@@ -1,0 +1,1 @@
+join a base url to another path or paths - this will handle trailing or non-trailing /'s

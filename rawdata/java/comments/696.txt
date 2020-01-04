@@ -1,0 +1,5 @@
+Creates a new instance of the SegmentChunk class.
+
+@param segmentName The name of the owning Segment (not the name of this SegmentChunk).
+@param startOffset The offset within the owning Segment where this SegmentChunk starts at.
+@return A new SegmentChunk.

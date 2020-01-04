@@ -1,0 +1,2 @@
+Set the salt value. Must not be null.
+@param salt

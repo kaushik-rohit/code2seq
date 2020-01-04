@@ -1,0 +1,7 @@
+Require the subgraph to match the specified predicate for the specified input.<br>
+Note that this DOES add the specified input to part of the subgraph<br>
+i.e., the subgraph matches if the input matches the predicate, and when returning the SubGraph itself, the
+function for this input IS added to the SubGraph
+@param inputNum    Input number
+@param opPredicate Predicate that the input must match
+@return This predicate with the additional requirement added

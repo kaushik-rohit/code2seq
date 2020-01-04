@@ -1,0 +1,11 @@
+Sets a header with the specified name and value.
+
+If there is an existing header with the same name, it is removed.
+If the specified value is not a {@link String}, it is converted into a
+{@link String} by {@link Object#toString()}, except for {@link Date}
+and {@link Calendar}, which are formatted to the date format defined in
+<a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.3.1">RFC2616</a>.
+
+@param name The name of the header being set
+@param value The value of the header being set
+@return {@code this}

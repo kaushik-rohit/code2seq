@@ -1,0 +1,2 @@
+UTF-8 encoding/decoding. Using a charset rather than `String.getBytes` is less forgiving
+and will raise an exception for invalid data.

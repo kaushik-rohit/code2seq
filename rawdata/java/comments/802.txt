@@ -1,0 +1,5 @@
+Skips a given task from a current running workflow.
+
+@param workflowId        WorkflowId of the workflow.
+@param taskReferenceName The task reference name.
+@param skipTaskRequest   {@link SkipTaskRequest} for task you want to skip.

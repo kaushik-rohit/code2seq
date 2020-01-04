@@ -1,0 +1,4 @@
+Gets all stubbings from mocks. Invocations are ordered earlier first.
+
+@param mocks mocks
+@return stubbings

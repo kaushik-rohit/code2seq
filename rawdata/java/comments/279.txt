@@ -1,0 +1,5 @@
+Utility method that can be used by subclasses wishing to combine the specified
+{@link ServletContextInitializer} parameters with those defined in this instance.
+@param initializers the initializers to merge
+@return a complete set of merged initializers (with the specified parameters
+appearing first)

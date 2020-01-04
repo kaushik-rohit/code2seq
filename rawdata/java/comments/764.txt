@@ -1,0 +1,5 @@
+Create an {@link Observable} that once subscribed execute network call asynchronously with a server chosen by load balancer.
+If there are any errors that are indicated as retriable by the {@link RetryHandler}, they will be consumed internally by the
+function and will not be observed by the {@link Observer} subscribed to the returned {@link Observable}. If number of retries has
+exceeds the maximal allowed, a final error will be emitted by the returned {@link Observable}. Otherwise, the first successful
+result during execution and retries will be emitted.

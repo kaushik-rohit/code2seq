@@ -1,0 +1,2 @@
+Adds a new header with the name and value. This may be used to add multiple headers with the
+same name.

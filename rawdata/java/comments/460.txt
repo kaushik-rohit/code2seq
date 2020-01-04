@@ -1,0 +1,1 @@
+Override this method if you want to filter the json objects/arrays that get passed through the pipeline.

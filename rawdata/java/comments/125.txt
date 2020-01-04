@@ -1,0 +1,6 @@
+Creates a new CompletableFuture that will timeout after the given amount of time.
+
+@param timeout         The timeout for the future.
+@param executorService An ExecutorService that will be used to invoke the timeout on.
+@param <T>             The Type argument for the CompletableFuture to create.
+@return A CompletableFuture with a timeout.

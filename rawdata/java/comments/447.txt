@@ -1,0 +1,16 @@
+Retrieves the list of regional BackendService resources available to the specified project in
+the given region.
+
+<p>Sample code:
+
+<pre><code>
+try (RegionBackendServiceClient regionBackendServiceClient = RegionBackendServiceClient.create()) {
+ProjectRegionName region = ProjectRegionName.of("[PROJECT]", "[REGION]");
+for (BackendService element : regionBackendServiceClient.listRegionBackendServices(region).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param region Name of the region scoping this request.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

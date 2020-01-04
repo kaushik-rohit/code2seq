@@ -1,0 +1,7 @@
+This function connects the operators that produce the broadcast inputs to this operator.
+
+@param operatorToNode The map from program operators to optimizer nodes.
+@param defaultExchangeMode The data exchange mode to use, if the operator does not
+specify one.
+
+@throws CompilerException

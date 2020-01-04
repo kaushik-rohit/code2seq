@@ -1,0 +1,4 @@
+Opens a Session and executes the query.
+
+@param ignored because parameter is not parallelizable.
+@throws IOException

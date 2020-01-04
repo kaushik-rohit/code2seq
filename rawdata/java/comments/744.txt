@@ -1,0 +1,6 @@
+Set the {@link DestinationProvider} to use. Typically, either this property is set,
+or {@link #setDefaultUri(String)}, but not both.
+@param destinationProvider the destination provider to be used on operations that
+do not have a URI parameter.
+@return a new builder instance.
+@see WebServiceTemplate#setDestinationProvider(DestinationProvider)

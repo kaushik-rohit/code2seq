@@ -1,0 +1,3 @@
+Populate "sinks" and "sinkTimeline" with committed segments, and announce them with the segmentAnnouncer.
+
+@return persisted commit metadata

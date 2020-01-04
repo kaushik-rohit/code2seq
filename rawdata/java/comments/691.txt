@@ -1,0 +1,4 @@
+Gets json web key set.
+
+@param service the service
+@return the json web key set

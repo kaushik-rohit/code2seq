@@ -1,0 +1,5 @@
+Retrieve authn request authn request.
+
+@param request the request
+@return the authn request
+@throws Exception the exception

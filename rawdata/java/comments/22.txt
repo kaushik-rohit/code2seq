@@ -1,0 +1,3 @@
+Reads a message body into across one or more frames. Control frames that occur between
+fragments will be processed. If the message payload is masked this will unmask as it's being
+processed.

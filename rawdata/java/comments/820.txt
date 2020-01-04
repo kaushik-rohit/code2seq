@@ -1,0 +1,7 @@
+二分法快速查找对象, 使用Comparable对象自身的比较.
+
+list必须已按升序排序.
+
+如果不存在，返回一个负数，代表如果要插入这个对象，应该插入的位置
+
+@see java.util.Collections#binarySearch(List, Object)

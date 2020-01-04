@@ -1,0 +1,5 @@
+得到服务端实例对象，如果是单例则返回单例对象，如果不是则返回新创建的实例对象
+
+@param argTypes 构造函数参数类型
+@param args     构造函数参数值
+@return 扩展点对象实例 ext instance

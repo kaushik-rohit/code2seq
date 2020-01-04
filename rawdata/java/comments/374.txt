@@ -1,0 +1,19 @@
+Creates a new application entity.
+
+<p>Sample code:
+
+<pre><code>
+try (ApplicationServiceClient applicationServiceClient = ApplicationServiceClient.create()) {
+ProfileName parent = ProfileName.of("[PROJECT]", "[TENANT]", "[PROFILE]");
+Application application = Application.newBuilder().build();
+Application response = applicationServiceClient.createApplication(parent.toString(), application);
+}
+</code></pre>
+
+@param parent Required.
+<p>Resource name of the profile under which the application is created.
+<p>The format is "projects/{project_id}/tenants/{tenant_id}/profiles/{profile_id}", for
+example, "projects/test-project/tenants/test-tenant/profiles/test-profile".
+@param application Required.
+<p>The application to be created.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

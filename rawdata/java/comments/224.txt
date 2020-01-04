@@ -1,0 +1,5 @@
+Parse groovy script groovy object.
+
+@param groovyScript the groovy script
+@param failOnError  the fail on error
+@return the groovy object

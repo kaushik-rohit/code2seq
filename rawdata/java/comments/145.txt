@@ -1,0 +1,4 @@
+Checks if the record reader returned all records.
+This method must be called before a record can be returned.
+
+@return False if there are more records to be read. True if all records have been returned.

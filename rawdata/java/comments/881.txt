@@ -1,0 +1,2 @@
+Returns the label atom of the given name.
+@return non-null iff name is non-null

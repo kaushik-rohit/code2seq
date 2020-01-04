@@ -1,0 +1,5 @@
+Closes the safety net for a thread. This closes all remaining unclosed streams that were opened
+by safety-net-guarded file systems. After this method was called, no streams can be opened any more
+from any FileSystem instance that was obtained while the thread was guarded by the safety net.
+
+<p>This method should be called at the very end of a guarded thread.

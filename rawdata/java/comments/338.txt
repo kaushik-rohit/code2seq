@@ -1,0 +1,4 @@
+Gets the default font with the specified style and size, correctly scaled
+@param style
+@param size
+@return

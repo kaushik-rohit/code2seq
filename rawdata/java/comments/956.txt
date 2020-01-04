@@ -1,0 +1,1 @@
+Returns a {@code SnapshotInfo} object given the snapshot identity and a source disk identity.

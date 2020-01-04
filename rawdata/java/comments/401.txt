@@ -1,0 +1,3 @@
+Get the ROC curve, as a set of (threshold, falsePositive, truePositive) points
+
+@return ROC curve

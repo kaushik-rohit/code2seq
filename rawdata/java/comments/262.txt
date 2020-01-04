@@ -1,0 +1,6 @@
+In-situ version of {@link #sampleOOBRows(int, float, Random)}.
+
+@param oob an initial array to hold sampled rows. Can be internally reallocated.
+@return an array containing sampled rows.
+
+@see #sampleOOBRows(int, float, Random)

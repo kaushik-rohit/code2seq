@@ -1,0 +1,5 @@
+Get extractor rule definition file name.
+
+@param rootDir root dir
+@param databaseType database type
+@return extractor rule definition file name

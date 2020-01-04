@@ -1,0 +1,2 @@
+Reads an entire {@link ReadableBuffer} to a new array. After calling this method, the buffer
+will contain no readable bytes.

@@ -1,0 +1,3 @@
+Records the names of the classes that are candidates for condition evaluation.
+@param evaluationCandidates the names of the classes whose conditions will be
+evaluated

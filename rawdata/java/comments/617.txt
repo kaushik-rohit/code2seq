@@ -1,0 +1,4 @@
+Submits the given {@link JobGraph} to the dispatcher.
+
+@param jobGraph to submit
+@return Future which is completed with the submission response

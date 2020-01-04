@@ -1,0 +1,4 @@
+Subclasses can override to provide a custom convertible values instance.
+
+@param values The values
+@return The instance

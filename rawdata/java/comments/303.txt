@@ -1,0 +1,4 @@
+Sets the skip url string. This string is being parsed into a pattern which is used to check if a url
+should be skipped while crawling.
+
+@param skipURL the new skip url string

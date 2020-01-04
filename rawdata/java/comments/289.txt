@@ -1,0 +1,2 @@
+Returns true if {@code fieldName} is an end-to-end HTTP header, as defined by RFC 2616,
+13.5.1.

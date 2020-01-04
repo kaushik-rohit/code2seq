@@ -1,0 +1,2 @@
+Unregister the server node's name and port number from the Erlang port
+mapper, thus preventing any new connections from remote nodes.

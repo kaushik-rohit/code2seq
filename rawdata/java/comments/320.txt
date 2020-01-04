@@ -1,0 +1,3 @@
+Analyse node (should be a folder unless it is host level) in-order.
+@param node the node to analyse
+@return the number of nodes available at this layer

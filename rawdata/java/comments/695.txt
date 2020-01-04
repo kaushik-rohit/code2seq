@@ -1,0 +1,5 @@
+Generate the variables based on the given input op and return the output variable names.
+
+@param function the function to generate the output
+variable names for
+@return the set of names generated for each output of the function.

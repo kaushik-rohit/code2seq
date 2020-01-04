@@ -1,0 +1,5 @@
+Notifies client that this server has received headers that are larger than what it is
+willing to accept. Override to change behavior.
+
+@param ctx the channel context
+@param stream the Http2Stream on which the header was received

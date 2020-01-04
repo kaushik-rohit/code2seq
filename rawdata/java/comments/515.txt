@@ -1,0 +1,8 @@
+Forward propagation
+assumption: layer 0 has _a filled with (horizontalized categoricals) double values
+@param seed
+@param neurons
+@param minfo
+@param consensus_minfo
+@param training
+@param n Number of actually trained samples in this mini-batch

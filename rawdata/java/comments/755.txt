@@ -1,0 +1,5 @@
+Obtains a list of builds, in the descending order, that are within the specified time range [start,end).
+
+@return can be empty but never null.
+@deprecated
+as of 1.372. Should just do {@code getBuilds().byTimestamp(s,e)} to avoid code bloat in {@link Job}.

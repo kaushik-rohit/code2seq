@@ -1,0 +1,4 @@
+Returns only those upstream projects that defines {@link BuildTrigger} to this project.
+This is a subset of {@link #getUpstreamProjects()}
+<p>No longer used in the UI.
+@return A List of upstream projects that has a {@link BuildTrigger} to this project.

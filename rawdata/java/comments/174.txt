@@ -1,0 +1,5 @@
+Apply caching configuration when appropriate to the given invoker.
+@param invoker the invoker to wrap
+@param timeToLive the maximum time in milliseconds that a response can be cached
+@return a caching version of the invoker or the original instance if caching is not
+required

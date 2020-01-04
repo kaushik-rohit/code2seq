@@ -1,0 +1,30 @@
+Generates an OAuth 2.0 access token for a service account.
+
+<p>Sample code:
+
+<pre><code>
+try (IamCredentialsClient iamCredentialsClient = IamCredentialsClient.create()) {
+ServiceAccountName name = ServiceAccountName.of("[PROJECT]", "[SERVICE_ACCOUNT]");
+List&lt;String&gt; delegates = new ArrayList&lt;&gt;();
+List&lt;String&gt; scope = new ArrayList&lt;&gt;();
+Duration lifetime = Duration.newBuilder().build();
+GenerateAccessTokenResponse response = iamCredentialsClient.generateAccessToken(name, delegates, scope, lifetime);
+}
+</code></pre>
+
+@param name The resource name of the service account for which the credentials are requested,
+in the following format: `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`.
+@param delegates The sequence of service accounts in a delegation chain. Each service account
+must be granted the `roles/iam.serviceAccountTokenCreator` role on its next service account
+in the chain. The last service account in the chain must be granted the
+`roles/iam.serviceAccountTokenCreator` role on the service account that is specified in the
+`name` field of the request.
+<p>The delegates must have the following format:
+`projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`
+@param scope Code to identify the scopes to be included in the OAuth 2.0 access token. See
+https://developers.google.com/identity/protocols/googlescopes for more information. At
+least one value required.
+@param lifetime The desired lifetime duration of the access token in seconds. Must be set to a
+value less than or equal to 3600 (1 hour). If a value is not specified, the token's
+lifetime will be set to a default value of one hour.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

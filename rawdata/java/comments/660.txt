@@ -1,0 +1,6 @@
+Returns types for fields that will appear in the Rows output from "query". Useful for feeding them into
+{@link RowBasedColumnSelectorFactory}.
+
+@param query groupBy query
+
+@return row types

@@ -1,0 +1,3 @@
+Gets the selected http session.
+
+@return the selected session, or null if nothing is selected

@@ -1,0 +1,16 @@
+Retrieves specified tenant.
+
+<p>Sample code:
+
+<pre><code>
+try (TenantServiceClient tenantServiceClient = TenantServiceClient.create()) {
+TenantName name = TenantName.of("[PROJECT]", "[TENANT]");
+Tenant response = tenantServiceClient.getTenant(name);
+}
+</code></pre>
+
+@param name Required.
+<p>The resource name of the tenant to be retrieved.
+<p>The format is "projects/{project_id}/tenants/{tenant_id}", for example,
+"projects/api-test-project/tenants/foo".
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

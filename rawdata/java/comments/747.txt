@@ -1,0 +1,5 @@
+格式化日期间隔输出
+
+@param betweenMs 日期间隔
+@param level 级别，按照天、小时、分、秒、毫秒分为5个等级
+@return XX天XX小时XX分XX秒XX毫秒

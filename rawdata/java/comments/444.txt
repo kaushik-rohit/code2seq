@@ -1,0 +1,6 @@
+Add a get route to routes
+
+@param path    your route path
+@param handler route implement
+@return return blade instance
+@see #get(String, RouteHandler)

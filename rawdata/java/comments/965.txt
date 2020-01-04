@@ -1,0 +1,5 @@
+Adds a message to the default locale.
+@param locale The locale
+@param code The code
+@param message The the message
+@return This message source

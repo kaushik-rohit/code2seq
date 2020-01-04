@@ -1,0 +1,4 @@
+设置map类型表单数据
+
+@param formMap 表单内容
+@return this

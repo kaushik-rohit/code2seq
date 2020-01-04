@@ -1,0 +1,3 @@
+Returns a {@link ProtocolNegotiator} that ensures the pipeline is set up so that TLS will
+be negotiated, the {@code handler} is added and writes to the {@link io.netty.channel.Channel}
+may happen immediately, even before the TLS Handshake is complete.

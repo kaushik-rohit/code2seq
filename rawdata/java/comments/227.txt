@@ -1,0 +1,3 @@
+/*
+send to remote name dest is recipient's registered name, the nodename is
+implied by the choice of connection.

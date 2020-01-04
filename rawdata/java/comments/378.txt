@@ -1,0 +1,4 @@
+Checks if is token ntlm.
+
+@param token the token
+@return true, if  token ntlm

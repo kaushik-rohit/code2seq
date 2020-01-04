@@ -1,0 +1,6 @@
+Assert that an array has no null elements.
+Note: Does not complain if the array is empty!
+<pre class="code">Assert.noNullElements(array, "The array must have non-null elements");</pre>
+@param array the array to check
+@param message the exception message to use if the assertion fails
+@throws IllegalArgumentException if the object array contains a <code>null</code> element

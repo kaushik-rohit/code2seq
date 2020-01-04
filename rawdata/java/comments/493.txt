@@ -1,0 +1,6 @@
+Create flow variable flow variable.
+
+@param flow the flow
+@param id   the id
+@param type the type
+@return the flow variable

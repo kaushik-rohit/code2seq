@@ -1,0 +1,15 @@
+Sorts a given array of longs using least-significant-digit radix sort. This routine assumes
+you have extra space at the end of the array at least equal to the number of records. The
+sort is destructive and may relocate the data positioned within the array.
+
+@param array array of long elements followed by at least that many empty slots.
+@param numRecords number of data records in the array.
+@param startByteIndex the first byte (in range [0, 7]) to sort each long by, counting from the
+least significant byte.
+@param endByteIndex the last byte (in range [0, 7]) to sort each long by, counting from the
+least significant byte. Must be greater than startByteIndex.
+@param desc whether this is a descending (binary-order) sort.
+@param signed whether this is a signed (two's complement) sort.
+
+@return The starting index of the sorted data within the given array. We return this instead
+of always copying the data back to position zero for efficiency.

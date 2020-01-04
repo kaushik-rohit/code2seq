@@ -1,0 +1,7 @@
+Validate authn request signature.
+
+@param profileRequest the authn request
+@param adaptor        the adaptor
+@param request        the request
+@param context        the context
+@throws Exception the exception

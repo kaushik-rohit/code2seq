@@ -1,0 +1,4 @@
+Put authentication into conversation scope.
+
+@param authentication the authentication
+@param ctx            the ctx

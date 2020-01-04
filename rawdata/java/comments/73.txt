@@ -1,0 +1,5 @@
+Build table attribute values from ticket map.
+
+@param ticket    the ticket
+@param encTicket the encoded ticket
+@return the map

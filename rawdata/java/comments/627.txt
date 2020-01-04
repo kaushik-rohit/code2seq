@@ -1,0 +1,15 @@
+Tells this vertex to strictly co locate its subtasks with the subtasks of the given vertex.
+Strict co-location implies that the n'th subtask of this vertex will run on the same parallel computing
+instance (TaskManager) as the n'th subtask of the given vertex.
+
+NOTE: Co-location is only possible between vertices in a slot sharing group.
+
+NOTE: This vertex must (transitively) depend on the vertex to be co-located with. That means that the
+respective vertex must be a (transitive) input of this vertex.
+
+@param strictlyCoLocatedWith The vertex whose subtasks to co-locate this vertex's subtasks with.
+
+@throws IllegalArgumentException Thrown, if this vertex and the vertex to co-locate with are not in a common
+slot sharing group.
+
+@see #setSlotSharingGroup(SlotSharingGroup)

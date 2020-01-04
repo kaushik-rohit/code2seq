@@ -1,0 +1,7 @@
+Processes the next bytes in a handshake. A GeneralSecurityException is thrown if the handshaker
+service is interrupted or fails. Note that isFinished() must be false before this function is
+called.
+
+@param inBytes the bytes received from the peer.
+@return the frame to give to the peer.
+@throws GeneralSecurityException or IllegalStateException

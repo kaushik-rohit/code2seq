@@ -1,0 +1,4 @@
+New connection config connection config.
+
+@param l the ldap properties
+@return the connection config

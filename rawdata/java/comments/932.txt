@@ -1,0 +1,6 @@
+Return a {@link ConfigurationPropertyName} for the specified string.
+@param name the source name
+@param returnNullIfInvalid if null should be returned if the name is not valid
+@return a {@link ConfigurationPropertyName} instance
+@throws InvalidConfigurationPropertyNameException if the name is not valid and
+{@code returnNullIfInvalid} is {@code false}

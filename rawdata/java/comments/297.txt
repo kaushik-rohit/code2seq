@@ -1,0 +1,13 @@
+Updates a table spec.
+
+<p>Sample code:
+
+<pre><code>
+try (AutoMlClient autoMlClient = AutoMlClient.create()) {
+TableSpec tableSpec = TableSpec.newBuilder().build();
+TableSpec response = autoMlClient.updateTableSpec(tableSpec);
+}
+</code></pre>
+
+@param tableSpec The table spec which replaces the resource on the server.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

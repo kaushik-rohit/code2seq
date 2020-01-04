@@ -1,0 +1,2 @@
+Get the final exit code that should be returned based on all contained generators.
+@return the final exit code.

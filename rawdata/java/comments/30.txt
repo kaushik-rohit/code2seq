@@ -1,0 +1,3 @@
+Stops the current build.
+
+@since 1.489

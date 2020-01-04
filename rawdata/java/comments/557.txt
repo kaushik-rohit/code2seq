@@ -1,0 +1,3 @@
+Configure dropbox client.
+
+@param properties the properties

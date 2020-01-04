@@ -1,0 +1,4 @@
+Removes the mapping for a key without notifying the writer.
+
+@param key key whose mapping is to be removed
+@return the removed value or null if no mapping was found

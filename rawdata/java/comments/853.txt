@@ -1,0 +1,4 @@
+Creates a private key from the PKCS#8-encoded value of the given bytes.
+
+@param privateKey The PKCS#8-encoded private key bytes.
+@return The private key.

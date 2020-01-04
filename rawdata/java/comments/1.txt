@@ -1,0 +1,3 @@
+Convert a primitive group field to a "ingestion friendly" java object
+
+@return "ingestion ready" java object, or null

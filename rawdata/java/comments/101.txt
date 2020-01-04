@@ -1,0 +1,5 @@
+Create a Gson JSON serializer / deserializer that has custom handling for certain H2O classes for
+which our REST API does automagic type conversions.
+<p>
+TODO: this method is copy-pasted from H2oApi.java in a more limited form; refactor.
+See the comments there.

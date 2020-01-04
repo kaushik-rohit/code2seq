@@ -1,0 +1,4 @@
+Record the number of calls and time consuming.
+
+@param mixinMetric MixinMetric
+@param model       information model

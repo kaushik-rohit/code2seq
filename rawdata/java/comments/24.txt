@@ -1,0 +1,4 @@
+Gets the list of all {@link Applications} from the registry in sorted
+lexical order of {@link Application#getName()}.
+
+@return the list of {@link Applications} in lexical order.

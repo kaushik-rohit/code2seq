@@ -1,0 +1,8 @@
+Get connections.
+
+@param connectionMode  connection mode
+@param dataSourceName  data source name
+@param connectionSize  size of connections to be get
+@param transactionType transaction type
+@return connections
+@throws SQLException SQL exception

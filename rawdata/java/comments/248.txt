@@ -1,0 +1,16 @@
+<pre>
+Spark-submit accepts a execution jar or a python file.
+This method looks for the proper user execution jar or a python file.
+The user input is expected in the following 3 formats:
+1. ./lib/abc
+2. ./lib/abc.jar
+3. ./lib/abc.py
+
+This method will use prefix matching to find any jar/py that is the form of abc*.(jar|py),
+so that users can bump jar versions without doing modifications to their Hadoop DSL.
+
+This method will throw an Exception if more than one jar that matches the prefix is found
+
+@param workingDirectory
+@param userSpecifiedJarName
+@return the resolved actual jar/py file name to execute

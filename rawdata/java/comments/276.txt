@@ -1,0 +1,4 @@
+Close cached connection.
+
+@param forceClose force close flag
+@throws SQLException SQL exception

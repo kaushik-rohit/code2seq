@@ -1,0 +1,5 @@
+Read config objects stored in JSON format from <code>File</code>
+
+@param file of config
+@return config
+@throws IOException error

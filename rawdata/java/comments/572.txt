@@ -1,0 +1,5 @@
+前缀查询
+
+@param chars
+@param begin
+@return

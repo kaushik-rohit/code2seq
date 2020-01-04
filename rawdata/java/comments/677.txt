@@ -1,0 +1,2 @@
+/* (non-Javadoc)
+@see org.parosproxy.paros.db.DatabaseIF#close(boolean, boolean)

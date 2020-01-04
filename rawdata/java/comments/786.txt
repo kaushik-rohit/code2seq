@@ -1,0 +1,7 @@
+Gets the {@link Context} whose id is provided as a parameter with the given name. Throws an
+exception accordingly if not found or valid.
+
+@param params the params
+@param contextIdParamName the context id param name
+@return the context
+@throws ApiException the api exception

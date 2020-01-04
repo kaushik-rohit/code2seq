@@ -1,0 +1,14 @@
+Deletes a logs-based metric.
+
+<p>Sample code:
+
+<pre><code>
+try (MetricsClient metricsClient = MetricsClient.create()) {
+MetricName metricName = ProjectMetricName.of("[PROJECT]", "[METRIC]");
+metricsClient.deleteLogMetric(metricName);
+}
+</code></pre>
+
+@param metricName The resource name of the metric to delete:
+<p>"projects/[PROJECT_ID]/metrics/[METRIC_ID]"
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

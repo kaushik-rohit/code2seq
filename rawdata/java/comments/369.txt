@@ -1,0 +1,6 @@
+载入
+
+@param in    一个ObjectInputStream
+@param value 值（持久化的时候并没有持久化值，现在需要额外提供）
+@throws IOException
+@throws ClassNotFoundException

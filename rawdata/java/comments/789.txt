@@ -1,0 +1,3 @@
+Registers a annotation type.
+
+@param annotationClassValue the annotation class value

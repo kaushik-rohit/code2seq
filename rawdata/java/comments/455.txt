@@ -1,0 +1,2 @@
+General benchmark of bitmap iteration, this is a part of {@link org.apache.druid.segment.IndexMerger#merge} and
+query processing on both realtime and historical nodes.

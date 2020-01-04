@@ -1,0 +1,5 @@
+Creates a launcher for the agent.
+
+@return
+If there is no computer it will return a {@link hudson.Launcher.DummyLauncher}, otherwise it
+will return a {@link hudson.Launcher.RemoteLauncher} instead.

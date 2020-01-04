@@ -1,0 +1,7 @@
+Returns a {@link ActiveScan} from the available active scans or the last active scan. If a scan ID (
+{@link #PARAM_SCAN_ID}) is present in the given {@code params} it will be used to the get the {@code ActiveScan} from the
+available active scans, otherwise it's returned the last active scan.
+
+@param params the parameters of the API call
+@return the {@code ActiveScan} with the given scan ID or, if not present, the last active scan
+@throws ApiException if there's no scan with the given scan ID

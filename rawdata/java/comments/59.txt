@@ -1,0 +1,2 @@
+Add the specified commands.
+@param commands the commands to add

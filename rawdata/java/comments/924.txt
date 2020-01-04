@@ -1,0 +1,1 @@
+Creates a read-only mutator that disallows {@link Iterator#remove()}.

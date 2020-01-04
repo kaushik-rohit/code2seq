@@ -1,0 +1,3 @@
+This method adds specified SequenceElement to vocabulary
+
+@param element the word to add

@@ -1,0 +1,15 @@
+将CheckedException转换为RuntimeException重新抛出, 可以减少函数签名中的CheckExcetpion定义.
+
+CheckedException会用UndeclaredThrowableException包裹，RunTimeException和Error则不会被转变.
+
+copy from Commons Lange 3.5 ExceptionUtils.
+
+虽然unchecked()里已直接抛出异常，但仍然定义返回值，方便欺骗Sonar。因此本函数也改变了一下返回值
+
+示例代码:
+
+<pre>
+try{ ... }catch(Exception e){ throw unchecked(t); }
+</pre>
+
+@see ExceptionUtils#wrapAndThrow(Throwable)

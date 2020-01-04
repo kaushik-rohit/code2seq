@@ -1,0 +1,19 @@
+Creates a BackendService resource in the specified project using the data included in the
+request. There are several restrictions and guidelines to keep in mind when creating a backend
+service. Read Restrictions and Guidelines for more information.
+
+<p>Sample code:
+
+<pre><code>
+try (BackendServiceClient backendServiceClient = BackendServiceClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+BackendService backendServiceResource = BackendService.newBuilder().build();
+Operation response = backendServiceClient.insertBackendService(project.toString(), backendServiceResource);
+}
+</code></pre>
+
+@param project Project ID for this request.
+@param backendServiceResource A BackendService resource. This resource defines a group of
+backend virtual machines and their serving capacity. (== resource_for v1.backendService ==)
+(== resource_for beta.backendService ==)
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

@@ -1,0 +1,5 @@
+Generates and returns the read schema based on the projected fields for a given file.
+
+@param fileSchema The schema of the given file.
+@param filePath The path of the given file.
+@return The read schema based on the given file's schema and the projected fields.

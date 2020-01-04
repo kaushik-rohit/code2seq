@@ -1,0 +1,11 @@
+Takes the jar described by the given file and invokes its pact assembler class to
+assemble a plan. The assembler class name is either passed through a parameter,
+or it is read from the manifest of the jar. The assembler is handed the given options
+for its assembly.
+
+@param program The program to create the plan for.
+@param options
+The options for the assembler.
+@return The plan created by the program.
+@throws ProgramInvocationException
+Thrown, if an error occurred in the user-provided pact assembler.

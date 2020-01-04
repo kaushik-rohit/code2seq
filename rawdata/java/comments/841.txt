@@ -1,0 +1,5 @@
+Configure a runtime component. Catch {@link RuntimeException} and
+re-throw with a Flink internal exception which is processed by
+CliFrontend for display to the user.
+
+@param parameterized the component to be configured

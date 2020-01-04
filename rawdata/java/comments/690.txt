@@ -1,0 +1,5 @@
+Read the HTTP header from the {@link InputStream}. Note: This method doesn't expect
+any HTTP content after the header since the initial request is usually just a
+WebSocket upgrade.
+@return the HTTP header
+@throws IOException in case of I/O errors

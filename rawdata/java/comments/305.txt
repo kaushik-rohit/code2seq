@@ -1,0 +1,3 @@
+Non-blocking variant of
+{@link #epollWait(FileDescriptor, EpollEventArray, FileDescriptor, int, int)}
+that will also hint to processor we are in a busy-wait loop.

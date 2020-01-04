@@ -1,0 +1,4 @@
+Get the version information for dependencies as a string with a specified amount of detail
+
+@param detail Detail level for the version information. See {@link Detail}
+@return Version information, as a String

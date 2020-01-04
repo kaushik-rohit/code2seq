@@ -1,0 +1,11 @@
+Set the list of choices. Legal arguments are String (in which case the arguments gets split into lines) and Collection
+which sets the list of legal parameters to the String representations of the argument's non-null entries.
+
+See JENKINS-26143 for background.
+
+This retains the compatibility with the legacy String 'choices' parameter, while supporting the list type as generated
+by the snippet generator.
+
+@param choices String or Collection representing this parameter definition's possible values.
+
+@since 2.112

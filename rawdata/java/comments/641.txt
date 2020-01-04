@@ -1,0 +1,5 @@
+获得数组型
+
+@param key 属性名
+@param defaultValue 默认的值
+@return 属性值

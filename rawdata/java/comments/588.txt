@@ -1,0 +1,3 @@
+@param extension The File instance of the extension we want to load
+
+@return a URLClassLoader that loads all the jars on which the extension is dependent

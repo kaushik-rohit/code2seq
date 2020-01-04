@@ -1,0 +1,5 @@
+Write a schema to a HDFS (or, local) file in a human-readable format
+
+@param outputPath    Output path to write to
+@param schema        Schema to write
+@param sc            Spark context

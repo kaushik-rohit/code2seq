@@ -1,0 +1,11 @@
+按照方法名查找指定方法名的方法，只返回匹配到的第一个方法，如果找不到对应的方法则返回<code>null</code>
+
+<p>
+此方法只检查方法名是否一致，并不检查参数的一致性。
+</p>
+
+@param clazz 类，如果为{@code null}返回{@code null}
+@param methodName 方法名，如果为空字符串返回{@code null}
+@return 方法
+@throws SecurityException 无权访问抛出异常
+@since 4.3.2

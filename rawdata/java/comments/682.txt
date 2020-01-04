@@ -1,0 +1,3 @@
+Search for all possible occurrences inside a specific content
+@param content the string content to search into
+@return a list of existing occurrences

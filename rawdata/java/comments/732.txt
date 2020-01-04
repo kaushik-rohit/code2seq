@@ -1,0 +1,3 @@
+Generate {@link IndexIngestionSpec} from input segments.
+
+@return an empty list if input segments don't exist. Otherwise, a generated ingestionSpec.

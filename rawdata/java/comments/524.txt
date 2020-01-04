@@ -1,0 +1,3 @@
+/*
+This method is intended for internal use only, and should only
+be called by other classes for unit testing.

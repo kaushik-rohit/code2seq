@@ -1,0 +1,4 @@
+Returns true if this array has no value at {@code index}, or if its value is the
+{@code null} reference or {@link JSONObject#NULL}.
+@param index the index to set the value to
+@return true if this array has no value at {@code index}

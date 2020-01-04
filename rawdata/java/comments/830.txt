@@ -1,0 +1,8 @@
+Element-wise rectified linear function with specified cutoff:<br>
+out[i] = in[i] if in[i] >= cutoff
+out[i] = 0 otherwise
+
+@param name   Output variable name
+@param x      Input variable
+@param cutoff Cutoff value. Usually 0
+@return Output variable

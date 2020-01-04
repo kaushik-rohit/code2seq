@@ -1,0 +1,1 @@
+取得Collection的第一个元素，如果collection为空返回null.

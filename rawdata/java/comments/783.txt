@@ -1,0 +1,4 @@
+加载词典
+@param path
+@param separator
+@return

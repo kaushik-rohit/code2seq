@@ -1,0 +1,5 @@
+Checks whether a throwable chain contains a specific error message and returns the corresponding throwable.
+
+@param throwable the throwable chain to check.
+@param searchMessage the error message to search for in the chain.
+@return Optional throwable containing the search message if available, otherwise empty

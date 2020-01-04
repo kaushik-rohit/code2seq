@@ -1,0 +1,3 @@
+If logging has not been setup yet, then Log.info will only print to
+stdout.  This allows for early processing of the '-version' option
+without unpacking the jar file and other startup stuff.

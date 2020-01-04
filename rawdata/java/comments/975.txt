@@ -1,0 +1,4 @@
+This method increments the global and Stream-related counters of failed Transaction create operations.
+
+@param scope      Scope.
+@param streamName Name of the Stream.

@@ -1,0 +1,4 @@
+Evaluate the network (classification performance - single output ComputationGraphs only)
+
+@param iterator Iterator to evaluate on
+@return Evaluation object; results of evaluation on all examples in the data set

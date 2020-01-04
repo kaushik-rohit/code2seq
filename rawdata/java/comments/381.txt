@@ -1,0 +1,4 @@
+Creates the scope formats as defined in the given configuration.
+
+@param config The configuration that defines the formats
+@return The ScopeFormats parsed from the configuration

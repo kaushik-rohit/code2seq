@@ -1,0 +1,23 @@
+Deletes an instance.
+
+<p>Immediately upon completion of the request:
+
+<p>&#42; Billing ceases for all of the instance's reserved resources.
+
+<p>Soon afterward:
+
+<p>&#42; The instance and &#42;all of its databases&#42; immediately and irrevocably disappear
+from the API. All data in the databases is permanently deleted.
+
+<p>Sample code:
+
+<pre><code>
+try (InstanceAdminClient instanceAdminClient = InstanceAdminClient.create()) {
+InstanceName name = InstanceName.of("[PROJECT]", "[INSTANCE]");
+instanceAdminClient.deleteInstance(name);
+}
+</code></pre>
+
+@param name Required. The name of the instance to be deleted. Values are of the form
+`projects/&lt;project&gt;/instances/&lt;instance&gt;`
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

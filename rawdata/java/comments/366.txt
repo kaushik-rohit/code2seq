@@ -1,0 +1,1 @@
+Reads Flink's state meta data file from the state handle.

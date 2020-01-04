@@ -1,0 +1,7 @@
+汉字转拼音
+<hr>
+example : 张三 zhangsan
+
+@param chinese 汉字
+@return 对应的拼音
+@since 4.0.11

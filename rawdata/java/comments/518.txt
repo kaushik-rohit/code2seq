@@ -1,0 +1,9 @@
+Handles the request.
+Ask all delegates if they can handle the current request.
+The first to answer true is elected as the delegate that will process the request.
+If no controller answers true, we redirect to the error page.
+
+@param request  the request to handle
+@param response the response to write to
+@return the model and view object
+@throws Exception if an error occurs during request handling

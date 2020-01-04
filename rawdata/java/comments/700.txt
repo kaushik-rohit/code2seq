@@ -1,0 +1,2 @@
+Sets the type of storage used by this cluster to serve its parent instance's tables. Defaults
+to {@code SSD}.

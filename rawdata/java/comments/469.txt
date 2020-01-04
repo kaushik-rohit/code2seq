@@ -1,0 +1,3 @@
+Render model and view. Sets the response status to OK.
+
+@param response the response

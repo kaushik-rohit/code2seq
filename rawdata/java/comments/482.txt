@@ -1,0 +1,8 @@
+Set's the compressor name to use for the call.  It is the responsibility of the application
+to make sure the server supports decoding the compressor picked by the client.  To be clear,
+this is the compressor used by the stub to compress messages to the server.  To get
+compressed responses from the server, set the appropriate {@link io.grpc.DecompressorRegistry}
+on the {@link io.grpc.ManagedChannelBuilder}.
+
+@since 1.0.0
+@param compressorName the name (e.g. "gzip") of the compressor to use.

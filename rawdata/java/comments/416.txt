@@ -1,0 +1,2 @@
+Convert a passed time string (e.g. 50s, 100ms, or 250us) to a time count in the given unit.
+The unit is also considered the default if the given string does not specify a unit.

@@ -1,0 +1,7 @@
+Builds a new request.
+
+@param baseDn           the base dn
+@param filter           the filter
+@param binaryAttributes the binary attributes
+@param returnAttributes the return attributes
+@return the search request

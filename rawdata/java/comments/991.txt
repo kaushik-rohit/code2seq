@@ -1,0 +1,3 @@
+Returns hash values for a particular query
+@param data a query vector
+@return its hashed value

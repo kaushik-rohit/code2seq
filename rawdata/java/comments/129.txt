@@ -1,0 +1,1 @@
+Cluster shutdown itself by sending a shutdown UDP packet.

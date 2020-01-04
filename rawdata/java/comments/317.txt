@@ -1,0 +1,4 @@
+从queue中获取第一个数据节点，不移除，等待ack信号进行移除
+
+@return
+@throws InterruptedException

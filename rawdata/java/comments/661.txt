@@ -1,0 +1,1 @@
+Enables this plugin next time Jenkins runs.

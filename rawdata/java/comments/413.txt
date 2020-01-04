@@ -1,0 +1,2 @@
+Generates a deterministic hash from node-local properties and input and
+output edges.

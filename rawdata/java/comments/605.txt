@@ -1,0 +1,5 @@
+Format time period pair to Duration String
+
+@param startTime start time
+@param endTime end time
+@return Duration String

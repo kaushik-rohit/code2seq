@@ -1,0 +1,8 @@
+Returns the expiration time for the entry after being updated.
+
+@param node the entry in the page replacement policy
+@param key the key of the entry that was updated
+@param value the value of the entry that was updated
+@param expiry the calculator for the expiration time
+@param now the current time, in nanoseconds
+@return the expiration time

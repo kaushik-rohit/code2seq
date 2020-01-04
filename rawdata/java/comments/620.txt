@@ -1,0 +1,4 @@
+Gets the ZAP API URL to a challenge endpoint.
+
+@param challenge the last segment of the path for the challenge endpoint
+@return a ZAP API URL to access the the challenge endpoint

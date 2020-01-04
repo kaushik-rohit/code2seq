@@ -1,0 +1,4 @@
+This method is required for compatibility purposes.
+It just transfers vocabulary from VocabHolder into VocabCache
+
+@param cache

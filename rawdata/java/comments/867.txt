@@ -1,0 +1,5 @@
+BindView annotated fields and methods in the specified {@code target} using the {@code source}
+{@link View} as the view root.
+
+@param target Target class for view binding.
+@param source View root on which IDs will be looked up.

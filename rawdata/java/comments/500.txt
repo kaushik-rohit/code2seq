@@ -1,0 +1,6 @@
+从对象中取参数
+
+@param paramsObject
+@param paramName
+@param required
+@return

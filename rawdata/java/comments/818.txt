@@ -1,0 +1,4 @@
+获取查询的Select
+
+@param entityClass
+@return

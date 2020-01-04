@@ -1,0 +1,4 @@
+See {@link StreamTracer#streamClosed}. This may be called multiple times, and only the first
+value will be taken.
+
+<p>Called from abstract stream implementations.

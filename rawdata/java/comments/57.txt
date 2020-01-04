@@ -1,0 +1,6 @@
+Decode an image using the state set up by calling setHints() previously. Continuous scan
+clients will get a <b>large</b> speed increase by using this instead of decode().
+
+@param image The pixel data to decode
+@return The contents of the image
+@throws NotFoundException Any errors which occurred

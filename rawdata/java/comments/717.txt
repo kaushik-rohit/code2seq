@@ -1,0 +1,4 @@
+Gets a copy of all the ReadIndexEntries in this Index that are not RedirectReadIndices. All returned
+entries have their offsets adjusted by the given amount.
+
+@param offsetAdjustment The amount to adjust the offset by.

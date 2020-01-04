@@ -1,0 +1,5 @@
+Load Stored data
+
+@param input  input stream to read the double array trie from
+@return double array trie, not null
+@throws IOException if an IO error occured during reading the double array trie

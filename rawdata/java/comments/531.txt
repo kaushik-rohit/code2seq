@@ -1,0 +1,6 @@
+将键值对加入到对应分组中
+
+@param group 分组
+@param key 键
+@param value 值
+@return 此key之前存在的值，如果没有返回null

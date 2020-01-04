@@ -1,0 +1,4 @@
+Returns a cached thread-local {@link CharsetEncoder} for the specified {@link Charset}.
+
+@param charset The specified charset
+@return The encoder for the specified {@code charset}

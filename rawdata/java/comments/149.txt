@@ -1,0 +1,6 @@
+Compute generalized eigenvalues of the problem A x = L B x.
+The data will be unchanged, no eigenvectors returned.
+
+@param A symmetric Matrix A.
+@param B symmetric Matrix B.
+@return a vector of eigenvalues L.

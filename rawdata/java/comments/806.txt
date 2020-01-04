@@ -1,0 +1,6 @@
+Set the minimum value. The minimum value is an acceptable value if and
+only if inclusive is set to true.
+
+@param minimumValue the minimum value
+@param inclusive whether the minimum value is a valid value
+@return this

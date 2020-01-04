@@ -1,0 +1,6 @@
+Sets props in node bean.
+
+@param path the flow or job path delimited by ":", e.g. "flow:subflow1:subflow2:job3"
+@param flowFile the flow yaml file
+@param prop the props to set
+@return the node bean

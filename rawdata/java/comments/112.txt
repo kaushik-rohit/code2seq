@@ -1,0 +1,3 @@
+Configure registration settings. Subclasses can override this method to perform
+additional configuration if required.
+@param registration the registration

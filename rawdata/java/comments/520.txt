@@ -1,0 +1,5 @@
+Set the classpath to search for classes to load. This should not be
+changed once the classloader starts to server classes
+
+@param classpath the search classpath consisting of directories and
+jar/zip files.

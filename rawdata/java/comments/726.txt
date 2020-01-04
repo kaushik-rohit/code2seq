@@ -1,0 +1,12 @@
+This method generates html tables from set of classes containing {@link ConfigOption ConfigOptions}.
+
+<p>For each class 1 or more html tables will be generated and placed into a separate file, depending on whether
+the class is annotated with {@link ConfigGroups}. The tables contain the key, default value and description for
+every {@link ConfigOption}.
+
+<p>One additional table is generated containing all {@link ConfigOption ConfigOptions} that are annotated with
+{@link org.apache.flink.annotation.docs.Documentation.CommonOption}.
+
+@param args
+[0] output directory for the generated files
+[1] project root directory

@@ -1,0 +1,21 @@
+Returns type information for a POJO (Plain Old Java Object) and allows to specify all fields manually.
+
+<p>A POJO class is public and standalone (no non-static inner class). It has a public no-argument
+constructor. All non-static, non-transient fields in the class (and all superclasses) are either public
+(and non-final) or have a public getter and a setter method that follows the Java beans naming
+conventions for getters and setters.
+
+<p>A POJO is a fixed-length, null-aware composite type with non-deterministic field order. Every field
+can be null independent of the field's type.
+
+<p>The generic types for all fields of the POJO can be defined in a hierarchy of subclasses.
+
+<p>If Flink's type analyzer is unable to extract a POJO field, an
+{@link org.apache.flink.api.common.functions.InvalidTypesException} is thrown.
+
+<p><strong>Note:</strong> In most cases the type information of fields can be determined automatically,
+we recommend to use {@link Types#POJO(Class)}.
+
+@param pojoClass POJO class
+@param fields map of fields that map a name to type information. The map key is the name of
+the field and the value is its type.

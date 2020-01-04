@@ -1,0 +1,4 @@
+Parse the jwt token from Authorization header.
+
+@param authorization authorization header.
+@return JWT token

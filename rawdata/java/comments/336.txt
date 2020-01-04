@@ -1,0 +1,4 @@
+Checks if the constant pool contains the provided string constant, which implies the constant is used somewhere in the code.
+
+NB: String literals get concatenated by the compiler.
+NB2: This method does NOT do any kind of normalization.

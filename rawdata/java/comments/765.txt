@@ -1,0 +1,1 @@
+Performs the cache operations for the given key.

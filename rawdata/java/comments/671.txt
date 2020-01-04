@@ -1,0 +1,7 @@
+新建一个List
+
+@param <T> 集合元素类型
+@param isLinked 是否新建LinkedList
+@param values 数组
+@return List对象
+@since 4.1.2

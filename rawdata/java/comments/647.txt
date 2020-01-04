@@ -1,0 +1,5 @@
+Create a internal {@link TypeInformation} from a {@link InternalType}.
+
+<p>eg:
+{@link InternalTypes#STRING} => {@link BinaryStringTypeInfo}.
+{@link RowType} => {@link BaseRowTypeInfo}.

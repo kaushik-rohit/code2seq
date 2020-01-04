@@ -1,0 +1,7 @@
+Adds a file seed, with the given file name, at the root of the base URI.
+<p>
+For example, with base URI as {@code http://example.com/some/path/file.html} and file name as {@code sitemap.xml} it's
+added the seed {@code http://example.com/sitemap.xml}.
+
+@param baseUri the base URI.
+@param fileName the file name.

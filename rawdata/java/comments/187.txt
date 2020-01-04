@@ -1,0 +1,6 @@
+Gets ticket granting ticket from request.
+
+@param ticketGrantingTicketCookieGenerator the ticket granting ticket cookie generator
+@param ticketRegistry                      the ticket registry
+@param request                             the request
+@return the ticket granting ticket from request

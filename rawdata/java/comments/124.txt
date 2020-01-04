@@ -1,0 +1,4 @@
+Render exceptions. Sets the response status accordingly to note bad requests.
+
+@param model    the model
+@param response the response

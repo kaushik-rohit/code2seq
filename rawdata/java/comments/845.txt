@@ -1,0 +1,4 @@
+Creates {@link HttpClient} instances for each defined {@link ServiceHttpClientConfiguration}.
+@param configuration The configuration
+@param instanceList The instance list
+@return The client bean

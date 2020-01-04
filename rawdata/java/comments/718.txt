@@ -1,0 +1,6 @@
+Add a collection of strings to the cache key.
+Strings in the collection are concatenated with a separator of '0xFF',
+and they appear in the cache key in their input order.
+
+@param input a collection of strings to be included in the cache key
+@return this instance

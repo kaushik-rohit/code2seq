@@ -1,0 +1,4 @@
+Transforms Logback logging levels to Cloud severity.
+
+@param level Logback logging level
+@return Cloud severity level

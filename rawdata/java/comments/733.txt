@@ -1,0 +1,6 @@
+Deletes the given directory (including its contents) recursively.
+It does not take no for an answer - if necessary, it will have multiple
+attempts at deleting things.
+
+@throws IOException
+if the operation fails.

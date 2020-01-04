@@ -1,0 +1,5 @@
+Adds output
+
+@param key   output field
+@param value value
+@return current instance

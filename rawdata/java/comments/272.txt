@@ -1,0 +1,1 @@
+Writes the composite snapshot of all the contained serializers.

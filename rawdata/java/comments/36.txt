@@ -1,0 +1,13 @@
+Build an expression string used for partition filtering in {@link GetPartitionsRequest}
+<pre>
+Ex: partition keys: ['a', 'b']
+partition values: ['1', '2']
+expression: (a='1') AND (b='2')
+
+Partial specification ex:
+partition values: ['', '2']
+expression: (b='2')
+</pre>
+
+@param partitionKeys List of partition keys to filter on
+@param partitionValues Full or partial list of partition values to filter on. Keys without filter should be empty string.

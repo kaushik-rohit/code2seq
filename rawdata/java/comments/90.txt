@@ -1,0 +1,7 @@
+Creates a new instance of the TableEntry class with a specified version.
+
+@param key   The Key.
+@param value The Value.
+@param version The desired version.
+
+@return new instance of Table Entry with a specified version

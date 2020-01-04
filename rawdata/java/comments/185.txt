@@ -1,0 +1,3 @@
+Get the word vector for a given matrix
+@param word the word to get the matrix for
+@return the ndarray for this word

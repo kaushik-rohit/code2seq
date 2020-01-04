@@ -1,0 +1,3 @@
+Adds the value to the stats if it is >= 0.
+
+@param value Value to add for min/max/avg stats..

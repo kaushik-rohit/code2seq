@@ -1,0 +1,2 @@
+Returns all of the mappings present, expiring as required, and optionally updates their access
+expiry time.

@@ -1,0 +1,1 @@
+Is this executor chunk and the given work chunk compatible? Can the latter be run on the former?

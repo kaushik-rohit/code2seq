@@ -1,0 +1,4 @@
+Generates an image of what currently is drawn on the canvas.
+<p>
+Throws an {@link ActivitiImageException} when {@link #close()} is already
+called.

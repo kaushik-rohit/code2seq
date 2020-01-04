@@ -1,0 +1,10 @@
+Register one or more annotated classes to be processed. Note that
+{@link #refresh()} must be called in order for the context to fully process the new
+class.
+<p>
+Calls to {@code #register} are idempotent; adding the same annotated class more
+than once has no additional effect.
+@param annotatedClasses one or more annotated classes, e.g. {@code @Configuration}
+classes
+@see #scan(String...)
+@see #refresh()

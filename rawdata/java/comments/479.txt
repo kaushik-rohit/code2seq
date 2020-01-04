@@ -1,0 +1,20 @@
+Calculates the offset in the Segment where it is safe to truncate based on the current state of the Segment and
+the highest copied offset encountered during an index update.
+
+This method is invoked from the {@link WriterTableProcessor} after indexing. Since compaction is loosely coupled
+with indexing, the {@link WriterTableProcessor} does not have too many insights into what has been compacted or not;
+it can only decide based on the current state of the Table Segment and what it has just indexed. As such:
+- If recently indexed Table Entries indicate they were copied as part of a compaction, then it is safe to truncate
+at the highest copied offset encountered (since they are copied in order, by offset). Everything prior to this
+offset is guaranteed not to exist in the index anymore.
+- If no recently indexed Table Entry indicates it was copied as a result of compaction, then it may not be safe to
+truncate at {@link TableAttributes#COMPACTION_OFFSET}, because there may exist unindexed Table Entries that the
+indexer hasn't gotten to yet. As such, it is only safe to truncate at {@link TableAttributes#COMPACTION_OFFSET}
+if the indexer has indexed all the entries in the Table Segment.
+
+@param info                The {@link SegmentProperties} associated with the Table Segment to inquire about.
+@param highestCopiedOffset The highest offset that was copied from a lower offset during a compaction. If the copied
+entry has already been index then it is guaranteed that every entry prior to this
+offset is no longer part of the index and can be safely truncated away.
+@return The calculated truncation offset or a negative number if no truncation is required or possible given the
+arguments provided.

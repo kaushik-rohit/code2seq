@@ -1,0 +1,4 @@
+Creates a FirestoreException with the provided GRPC Status code and message in a nested
+exception.
+
+@return The FirestoreException

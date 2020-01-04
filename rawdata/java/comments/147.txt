@@ -1,0 +1,8 @@
+拷贝ByteBuffer
+
+@param src 源ByteBuffer
+@param srcStart 源开始的位置
+@param dest 目标ByteBuffer
+@param destStart 目标开始的位置
+@param length 长度
+@return 目标ByteBuffer

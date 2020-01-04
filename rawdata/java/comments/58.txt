@@ -1,0 +1,4 @@
+计算右熵
+
+@param pair
+@return

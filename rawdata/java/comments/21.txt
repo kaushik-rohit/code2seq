@@ -1,0 +1,7 @@
+List of the files in the given directory (path), as a {@code JavaRDD<String>}
+
+@param sc        Spark context
+@param path      Path to list files in
+@param recursive Whether to walk the directory tree recursively (i.e., include subdirectories)
+@return Paths in the directory
+@throws IOException If error occurs getting directory contents

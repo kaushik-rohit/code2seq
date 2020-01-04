@@ -1,0 +1,3 @@
+维特比算法求解最优标签
+@param roleTagList
+@return

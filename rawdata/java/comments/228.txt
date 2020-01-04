@@ -1,0 +1,3 @@
+Get the direct byte buffer from the given direct buffer
+@param directBuffer
+@return

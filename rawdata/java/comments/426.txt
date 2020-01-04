@@ -1,0 +1,3 @@
+Returns the total prediction error for this
+tree and its children
+@return the total error for this tree and its children

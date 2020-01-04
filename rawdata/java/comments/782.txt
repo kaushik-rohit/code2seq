@@ -1,0 +1,13 @@
+Deletes the specified image.
+
+<p>Sample code:
+
+<pre><code>
+try (ImageClient imageClient = ImageClient.create()) {
+ProjectGlobalImageName image = ProjectGlobalImageName.of("[PROJECT]", "[IMAGE]");
+Operation response = imageClient.deleteImage(image);
+}
+</code></pre>
+
+@param image Name of the image resource to delete.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

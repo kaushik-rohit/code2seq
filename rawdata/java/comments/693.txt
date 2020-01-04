@@ -1,0 +1,7 @@
+Create a new {@link Vec} of string values from a numeric {@link Vec}.
+
+Currently only uses a default pretty printer. Would be better if
+it accepted a format string PUBDEV-2211
+
+@param src a numeric {@link Vec}
+@return a string {@link Vec}

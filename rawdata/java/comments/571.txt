@@ -1,0 +1,15 @@
+Retrieves a list of autoscalers contained within the specified region.
+
+<p>Sample code:
+
+<pre><code>
+try (RegionAutoscalerClient regionAutoscalerClient = RegionAutoscalerClient.create()) {
+ProjectRegionName region = ProjectRegionName.of("[PROJECT]", "[REGION]");
+for (Autoscaler element : regionAutoscalerClient.listRegionAutoscalers(region).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param region Name of the region scoping this request.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

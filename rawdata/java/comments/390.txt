@@ -1,0 +1,4 @@
+Returns a one time nonce to be used with the API call specified by the URL
+@param apiUrl the API URL
+@return a one time nonce
+@since 2.6.0

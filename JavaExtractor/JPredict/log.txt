@@ -1,0 +1,1 @@
+get extractor rule definition file name|public static String (final String rootDir, final DatabaseType databaseType) { return Joiner.on('/').join(rootDir, databaseType.name().toLowerCase(), EXTRACTOR_RULE_DEFINITION_FILE_NAME); }

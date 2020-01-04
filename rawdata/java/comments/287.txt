@@ -1,0 +1,3 @@
+Returns a list of addons from the supplied collection that are newer than the equivalent ones in this collection
+@param aoc the collection to compare with
+@return a list of addons from the supplied collection that are newer than the equivalent ones in this collection

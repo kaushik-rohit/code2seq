@@ -1,0 +1,4 @@
+This method saves paragraph vectors to the given file.
+
+@param vectors
+@param path

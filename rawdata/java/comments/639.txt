@@ -1,0 +1,6 @@
+This method increments the global and Stream-related counters of created Transactions and reports the latency of
+the operation.
+
+@param scope      Scope.
+@param streamName Name of the Stream.
+@param latency    Latency of the create Transaction operation.

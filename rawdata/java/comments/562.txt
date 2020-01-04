@@ -1,0 +1,5 @@
+Gets name id.
+
+@param nameIdFormat the name id format
+@param nameIdValue  the name id value
+@return the name iD

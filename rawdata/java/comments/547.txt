@@ -1,0 +1,5 @@
+以 conjunction 为分隔符将数组转换为字符串
+
+@param array 数组
+@param conjunction 分隔符
+@return 连接后的字符串

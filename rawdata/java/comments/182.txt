@@ -1,0 +1,9 @@
+按照给定的readerHandler读取文件中的数据
+
+@param <T> 集合类型
+@param readerHandler Reader处理类
+@param path 文件的绝对路径
+@param charset 字符集
+@return 从文件中load出的数据
+@throws IORuntimeException IO异常
+@deprecated 使用FileUtil#load(String, String, ReaderHandler) 代替

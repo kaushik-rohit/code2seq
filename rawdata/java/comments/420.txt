@@ -1,0 +1,3 @@
+Configure credentials.
+
+@param credential the credential

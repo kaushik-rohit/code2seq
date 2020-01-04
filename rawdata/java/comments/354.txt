@@ -1,0 +1,13 @@
+Run image detection and annotation for a batch of images.
+
+<p>Sample code:
+
+<pre><code>
+try (ImageAnnotatorClient imageAnnotatorClient = ImageAnnotatorClient.create()) {
+List&lt;AnnotateImageRequest&gt; requests = new ArrayList&lt;&gt;();
+BatchAnnotateImagesResponse response = imageAnnotatorClient.batchAnnotateImages(requests);
+}
+</code></pre>
+
+@param requests Individual image annotation requests for this batch.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

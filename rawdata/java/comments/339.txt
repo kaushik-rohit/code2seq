@@ -1,0 +1,7 @@
+Get the pointer to the helper memory. Usually used for CUDNN workspace memory sharing.
+NOTE: Don't use this method unless you are fully aware of how it is used to manage CuDNN memory!
+Will (by design) throw a NPE if the underlying map (set from MultiLayerNetwork or ComputationGraph) is not set.
+
+@param key Key for the helper workspace pointer
+@param <T> Pointer type
+@return Pointer for that key, or null if none exists

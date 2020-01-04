@@ -1,0 +1,5 @@
+A thin wrapper layer over {@link DataStream#map(MapFunction)}.
+
+@param mapper The MapFunction that is called for each element of the
+DataStream.
+@return The transformed {@link PythonDataStream}.

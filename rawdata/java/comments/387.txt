@@ -1,0 +1,1 @@
+Return 40-bit unsigned int from buffer. (little-endian)

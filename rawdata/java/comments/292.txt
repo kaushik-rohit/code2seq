@@ -1,0 +1,6 @@
+Adds a check that the given number is positive.
+
+@param name The name of the argument
+@param value The value
+@throws IllegalArgumentException if the argument is not positive
+@return The value

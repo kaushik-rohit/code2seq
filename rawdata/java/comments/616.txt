@@ -1,0 +1,7 @@
+Method used for setting the state of the scan buttons and of the progress bar.
+<p>
+<strong>NOTE:</strong> Must be called from the main thread (EDT).
+
+@param isStarted {@code true} if the scan is started, {@code false} otherwise.
+@param isPaused {@code true} if the scan is paused, {@code false} otherwise.
+@param allowStartScan {@code true} if should possible to start a scan, {@code false} otherwise.

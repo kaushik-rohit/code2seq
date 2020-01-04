@@ -1,0 +1,14 @@
+Deletes a job.
+
+<p>Sample code:
+
+<pre><code>
+try (CloudSchedulerClient cloudSchedulerClient = CloudSchedulerClient.create()) {
+JobName name = JobName.of("[PROJECT]", "[LOCATION]", "[JOB]");
+cloudSchedulerClient.deleteJob(name.toString());
+}
+</code></pre>
+
+@param name Required.
+<p>The job name. For example: `projects/PROJECT_ID/locations/LOCATION_ID/jobs/JOB_ID`.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

@@ -1,0 +1,5 @@
+Normalize the triangle listing such that for each result (K0, K1, K2)
+the vertex IDs are sorted K0 < K1 < K2.
+
+@param sortTriangleVertices whether to output each triangle's vertices in sorted order
+@return this

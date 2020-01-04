@@ -1,0 +1,6 @@
+Check whether the timeout for the given key and ticket is still valid (not yet unregistered
+and not yet overwritten).
+
+@param key for which to check the timeout
+@param ticket of the timeout
+@return True if the timeout ticket is still valid; otherwise false

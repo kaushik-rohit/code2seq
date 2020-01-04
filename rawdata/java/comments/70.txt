@@ -1,0 +1,4 @@
+Create a new {@link Binder} instance from the specified environment.
+@param environment the environment source (must have attached
+{@link ConfigurationPropertySources})
+@return a {@link Binder} instance

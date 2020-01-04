@@ -1,0 +1,4 @@
+扫描文件或目录中的类
+
+@param file 文件或目录
+@param rootDir 包名对应classpath绝对路径

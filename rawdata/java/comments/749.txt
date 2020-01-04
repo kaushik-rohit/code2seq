@@ -1,0 +1,2 @@
+This operation performs dot product attention on the given timeseries input with the given queries
+@see #dotProductAttention(String, SDVariable, SDVariable, SDVariable, SDVariable, boolean, boolean)

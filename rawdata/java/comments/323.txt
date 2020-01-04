@@ -1,0 +1,3 @@
+Checks if the directory of this path is absolute.
+
+@return <code>true</code> if the directory of this path is absolute, <code>false</code> otherwise

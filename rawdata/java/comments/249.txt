@@ -1,0 +1,3 @@
+This method initializes the slider for MaxDepth.
+
+@return the slider for max depth

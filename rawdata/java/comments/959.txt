@@ -1,0 +1,2 @@
+Allow to specify a {@link ChannelOption} which is used for the {@link Http2StreamChannel} instances once they got
+created. Use a value of {@code null} to remove a previous set {@link ChannelOption}.

@@ -1,0 +1,5 @@
+Set the Http Method.
+
+@param method to use.
+@return a RequestTemplate for chaining.
+@deprecated see {@link RequestTemplate#method(HttpMethod)}

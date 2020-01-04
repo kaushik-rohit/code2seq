@@ -1,0 +1,4 @@
+判断一个词语是否停用..
+
+@param term
+@return

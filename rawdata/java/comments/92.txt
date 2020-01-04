@@ -1,0 +1,3 @@
+Joins {@code codeBlocks} into a single {@link CodeBlock}, each separated by {@code separator}.
+For example, joining {@code String s}, {@code Object o} and {@code int i} using {@code ", "}
+would produce {@code String s, Object o, int i}.

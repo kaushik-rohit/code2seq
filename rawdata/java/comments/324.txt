@@ -1,0 +1,4 @@
+Gets security token from request.
+
+@param request the request
+@return the security token from request

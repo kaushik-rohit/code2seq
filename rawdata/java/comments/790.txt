@@ -1,0 +1,5 @@
+This method does element-wise assessing for 2 equal-sized matrices, for each element that matches Condition
+
+@param to
+@param set
+@param condition

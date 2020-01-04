@@ -1,0 +1,5 @@
+API to execute a command on behalf of another user.
+
+@param user The proxy user
+@param command the list containing the program and its arguments
+@return The return value of the shell command

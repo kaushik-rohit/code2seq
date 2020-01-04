@@ -1,0 +1,6 @@
+是否在给定分组的集合中全部包含指定值集合<br>
+如果给定分组对应集合不存在，则返回false
+
+@param group 分组名
+@param values 测试的值集合
+@return 是否包含

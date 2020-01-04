@@ -1,0 +1,3 @@
+Size of the service database.
+
+@return The service count in the database.

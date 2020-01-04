@@ -1,0 +1,4 @@
+show the popup according to the specified position
+
+@param vAlign can be TOP/BOTTOM
+@param hAlign can be LEFT/RIGHT

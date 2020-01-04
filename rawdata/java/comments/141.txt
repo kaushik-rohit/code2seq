@@ -1,0 +1,4 @@
+An expectation for checking an element is visible and enabled such that you can click it.
+
+@param locator used to find the element
+@return the WebElement once it is located and clickable (visible and enabled)

@@ -1,0 +1,4 @@
+Check if this header expect connection to be closed. HTTP/1.0 default to
+close. HTTP/1.1 default to keep-alive.
+
+@return

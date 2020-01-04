@@ -1,0 +1,6 @@
+Loads a {@link INDArray} from a {@link BufferedImage}.
+
+@param image as a BufferedImage
+@param flipChannels to have a format like TYPE_INT_RGB (ARGB) output as BGRA, etc
+@return the loaded matrix
+@throws IOException

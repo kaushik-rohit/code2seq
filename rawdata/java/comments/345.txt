@@ -1,0 +1,7 @@
+Normalize by zero mean unit variance
+
+@param schema the schema to use
+to create the data frame
+@param data   the data to normalize
+@return a zero mean unit variance centered
+rdd

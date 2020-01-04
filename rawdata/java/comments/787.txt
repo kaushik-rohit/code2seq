@@ -1,0 +1,6 @@
+自动摘要
+
+@param document           目标文档
+@param size               需要的关键句的个数
+@param sentence_separator 分割目标文档时的句子分割符，正则格式， 如：[。？?！!；;]
+@return 关键句列表

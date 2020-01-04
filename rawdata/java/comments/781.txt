@@ -1,0 +1,4 @@
+Print the length of the indicated file.
+
+<p>This uses the normal Java NIO Api, so it can take advantage of any installed NIO Filesystem
+provider without any extra effort.

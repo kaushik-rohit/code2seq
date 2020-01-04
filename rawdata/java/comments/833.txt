@@ -1,0 +1,4 @@
+用于Model对象转化为DO对象
+
+@param canal
+@return CanalDO

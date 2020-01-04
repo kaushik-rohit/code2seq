@@ -1,0 +1,4 @@
+Copies an object and after that checks that the object is present at the target location, via a separate API call.
+If it is not, an exception is thrown, and the object is not deleted at the old location. This "paranoic" check
+is added after it was observed that S3 may report a successful move, and the object is not found at the target
+location.

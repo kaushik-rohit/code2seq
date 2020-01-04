@@ -1,0 +1,5 @@
+clears cache entries in the given scope from the specified ObjectReader.
+Always clears app-scoped entries.
+
+@param reader
+@param scope

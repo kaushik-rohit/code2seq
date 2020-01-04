@@ -1,0 +1,5 @@
+Calculate the current URI given the request.
+
+@param request
+The request.
+@return The current uri.

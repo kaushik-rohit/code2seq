@@ -1,0 +1,8 @@
+Translate a list of Calcite {@code RexNode} to Druid expressions.
+
+@param plannerContext SQL planner context
+@param rowSignature   signature of the rows to be extracted from
+@param rexNodes       list of Calcite expressions meant to be applied on top of the rows
+
+@return list of Druid expressions in the same order as rexNodes, or null if not possible.
+If a non-null list is returned, all elements will be non-null.

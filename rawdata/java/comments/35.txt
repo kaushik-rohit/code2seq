@@ -1,0 +1,4 @@
+Gets a copy of example i
+
+@param i the example to getFromOrigin
+@return the example at i (one example)

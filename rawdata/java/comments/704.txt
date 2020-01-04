@@ -1,0 +1,2 @@
+Processes all {@link Http2Frame}s. {@link Http2StreamFrame}s may only originate in child
+streams.

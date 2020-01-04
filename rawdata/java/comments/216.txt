@@ -1,0 +1,8 @@
+Looks up completion hints for a syntactically correct select SQL that has
+been parsed into an expression tree.
+
+@param select   the Select node of the parsed expression tree
+@param pos      indicates the position in the sql statement we want to get
+completion hints for
+@param hintList list of {@link SqlMoniker} (sql identifiers) that can
+fill in at the indicated position

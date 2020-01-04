@@ -1,0 +1,5 @@
+merge data
+
+@param userData
+@param configData
+@return

@@ -1,0 +1,4 @@
+Create a scalar nd array with the specified value and offset
+
+@param value the value of the scalar
+=     * @return the scalar nd array

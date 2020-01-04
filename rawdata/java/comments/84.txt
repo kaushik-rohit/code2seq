@@ -1,0 +1,5 @@
+Write lenenc string to byte buffers.
+
+@see <a href="https://dev.mysql.com/doc/internals/en/string.html#packet-Protocol::FixedLengthString">FixedLengthString</a>
+
+@param value fixed length string

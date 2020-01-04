@@ -1,0 +1,4 @@
+looks up a bean introspection for the given object.
+
+@param object The object, never null
+@return The introspection or null

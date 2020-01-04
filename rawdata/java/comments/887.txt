@@ -1,0 +1,4 @@
+The input string must be more than or equal to size. if yes, the check passes
+
+@param size string size
+@return Validation

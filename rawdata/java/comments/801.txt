@@ -1,0 +1,8 @@
+将此 UUID 与指定的 UUID 比较。
+
+<p>
+如果两个 UUID 不同，且第一个 UUID 的最高有效字段大于第二个 UUID 的对应字段，则第一个 UUID 大于第二个 UUID。
+
+@param val 与此 UUID 比较的 UUID
+
+@return 在此 UUID 小于、等于或大于 val 时，分别返回 -1、0 或 1。

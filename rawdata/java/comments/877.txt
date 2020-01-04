@@ -1,0 +1,3 @@
+Renames this item.
+Not all the Items need to support this operation, but if you decide to do so,
+you can use this method.

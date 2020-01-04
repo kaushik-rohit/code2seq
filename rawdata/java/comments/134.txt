@@ -1,0 +1,4 @@
+Create a RPC service for the task manager.
+
+@param configuration The configuration for the TaskManager.
+@param haServices to use for the task manager hostname retrieval

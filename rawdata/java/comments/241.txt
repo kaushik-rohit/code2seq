@@ -1,0 +1,5 @@
+维特比解码
+
+@param instance   实例
+@param guessLabel 输出标签
+@return

@@ -1,0 +1,5 @@
+Degrade weight of provider info
+
+@param providerInfo ProviderInfo
+@param weight       degraded weight
+@return is degrade success

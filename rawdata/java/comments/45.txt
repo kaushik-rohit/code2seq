@@ -1,0 +1,8 @@
+Sets eviction policy.
+
+@param evictionPolicy
+<p><code>LRU</code> - uses local cache with LRU (least recently used) eviction policy.
+<p><code>LFU</code> - uses local cache with LFU (least frequently used) eviction policy.
+<p><code>SOFT</code> - uses local cache with soft references. The garbage collector will evict items from the local cache when the JVM is running out of memory.
+<p><code>NONE</code> - doesn't use eviction policy, but timeToLive and maxIdleTime params are still working.
+@return LocalCachedMapOptions instance

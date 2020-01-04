@@ -1,0 +1,7 @@
+Start the blade web server
+
+@param bootClass Start the boot class, used to scan the class in all of the packages
+@param address   web server bind ip address
+@param port      web server bind port
+@param args      launch parameters
+@return blade

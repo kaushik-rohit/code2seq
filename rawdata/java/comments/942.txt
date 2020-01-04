@@ -1,0 +1,5 @@
+Deprecates this image.
+
+@return a global operation if the deprecation request was successfully sent, {@code null} if
+the image was not found
+@throws ComputeException upon failure or if this image is a publicly-available image

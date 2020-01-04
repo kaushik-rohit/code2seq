@@ -1,0 +1,6 @@
+Retrieve attributes from attribute repository and return map.
+
+@param attributeRepository                  the attribute repository
+@param principalId                          the principal id
+@param activeAttributeRepositoryIdentifiers the active attribute repository identifiers
+@return the map or null

@@ -1,0 +1,6 @@
+Gets the name of the meta-Segment mapped to the given Segment Name that is responsible with storing its Rollover
+information.
+Existence of this file should also indicate that a Segment with this file has a rollover policy in place.
+
+@param segmentName The name of the Segment to get the Header segment name for.
+@return The result.

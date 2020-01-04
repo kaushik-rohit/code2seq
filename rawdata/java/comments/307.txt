@@ -1,0 +1,2 @@
+Builds an index of fields to their corresponding serializers for the
+new {@link PojoSerializer} for faster field serializer lookups.

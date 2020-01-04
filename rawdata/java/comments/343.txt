@@ -1,0 +1,1 @@
+Connect timeout in milliseconds. Default 120 secs.

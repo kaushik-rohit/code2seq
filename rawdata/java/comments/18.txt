@@ -1,0 +1,3 @@
+Handle an incoming HTTP connection.
+@param httpConnection the HTTP connection
+@throws IOException in case of I/O errors

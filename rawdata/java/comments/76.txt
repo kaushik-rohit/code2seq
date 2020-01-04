@@ -1,0 +1,2 @@
+Like RelDataTypeFactory.createSqlTypeWithNullability, but creates types that align best with how Druid
+represents them.

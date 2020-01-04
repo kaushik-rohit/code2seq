@@ -1,0 +1,5 @@
+Create a new {@link ConfigurationPropertyName} by appending the given element
+value.
+@param elementValue the single element value to append
+@return a new {@link ConfigurationPropertyName}
+@throws InvalidConfigurationPropertyNameException if elementValue is not valid

@@ -1,0 +1,5 @@
+Create document db template document db template.
+
+@param documentDbFactory the document db factory
+@param properties        the properties
+@return the document db template

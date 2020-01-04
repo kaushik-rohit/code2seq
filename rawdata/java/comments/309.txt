@@ -1,0 +1,7 @@
+Associates the specified value with the specified key in the cache.
+
+@param key key with which the specified value is to be associated
+@param value value to be associated with the specified key
+@param publishToWriter if the writer should be notified
+@param puts the accumulator for additions and updates
+@return the old value

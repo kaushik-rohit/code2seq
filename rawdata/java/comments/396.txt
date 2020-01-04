@@ -1,0 +1,4 @@
+Exponential distribution: P(x) = lambda * exp(-lambda * x)
+
+@param lambda Must be > 0
+@param shape  Shape of the output

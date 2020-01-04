@@ -1,0 +1,2 @@
+Creates a snapshot of this accumulator registry.
+@return a serialized accumulator map

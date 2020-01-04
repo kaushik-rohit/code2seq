@@ -1,0 +1,2 @@
+Get the Jenkins {@link jenkins.install.InstallState install state}.
+@return The Jenkins {@link jenkins.install.InstallState install state}.

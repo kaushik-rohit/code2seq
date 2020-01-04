@@ -1,0 +1,7 @@
+Build a help text for the defined parameters.
+
+<p>The format of the help text will be:
+Required Parameters:
+\t -:shortName:, --:name: \t :helpText: \t default: :defaultValue: \t choices: :choices: \n
+
+@return a formatted help String.

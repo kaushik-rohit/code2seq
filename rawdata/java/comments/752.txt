@@ -1,0 +1,23 @@
+Patches the specified network with the data included in the request. Only the following fields
+can be modified: routingConfig.routingMode.
+
+<p>Sample code:
+
+<pre><code>
+try (NetworkClient networkClient = NetworkClient.create()) {
+ProjectGlobalNetworkName network = ProjectGlobalNetworkName.of("[PROJECT]", "[NETWORK]");
+Network networkResource = Network.newBuilder().build();
+List&lt;String&gt; fieldMask = new ArrayList&lt;&gt;();
+Operation response = networkClient.patchNetwork(network, networkResource, fieldMask);
+}
+</code></pre>
+
+@param network Name of the network to update.
+@param networkResource Represents a Network resource. Read Virtual Private Cloud (VPC) Network
+Overview for more information. (== resource_for v1.networks ==) (== resource_for
+beta.networks ==)
+@param fieldMask The fields that should be serialized (even if they have empty values). If the
+containing message object has a non-null fieldmask, then all the fields in the field mask
+(and only those fields in the field mask) will be serialized. If the containing object does
+not have a fieldmask, then only non-empty fields will be serialized.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

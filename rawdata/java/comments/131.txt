@@ -1,0 +1,7 @@
+将String写入文件，追加模式
+
+@param content 写入的内容
+@param file 文件
+@param charset 字符集
+@return 写入的文件
+@throws IORuntimeException IO异常

@@ -1,0 +1,3 @@
+通知下一个minTimestamp数据出队列
+
+@throws InterruptedException

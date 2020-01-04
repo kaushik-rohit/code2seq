@@ -1,0 +1,6 @@
+Shows license dialogue, asynchronously (the method returns immediately after/while showing the dialogue).
+<p>
+It continues the bootstrap process, by calling {@code init(true)} if the license is accepted. Aborts the bootstrap
+process if the license is not accepted.
+
+@see #init(boolean)

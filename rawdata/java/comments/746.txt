@@ -1,0 +1,14 @@
+Returns the specified node template. Gets a list of available node templates by making a list()
+request.
+
+<p>Sample code:
+
+<pre><code>
+try (NodeTemplateClient nodeTemplateClient = NodeTemplateClient.create()) {
+ProjectRegionNodeTemplateName nodeTemplate = ProjectRegionNodeTemplateName.of("[PROJECT]", "[REGION]", "[NODE_TEMPLATE]");
+NodeTemplate response = nodeTemplateClient.getNodeTemplate(nodeTemplate);
+}
+</code></pre>
+
+@param nodeTemplate Name of the node template to return.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

@@ -1,0 +1,7 @@
+Get the comma delimited values of the <code>name</code> property as
+an array of <code>String</code>s.
+If no such property is specified then <code>null</code> is returned.
+
+@param name property name.
+@return property value as an array of <code>String</code>s,
+or <code>null</code>.

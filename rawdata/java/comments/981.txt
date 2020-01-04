@@ -1,0 +1,2 @@
+This method marks given Node as offline, remapping its downstreams
+@param node

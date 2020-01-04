@@ -1,0 +1,5 @@
+Element wise maximum function between 2 INDArrays
+
+@param first
+@param second
+@return

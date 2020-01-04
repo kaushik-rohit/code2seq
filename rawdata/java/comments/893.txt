@@ -1,0 +1,5 @@
+Construct a class object with the given arguments
+
+@param cls The class
+@param args The arguments
+@return Constructed Object

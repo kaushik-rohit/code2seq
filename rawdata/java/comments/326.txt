@@ -1,0 +1,11 @@
+This method serializes the specified object into its equivalent Json representation.
+This method should be used when the specified object is not a generic type. This method uses
+{@link Class#getClass()} to get the type for the specified object, but the
+{@code getClass()} loses the generic type information because of the Type Erasure feature
+of Java. Note that this method works fine if the any of the object fields are of generic type,
+just the object itself should not be of a generic type. If the object is of generic type, use
+{@link #toJson(Object, Type)} instead. If you want to write out the object to a
+{@link Writer}, use {@link #toJson(Object, Appendable)} instead.
+
+@param src the object for which Json representation is to be created setting for Gson
+@return Json representation of {@code src}.

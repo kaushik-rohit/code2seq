@@ -1,0 +1,1 @@
+append the index for the probe and append nulls for the build

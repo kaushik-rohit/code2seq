@@ -1,0 +1,6 @@
+Creates an instance of {@code AnnotationValues} for the provided AST Node
+and Annotation expression.
+
+@param type An annotation class type, such as {@code lombok.Getter.class}.
+@param anno the annotation expression
+@param node A Lombok AST node representing an annotation in source code.

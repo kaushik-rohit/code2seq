@@ -1,0 +1,2 @@
+Starts constructing a {@link PatternProcessFunction} from a {@link PatternFlatSelectFunction} that
+emitted elements through {@link org.apache.flink.util.Collector}.

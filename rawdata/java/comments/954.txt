@@ -1,0 +1,10 @@
+Download the specified URL to the specified file, verify that the MD5 matches, and then extract it to the specified directory.<br>
+Note that the file must be an archive, with the correct file extension: .zip, .jar, .tar.gz, .tgz or .gz
+
+@param name         Name (mainly for providing useful exceptions)
+@param url          URL to download
+@param f            Destination file
+@param extractToDir Destination directory to extract all files
+@param targetMD5    Expected MD5 for file
+@param maxTries     Maximum number of download attempts before failing and throwing an exception
+@throws IOException If an error occurs during downloading

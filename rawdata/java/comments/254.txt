@@ -1,0 +1,9 @@
+Returns type information for Flink's {@link org.apache.flink.types.Either} type. Null values
+are not supported.
+
+<p>Either type can be used for a value of two possible types.
+
+<p>Example use: <code>Types.EITHER(Types.VOID, Types.INT)</code>
+
+@param leftType type information of left side / {@link org.apache.flink.types.Either.Left}
+@param rightType type information of right side / {@link org.apache.flink.types.Either.Right}

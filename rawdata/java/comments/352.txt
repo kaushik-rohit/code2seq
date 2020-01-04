@@ -1,0 +1,8 @@
+Check the specified boolean argument. Throws an IllegalStateException with the specified message if {@code o} is false.
+Note that the message may specify argument locations using "%s" - for example,
+{@code checkArgument(false, "Got %s values, expected %s", 3, "more"} would throw an IllegalStateException
+with the message "Got 3 values, expected more"
+
+@param o       Object to check
+@param message Message for exception. May be null.
+@param args    Arguments to place in message

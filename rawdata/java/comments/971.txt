@@ -1,0 +1,1 @@
+Retrieves a st of previous commits and Pulls and tries to reconnect them

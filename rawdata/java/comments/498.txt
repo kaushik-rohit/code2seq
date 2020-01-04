@@ -1,0 +1,3 @@
+Returns the caches as a {@link Single}.
+
+@return The caches as a {@link Single}

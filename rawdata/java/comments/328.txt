@@ -1,0 +1,7 @@
+Deserialize an object.
+
+@param <T>         the type parameter
+@param inputStream The stream to be deserialized
+@param clazz       the clazz
+@return the object
+@since 5.0.0

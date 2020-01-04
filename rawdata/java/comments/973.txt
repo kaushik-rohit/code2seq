@@ -1,0 +1,8 @@
+Get top padding for same mode only.
+
+@param outSize  Output size (length 2 array, height dimension first)
+@param inSize   Input size (length 2 array, height dimension first)
+@param kernel   Kernel size (length 2 array, height dimension first)
+@param strides  Strides  (length 2 array, height dimension first)
+@param dilation Dilation (length 2 array, height dimension first)
+@return Top left padding (length 2 array, height dimension first)

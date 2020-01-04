@@ -1,0 +1,7 @@
+Notifies that the given {@code plugin} sent (and received) the given HTTP message.
+
+@param plugin the plugin that sent the message
+@param message the message sent
+@throws IllegalArgumentException if the given {@code plugin} is {@code null}.
+@since 2.5.0
+@see #notifyNewMessage(Plugin)

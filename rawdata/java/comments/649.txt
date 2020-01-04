@@ -1,0 +1,4 @@
+Executes all the actions configured on all the event handlers triggered by the {@link Message} on the queue
+If any of the actions on an event handler fails due to a transient failure, the execution is not persisted such that it can be retried
+
+@return a list of {@link EventExecution} that failed due to transient failures.

@@ -1,0 +1,4 @@
+glove iteration
+@param w1 the first word
+@param w2 the second word
+@param score the weight learned for the particular co occurrences

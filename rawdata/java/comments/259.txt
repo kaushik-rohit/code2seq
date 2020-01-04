@@ -1,0 +1,4 @@
+Resolve a single type from the given generic type.
+
+@param genericType The generic type
+@return An {@link Optional} of the type

@@ -1,0 +1,6 @@
+Get provided beans of the given type.
+
+@param resolutionContext The bean resolution context
+@param beanType          The bean type
+@param <T>               The bean type parameter
+@return The found beans

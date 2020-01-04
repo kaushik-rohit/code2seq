@@ -1,0 +1,1 @@
+Get all running (unfinished) flows from database. {@inheritDoc}

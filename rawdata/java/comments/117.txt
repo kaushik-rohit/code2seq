@@ -1,0 +1,14 @@
+Validate MultiDataSet objects - <b>and delete any invalid MultiDataSets</b> - that have been previously saved
+to the specified directory on HDFS by attempting to load them and checking their contents. Assumes MultiDataSets
+were saved using {@link org.nd4j.linalg.dataset.MultiDataSet#save(OutputStream)}.<br>
+This method (optionally) additionally validates the arrays using the specified shapes for the features and labels,
+Note: this method will also consider all files in subdirectories (i.e., is recursive).
+
+@param sc            Spark context
+@param path          HDFS path of the directory containing the saved DataSet objects
+@param featuresShape May be null. If non-null: feature arrays must match the specified shapes, for all values with
+shape > 0. For example, if featuresShape = {{-1,10}} then there must be 1 features array,
+features array 0 must be rank 2, can have any size for the first dimension, but must have
+size 10 for the second dimension.
+@param labelsShape   As per featuresShape, but for the labels instead
+@return Results of the validation

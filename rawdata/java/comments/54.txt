@@ -1,0 +1,9 @@
+Accumulate chunks in a map
+until all chunks have been accumulated.
+You can check all chunks are present with
+{@link ChunkAccumulator#allPresent(String)}
+where the parameter is the id
+After all chunks have been accumulated
+you can call {@link ChunkAccumulator#reassemble(String)}
+where the id is the id of the chunk.
+@param chunk the chunk

@@ -1,0 +1,2 @@
+Sorts the given list of {@code MediaType} objects by specificity as the primary criteria and quality value the
+secondary.

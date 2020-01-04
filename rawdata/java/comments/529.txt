@@ -1,0 +1,3 @@
+Instead of including a large library just for escaping xml, using this util.
+it should be used in very rare cases because the server should not return xml format message
+@param nonEscapedXmlStr

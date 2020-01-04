@@ -1,0 +1,7 @@
+Sends the given response and status code to the given channel.
+
+@param channelHandlerContext identifying the open channel
+@param keepAlive If the connection should be kept alive.
+@param message which should be sent
+@param statusCode of the message to send
+@param headers additional header values

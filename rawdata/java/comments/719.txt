@@ -1,0 +1,4 @@
+写数据到目标端
+
+@param handler {@link CompletionHandler}
+@return this

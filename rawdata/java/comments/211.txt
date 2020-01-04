@@ -1,0 +1,2 @@
+Executes some program on the machine that this {@link FilePath} exists,
+so that one can perform local file operations.

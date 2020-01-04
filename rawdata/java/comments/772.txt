@@ -1,0 +1,4 @@
+Get the Class of all the objects
+
+@param args The objects to get the Classes from
+@return The classes as an array

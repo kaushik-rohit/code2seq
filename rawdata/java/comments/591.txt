@@ -1,0 +1,8 @@
+通过正则切分字符串
+@param str 字符串
+@param separatorRegex 分隔符正则
+@param limit 限制分片数
+@param isTrim 是否去除切分字符串后每个元素两边的空格
+@param ignoreEmpty 是否忽略空串
+@return 切分后的集合
+@since 3.0.8

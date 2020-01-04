@@ -1,0 +1,4 @@
+Parse the given value as a local datetime.
+
+@param value the value
+@return the date/time instance

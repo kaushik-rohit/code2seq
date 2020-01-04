@@ -1,0 +1,3 @@
+Writes the representation of this ApproximateHistogram object to the given byte-buffer
+
+@param buf ByteBuffer to write the ApproximateHistogram to

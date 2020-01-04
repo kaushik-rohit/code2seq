@@ -1,0 +1,4 @@
+This method creates shapeInformation buffer, based on shape being passed in
+
+@param shape
+@return

@@ -1,0 +1,3 @@
+Method to complete a given ongoing truncation record by setting updating flag to false and merging toDelete in deletedSegments.
+@param toComplete record to complete
+@return new record that has the updating flag set to false

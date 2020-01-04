@@ -1,0 +1,6 @@
+新增Task
+
+@param id ID，为每一个Task定义一个ID
+@param pattern {@link CronPattern}对应的String表达式
+@param task {@link Runnable}
+@return this

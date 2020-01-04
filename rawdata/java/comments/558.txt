@@ -1,0 +1,13 @@
+Creates a new solution set update output collector.
+
+<p>This collector is used by {@link IterationIntermediateTask} or {@link IterationTailTask} to update the
+solution set of workset iterations. Depending on the task configuration, either a fast (non-probing)
+{@link org.apache.flink.runtime.iterative.io.SolutionSetFastUpdateOutputCollector} or normal (re-probing)
+{@link SolutionSetUpdateOutputCollector} is created.
+
+<p>If a non-null delegate is given, the new {@link Collector} will write back to the solution set and also call
+collect(T) of the delegate.
+
+@param delegate null -OR- a delegate collector to be called by the newly created collector
+@return a new {@link org.apache.flink.runtime.iterative.io.SolutionSetFastUpdateOutputCollector} or
+{@link SolutionSetUpdateOutputCollector}

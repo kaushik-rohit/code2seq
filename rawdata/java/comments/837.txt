@@ -1,0 +1,5 @@
+将文章分割为句子
+
+@param document 待分割的文档
+@param sentence_separator 句子分隔符，正则表达式，如：   [。:？?！!；;]
+@return

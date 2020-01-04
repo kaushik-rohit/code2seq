@@ -1,0 +1,4 @@
+拓展数组
+
+@param newSize
+@return

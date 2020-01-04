@@ -1,0 +1,2 @@
+Destroys all buffer pools that allocate their buffers from this
+buffer pool (created via {@link #createBufferPool(int, int)}).

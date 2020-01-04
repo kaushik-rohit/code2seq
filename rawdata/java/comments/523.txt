@@ -1,0 +1,3 @@
+Removes the port from a URL if this port is the default one for the URL's scheme.
+@param url the url to be sanitized.
+@return  the sanitized url.

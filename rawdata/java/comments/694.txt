@@ -1,0 +1,8 @@
+Generates the files for the ranks relation. The ranks entries apply the
+following format: <br />
+<code>Rank | URL | Average Duration |\n</code>
+
+@param noDocs
+Number of entries in the documents relation
+@param path
+Output path for the ranks relation

@@ -1,0 +1,3 @@
+Collect the RPC client information.
+
+@param rpcClientMetricsModel client information model

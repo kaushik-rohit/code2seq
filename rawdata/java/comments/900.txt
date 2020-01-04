@@ -1,0 +1,11 @@
+断言 {@code superType.isAssignableFrom(subType)} 是否为 {@code true}.
+
+<pre class="code">
+Assert.isAssignable(Number.class, myClass);
+</pre>
+
+@param superType 需要检查的父类或接口
+@param subType 需要检查的子类
+@param errorMsgTemplate 异常时的消息模板
+@param params 参数列表
+@throws IllegalArgumentException 如果子类非继承父类，抛出此异常

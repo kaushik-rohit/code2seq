@@ -1,0 +1,11 @@
+Special note on DES UnixCrypt:
+In DES UnixCrypt, so first two characters of the encoded password are the salt.
+<p>
+When you change your password, the {@code /bin/passwd} program selects a salt based on the time of day.
+The salt is converted into a two-character string and is stored in the {@code /etc/passwd} file along with the
+encrypted {@code "password."[10]} In this manner, when you type your password at login time, the same salt is used again.
+UNIX stores the salt as the first two characters of the encrypted password.
+
+@param rawPassword     the raw password as it was provided
+@param encodedPassword the encoded password.
+@return true/false

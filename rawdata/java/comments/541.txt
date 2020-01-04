@@ -1,0 +1,3 @@
+Instantiates a Decryption Tool using a given Decryption Setup and installs it in DKV.
+@param ds decryption setup
+@return instance of a Decryption Tool

@@ -1,0 +1,2 @@
+/*
+返回使用ThreadLocalRandm的UUID，比默认的UUID性能更优

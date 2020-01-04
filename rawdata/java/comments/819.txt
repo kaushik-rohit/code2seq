@@ -1,0 +1,4 @@
+Check whether the method is annotated.
+
+@param method The method
+@return True if it is annotated with non internal annotations

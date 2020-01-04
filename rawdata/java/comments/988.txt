@@ -1,0 +1,5 @@
+Estimates the full size of the object graph rooted at 'obj'. Duplicate data instances are correctly accounted
+for. The implementation is not recursive.
+
+@param obj input object instance to be measured
+@return 'obj' size [0 if 'obj' is null']

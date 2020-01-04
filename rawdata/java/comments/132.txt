@@ -1,0 +1,5 @@
+Adds a column defined by family, qualifier, and type to the table schema.
+
+@param family    the family name
+@param qualifier the qualifier name
+@param clazz     the data type of the qualifier

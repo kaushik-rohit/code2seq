@@ -1,0 +1,10 @@
+This method is a decorator around the KillAllSpawnedHadoopJobs method.
+This method takes additional parameters to determine whether KillAllSpawnedHadoopJobs needs to
+be executed
+using doAs as a different user
+
+@param logFilePath Azkaban log file path
+@param jobProps Azkaban job props
+@param tokenFile Pass in the tokenFile if value is known.  It is ok to skip if the token file
+is in the environmental variable
+@param log a usable logger

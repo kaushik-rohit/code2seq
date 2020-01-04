@@ -1,0 +1,4 @@
+Construct Feature object
+
+@param issue
+@return Feature

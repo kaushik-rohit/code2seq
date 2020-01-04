@@ -1,0 +1,3 @@
+Gets the chk proxy only.
+
+@return the chk proxy only

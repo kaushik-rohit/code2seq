@@ -1,0 +1,3 @@
+Returns all the mappings in the state in a {@link Collections#unmodifiableSet(Set)}.
+
+@return A read-only iterable view of all the key-value pairs in the state.

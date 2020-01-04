@@ -1,0 +1,4 @@
+Create a Request Template from an existing Request Template.
+
+@param requestTemplate to copy from.
+@return a new Request Template.

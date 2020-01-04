@@ -1,0 +1,6 @@
+Load a multiple sequence examples to a DataSet, using the provided RecordMetaData instances.
+
+@param list List of RecordMetaData instances to load from. Should have been produced by the record reader provided
+to the SequenceRecordReaderDataSetIterator constructor
+@return DataSet with the specified examples
+@throws IOException If an error occurs during loading of the data

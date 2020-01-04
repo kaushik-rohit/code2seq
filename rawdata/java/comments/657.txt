@@ -1,0 +1,5 @@
+Ack for the task poll.
+
+@param taskId   Id of the task to be polled
+@param workerId user identified worker.
+@return true if the task was found with the given ID and acknowledged. False otherwise. If the server returns false, the client should NOT attempt to ack again.

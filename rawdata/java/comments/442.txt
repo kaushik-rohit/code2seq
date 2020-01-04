@@ -1,0 +1,5 @@
+The difference between old and new Props
+
+@param oldProps old Props
+@param newProps new Props
+@return string formatted difference

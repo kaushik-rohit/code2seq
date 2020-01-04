@@ -1,0 +1,5 @@
+Creates an out come vector from the specified inputs
+
+@param index       the index of the label
+@param numOutcomes the number of possible outcomes
+@return a binary label matrix used for supervised learning

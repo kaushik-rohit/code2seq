@@ -1,0 +1,4 @@
+解码
+
+@param morse 莫尔斯电码
+@return 明文

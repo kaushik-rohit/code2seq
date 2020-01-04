@@ -1,0 +1,4 @@
+Split one header in Multipart
+
+@return an array of String where rank 0 is the name of the header,
+follows by several values that were separated by ';' or ','

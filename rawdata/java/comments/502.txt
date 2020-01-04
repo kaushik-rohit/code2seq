@@ -1,0 +1,2 @@
+/* (non-Javadoc)
+@see org.apache.hive.service.cli.ICLIService#getFunctions(org.apache.hive.service.cli.SessionHandle)

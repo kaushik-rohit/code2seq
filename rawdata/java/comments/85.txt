@@ -1,0 +1,3 @@
+Populates the instance instance metadata's {@link AbstractComputeInstanceMetadata#setMetadata(Map)} property.
+@param instanceMetadata The instance metadata
+@param metadata A map of metadata

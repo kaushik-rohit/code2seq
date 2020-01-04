@@ -1,0 +1,7 @@
+Variance array reduction operation, optionally along specified dimensions
+
+@param name          Output variable name
+@param x             Input variable
+@param biasCorrected If true: divide by (N-1) (i.e., sample variable). If false: divide by N (population variance)
+@param dimensions    Dimensions to reduce over. If dimensions are not specified, full array reduction is performed
+@return Output variable: reduced array of rank (input rank - num dimensions)

@@ -1,0 +1,5 @@
+This method does forward pass and returns output provided by OutputAdapter
+
+@param adapter
+@param inputs
+@return

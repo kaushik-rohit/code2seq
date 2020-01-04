@@ -1,0 +1,5 @@
+Prepare saml outbound destination handler.
+
+@param <T>             the type parameter
+@param outboundContext the outbound context
+@throws Exception the exception

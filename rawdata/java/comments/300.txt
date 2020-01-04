@@ -1,0 +1,6 @@
+将Map形式的Form表单数据转换为Url参数形式<br>
+编码键和值对
+
+@param paramMap 表单数据
+@param charsetName 编码
+@return url参数

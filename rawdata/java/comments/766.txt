@@ -1,0 +1,7 @@
+Construct grouper group attribute.
+This is the name of every individual group attribute
+transformed into a CAS attribute value.
+
+@param groupField the group field
+@param group      the group
+@return the final attribute name

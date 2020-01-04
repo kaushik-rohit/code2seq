@@ -1,0 +1,4 @@
+获取注册配置
+
+@param config consumer config
+@return

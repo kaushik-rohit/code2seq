@@ -1,0 +1,8 @@
+Returns the value of the field as a Date.
+
+<p>This method ignores the global setting {@link
+FirestoreOptions#areTimestampsInSnapshotsEnabled}.
+
+@param field The path to the field.
+@throws RuntimeException if the value is not a Date.
+@return The value of the field.

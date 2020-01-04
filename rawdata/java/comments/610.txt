@@ -1,0 +1,1 @@
+Precondition is that {@code buffer != null}.

@@ -1,0 +1,7 @@
+Shows the panel with the given name.
+<p>
+Nothing happens if there's no panel with the given name (or the name is empty or {@code null}).
+<p>
+The previously shown panel (if any) is notified that it will be hidden.
+
+@param name the name of the panel to be shown

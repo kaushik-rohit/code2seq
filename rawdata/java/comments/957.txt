@@ -1,0 +1,3 @@
+Returns component in {@code path} at {@code index}.
+
+@see java.nio.file.Path#getName(int)

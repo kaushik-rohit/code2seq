@@ -1,0 +1,3 @@
+Updates the summary with the given completed checkpoint.
+
+@param completed Completed checkpoint to update the summary with.

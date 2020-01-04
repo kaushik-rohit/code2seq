@@ -1,0 +1,4 @@
+Replaces the labels associated with the instance.
+
+@see <a href="https://cloud.google.com/bigtable/docs/creating-managing-labels">For more
+details</a>

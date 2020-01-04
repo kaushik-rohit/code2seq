@@ -1,0 +1,6 @@
+Generates a binomial distributed number using
+the given rng
+@param rng
+@param n
+@param p
+@return

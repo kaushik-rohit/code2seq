@@ -1,0 +1,8 @@
+Execute http response.
+
+@param url               the url
+@param method            the method
+@param basicAuthUsername the basic auth username
+@param basicAuthPassword the basic auth password
+@param headers           the headers
+@return the http response

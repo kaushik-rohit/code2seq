@@ -1,0 +1,11 @@
+Add the given task to the task slot. This is only possible if there is not already another
+task with the same execution attempt id added to the task slot. In this case, the method
+returns true. Otherwise the task slot is left unchanged and false is returned.
+
+<p>In case that the task slot state is not active an {@link IllegalStateException} is thrown.
+In case that the task's job id and allocation id don't match with the job id and allocation
+id for which the task slot has been allocated, an {@link IllegalArgumentException} is thrown.
+
+@param task to be added to the task slot
+@throws IllegalStateException if the task slot is not in state active
+@return true if the task was added to the task slot; otherwise false

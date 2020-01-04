@@ -1,0 +1,10 @@
+Sends the given message to all vertices that are targets of an edge of the changed vertex.
+This method is mutually exclusive to the method {@link #getEdges()} and may be called only once.
+
+<p>If the {@link EdgeDirection} is OUT (default), the message will be sent to out-neighbors.
+
+<p>If the {@link EdgeDirection} is IN, the message will be sent to in-neighbors.
+
+<p>If the {@link EdgeDirection} is ALL, the message will be sent to all neighbors.
+
+@param m The message to send.

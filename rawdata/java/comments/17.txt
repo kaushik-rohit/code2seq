@@ -1,0 +1,3 @@
+Log {@link CasAuthenticationTransactionFailureEvent} at debug level.
+
+@param e the event

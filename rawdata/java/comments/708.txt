@@ -1,0 +1,5 @@
+Compute score after labels and input have been set.
+@param fullNetRegTerm Regularization score term for the entire network
+@param training whether score should be calculated at train or test time (this affects things like application of
+dropout, etc)
+@return score (loss function)

@@ -1,0 +1,3 @@
+Sets the codec configuration.
+
+@param codecConfiguration The codec configuration

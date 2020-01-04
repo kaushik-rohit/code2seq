@@ -1,0 +1,5 @@
+解析时间，格式HH:mm:ss，日期默认为今天
+
+@param timeString 标准形式的日期字符串
+@return 日期对象
+@since 3.1.1

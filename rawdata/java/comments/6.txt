@@ -1,0 +1,4 @@
+Checks if an instance is registerable in this region. Instances from other regions are rejected.
+
+@param instanceInfo  th instance info information of the instance
+@return true, if it can be registered in this server, false otherwise.

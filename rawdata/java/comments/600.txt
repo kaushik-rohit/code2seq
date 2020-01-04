@@ -1,0 +1,5 @@
+Returns all drive letters on windows that represent fixed disks.
+
+Floppy drives, optical drives, USB sticks, and network drives should all be excluded.
+
+@return A List of drive letters, such as ["C", "D", "X"].

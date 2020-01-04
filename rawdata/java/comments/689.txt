@@ -1,0 +1,7 @@
+Checks two keys contained in the given buffers are same.
+
+@param curKeyBuffer the buffer for the given key from {@link #aggregate(Object)}
+@param buffer       the whole array buffer
+@param bufferOffset the key offset of the buffer
+
+@return true if the two buffers are same.

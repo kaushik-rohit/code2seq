@@ -1,0 +1,9 @@
+Tells whether or not the button should be enabled for the given selected messages.
+<p>
+By default, it returns {@code true} unless the method {@code isButtonEnabledForSelectedHttpMessage(HttpMessage)} returns
+false for one of the selected messages.
+</p>
+
+@param httpMessages the selected messages in the message container
+@return {@code true} if the button should be enabled for the given selected messages, {@code false} otherwise.
+@see #isButtonEnabledForSelectedHttpMessage(HttpMessage)

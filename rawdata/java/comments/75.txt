@@ -1,0 +1,6 @@
+Method to validate cluster specification before deploy it, it will throw
+an {@link FlinkException} if the {@link ClusterSpecification} is invalid.
+
+@param clusterSpecification cluster specification to check against the configuration of the
+AbstractYarnClusterDescriptor
+@throws FlinkException if the cluster cannot be started with the provided {@link ClusterSpecification}

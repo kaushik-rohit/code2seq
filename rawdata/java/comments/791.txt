@@ -1,0 +1,1 @@
+Get the output schema, given the input schema

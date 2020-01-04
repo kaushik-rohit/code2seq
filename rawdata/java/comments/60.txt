@@ -1,0 +1,13 @@
+Changes the {@link Authentication} associated with the current thread to the specified one and returns an
+{@link AutoCloseable} that restores the previous security context.
+
+<p>
+This makes impersonation much easier within code as it can now be used using the try with resources construct:
+<pre>
+try (ACLContext ctx = ACL.as(auth)) {
+...
+}
+</pre>
+@param auth the new authentication.
+@return the previous authentication context
+@since 2.14

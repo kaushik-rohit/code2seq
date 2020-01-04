@@ -1,0 +1,4 @@
+Register a custom layer
+
+@param layerName   name of custom layer class
+@param configClass class of custom layer

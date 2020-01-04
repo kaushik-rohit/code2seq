@@ -1,0 +1,3 @@
+转换动作id为动作
+@param act 动作类型的依存关系id
+@return 动作

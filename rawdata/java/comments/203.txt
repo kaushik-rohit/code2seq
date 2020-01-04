@@ -1,0 +1,1 @@
+Gets the closest supported fixed bit width for the specified bit width.

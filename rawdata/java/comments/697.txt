@@ -1,0 +1,6 @@
+Fetch charset from message's Content-Type header.
+
+@param message        entity to fetch Content-Type header from
+@param defaultCharset result to use in case of empty, incorrect or doesn't contain required part header value
+@return the charset from message's Content-Type header or {@code defaultCharset}
+if charset is not presented or unparsable

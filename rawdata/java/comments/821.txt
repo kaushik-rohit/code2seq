@@ -1,0 +1,3 @@
+修正Entity对象，避免null和填充表名
+@param entity 实体类
+@return 修正后的实体类

@@ -1,0 +1,7 @@
+Tells whether or not the button should be enabled for the given selected message.
+<p>
+Calls the method {@code isButtonEnabledForSiteNode(SitNode)} passing as parameter the site node extracted from the given
+{@code historyReference}.
+
+@param historyReference the selected message, never {@code null}
+@return {@code true} if the button should be enabled for the given selected message, {@code false} otherwise.

@@ -1,0 +1,1 @@
+[VARIABLE "/path/to/key.json"]

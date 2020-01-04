@@ -1,0 +1,2 @@
+Takes the first buffer in the internal list, and either adjust it to fit in the frame
+(by taking a slice out of it) or remove it from the internal list.

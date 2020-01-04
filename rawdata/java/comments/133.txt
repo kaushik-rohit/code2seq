@@ -1,0 +1,10 @@
+we can replace
+if（doMethod1()!= null） {
+return doMethod1()
+} else {
+return doMethod2()
+}
+with
+return notBlankElse(bar::getName, bar::getNickName)
+@param s1 Supplier
+@param s2 Supplier

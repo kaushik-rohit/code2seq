@@ -1,0 +1,6 @@
+获取Map指定key的值，并转换为Float
+
+@param map Map
+@param key 键
+@return 值
+@since 4.0.6

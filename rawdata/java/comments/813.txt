@@ -1,0 +1,10 @@
+Updates the contents of this BTreePage with the given entries. Entries whose keys already exist will update the data,
+while Entries whose keys do not already exist will be inserted.
+
+After this method completes, this BTreePage:
+* May overflow (a split may be necessary)
+* Will have all entries sorted by Key
+
+@param entries The Entries to insert or update. This List must be sorted by {@link PageEntry#getKey()}.
+@throws IllegalDataFormatException If any of the entries do not conform to the Key/Value size constraints.
+@throws IllegalArgumentException   If the entries are not sorted by {@link PageEntry#getKey()}.

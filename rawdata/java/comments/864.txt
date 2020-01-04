@@ -1,0 +1,4 @@
+Reports a failed pending checkpoint.
+
+@param failureTimestamp Timestamp of the failure.
+@param cause Optional cause of the failure.

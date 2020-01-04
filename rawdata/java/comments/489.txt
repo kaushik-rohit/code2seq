@@ -1,0 +1,6 @@
+Get the URL to which to redirect the user for authorization of protected resources.
+
+@param details	  The resource for which to get the authorization url.
+@param requestToken The request token.
+@param callbackURL  The callback URL.
+@return The URL.

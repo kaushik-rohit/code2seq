@@ -1,0 +1,2 @@
+Macro-average AUC for all outcomes
+@return the (macro-)average AUC for all outcomes.

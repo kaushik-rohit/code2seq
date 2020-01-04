@@ -1,0 +1,6 @@
+Pushes a new data point.
+
+<p>
+Exponential moving average is calculated, and the {@link #history} is updated.
+This method needs to be called periodically and regularly, and it represents
+the raw data stream.

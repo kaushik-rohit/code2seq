@@ -1,0 +1,4 @@
+Sets service user interface metadata.
+
+@param requestContext the request context
+@param mdui           the mdui

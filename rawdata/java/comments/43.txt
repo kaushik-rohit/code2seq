@@ -1,0 +1,13 @@
+Retrieves runtime information of the specified router.
+
+<p>Sample code:
+
+<pre><code>
+try (RouterClient routerClient = RouterClient.create()) {
+ProjectRegionRouterName router = ProjectRegionRouterName.of("[PROJECT]", "[REGION]", "[ROUTER]");
+RouterStatusResponse response = routerClient.getRouterStatusRouter(router);
+}
+</code></pre>
+
+@param router Name of the Router resource to query.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

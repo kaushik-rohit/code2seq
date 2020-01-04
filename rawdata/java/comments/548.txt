@@ -1,0 +1,5 @@
+获取集合的第一个元素
+
+@param <T> 集合元素类型
+@param iterable {@link Iterable}
+@return 第一个元素

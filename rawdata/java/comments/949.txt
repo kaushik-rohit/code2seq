@@ -1,0 +1,1 @@
+Returns the field of the given class or null if it doesn't exist.

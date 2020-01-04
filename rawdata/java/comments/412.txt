@@ -1,0 +1,3 @@
+Create has service check decision state.
+
+@param flow the flow

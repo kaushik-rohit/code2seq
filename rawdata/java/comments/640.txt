@@ -1,0 +1,5 @@
+Build a {@link Publisher} from a {@link CompletableFuture}.
+
+@param futureSupplier The supplier of the {@link CompletableFuture}
+@param <T>            The type of the publisher
+@return The {@link Publisher}

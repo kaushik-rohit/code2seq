@@ -1,0 +1,2 @@
+Returns true if none of the Vary headers have changed between {@code cachedRequest} and {@code
+newRequest}.

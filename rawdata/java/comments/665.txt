@@ -1,0 +1,4 @@
+Returns an {@link Iterable} that lists items in the normal order
+but which hides the base iterator implementation details.
+
+@since 1.492

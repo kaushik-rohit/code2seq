@@ -1,0 +1,5 @@
+Authenticates the subject represented by the specified HTTP Authorization Header value.
+
+@param authHeader contents of an HTTP Authorization header
+@return a {@code principal} representing the identity of the subject if auth is enabled; otherwise {@code null}
+@throws AuthException if authentication fails

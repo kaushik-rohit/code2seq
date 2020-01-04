@@ -1,0 +1,2 @@
+Get the client configuration given the name or create one with clientConfigClass if it does not exist. An instance of IClientConfig
+is created and {@link IClientConfig#loadProperties(String)} will be called.

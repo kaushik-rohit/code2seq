@@ -1,0 +1,4 @@
+通过JDBC URL等信息识别JDBC驱动名
+
+@param nameContainsProductInfo 包含数据库标识的字符串
+@return 驱动

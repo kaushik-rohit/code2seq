@@ -1,0 +1,7 @@
+Ensure service access is allowed.
+
+@param serviceTicket     the service ticket
+@param context           the context
+@param registeredService the registered service
+@throws UnauthorizedServiceException the unauthorized service exception
+@throws PrincipalException           the principal exception

@@ -1,0 +1,9 @@
+Reads the entire contents of the text file at <code>logfile</code> into a
+string using the {@link Charset#defaultCharset() default charset} for
+decoding. If no such file exists, an empty string is returned.
+@param logfile The text file to read in its entirety.
+@return The entire text content of <code>logfile</code>.
+@throws IOException If an error occurs while reading the file.
+@deprecated call {@link #loadFile(java.io.File, java.nio.charset.Charset)}
+instead to specify the charset to use for decoding (preferably
+{@link java.nio.charset.StandardCharsets#UTF_8}).

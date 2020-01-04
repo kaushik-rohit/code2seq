@@ -1,0 +1,13 @@
+<p>Builds a text representation of the scanning history. Each scan is encoded on one
+line, terminated by a line break (\r\n). The values in each line are comma-separated,
+and double-quoted. Double-quotes within values are escaped with a sequence of two
+double-quotes. The fields output are:</p>
+
+<ol>
+<li>Raw text</li>
+<li>Display text</li>
+<li>Format (e.g. QR_CODE)</li>
+<li>Unix timestamp (milliseconds since the epoch)</li>
+<li>Formatted version of timestamp</li>
+<li>Supplemental info (e.g. price info for a product barcode)</li>
+</ol>

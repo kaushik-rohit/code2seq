@@ -1,0 +1,4 @@
+Assigns an alias for this window that the following {@code select()} clause can refer to.
+
+@param alias alias for this over window
+@return the fully defined over window

@@ -1,0 +1,3 @@
+Finalize and return the MurmurHash output.
+
+@return 32-bit hash

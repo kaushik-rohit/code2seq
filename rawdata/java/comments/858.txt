@@ -1,0 +1,1 @@
+Necessary clean up iff restore operation failed.

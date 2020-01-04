@@ -1,0 +1,3 @@
+Fit an iterator
+
+@param iterator for the data to iterate over

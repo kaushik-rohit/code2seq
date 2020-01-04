@@ -1,0 +1,5 @@
+Validates that the given request is valid for the current {@link Mode}.
+
+@param request the request that will be validated
+@throws ApiException if the request is not valid for the current {@code Mode}.
+@see #isValidForCurrentMode(URI)

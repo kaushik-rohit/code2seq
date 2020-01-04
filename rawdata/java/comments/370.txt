@@ -1,0 +1,6 @@
+将Entry集合转换为HashMap
+
+@param <K> 键类型
+@param <V> 值类型
+@param entryIter entry集合
+@return Map

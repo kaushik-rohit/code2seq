@@ -1,0 +1,6 @@
+转换为Bean对象
+
+@param <T> Bean类型
+@param bean Bean
+@param isToCamelCase 是否转换为驼峰模式
+@return Bean

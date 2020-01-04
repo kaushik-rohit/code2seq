@@ -1,0 +1,5 @@
+Creates a copy of this state backend that uses the values defined in the configuration
+for fields where that were not specified in this state backend.
+
+@param config the configuration
+@return The re-configured variant of the state backend

@@ -1,0 +1,4 @@
+RSS feed for log entries.
+
+@deprecated
+As on 1.267, moved to "/log/rss..."

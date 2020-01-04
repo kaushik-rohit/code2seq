@@ -1,0 +1,7 @@
+Create a new temporary file. All methods of the returned output stream may throw
+{@link TemporaryStorageFullException} if the temporary storage area fills up.
+
+@return output stream to the file
+
+@throws TemporaryStorageFullException if the temporary storage area is full
+@throws IOException                   if something goes wrong while creating the file

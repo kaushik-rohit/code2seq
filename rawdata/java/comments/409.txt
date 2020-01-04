@@ -1,0 +1,7 @@
+原子分词
+
+@param sSentence
+@param start
+@param end
+@return
+@deprecated 应该使用字符数组的版本

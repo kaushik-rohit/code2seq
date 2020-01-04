@@ -1,0 +1,7 @@
+JSON字符串转为实体类对象，转换异常将被抛出
+
+@param <T> Bean类型
+@param jsonString JSON字符串
+@param beanType 实体类对象类型
+@return 实体类对象
+@since 4.3.2

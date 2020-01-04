@@ -1,0 +1,7 @@
+Resolve principal.
+
+@param handler    the handler name
+@param resolver   the resolver
+@param credential the credential
+@param principal  the current authenticated principal from a handler, if any.
+@return the principal

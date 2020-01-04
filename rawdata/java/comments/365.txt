@@ -1,0 +1,5 @@
+<p>Replaces IP address with domain name.  This is often not
+reliable due to virtual domain names and can be slow, as it has
+to access the network.</p>
+<code>http://208.77.188.166/ &rarr; http://www.example.com/</code>
+@return this instance

@@ -1,0 +1,5 @@
+Like Guava's Enums.getIfPresent, with some differences.
+<ul>
+<li>Returns nullable rather than Optional</li>
+<li>Does not require Guava 12</li>
+</ul>

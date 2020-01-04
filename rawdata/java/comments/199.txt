@@ -1,0 +1,3 @@
+This method returns precise amount of free memory on specified device
+@param deviceId
+@return

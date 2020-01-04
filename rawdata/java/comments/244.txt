@@ -1,0 +1,6 @@
+从文件中读取每一行数据
+
+@param file 文件
+@return 文件中的每行内容的集合List
+@throws IORuntimeException IO异常
+@since 3.1.1

@@ -1,0 +1,1 @@
+Returns a region operation identity given the region identity and the operation name.

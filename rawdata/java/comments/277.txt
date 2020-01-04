@@ -1,0 +1,9 @@
+Adds or removes the {@code HistoryReference} types that should be included
+when passive scanning traffic from the fuzzer.
+
+@param shouldOptin
+{@code true} if the types should be enabled (added)
+{@code false} if the types should be disabled (removed)
+@since TODO Add version
+@see #isScanFuzzerMessages()
+@see #setScanFuzzerMessages()

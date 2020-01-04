@@ -1,0 +1,1 @@
+Had difficulty adapting the version in Functions to use no live items, so rewrote it:

@@ -1,0 +1,5 @@
+获取{@link KeyGenerator}
+
+@param algorithm 对称加密算法
+@return {@link KeyGenerator}
+@since 4.5.2

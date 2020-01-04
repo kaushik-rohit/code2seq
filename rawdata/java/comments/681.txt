@@ -1,0 +1,3 @@
+Viewing is only allowed, if
+(a) when java.Desktop#open() works
+(b) there's a certificate (text) in the text area

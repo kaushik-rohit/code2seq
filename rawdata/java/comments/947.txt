@@ -1,0 +1,7 @@
+Walk each character of current string from right end, remove the character if it
+is in trim string. Stops at the first character which is not in trim string.
+Return the new substring.
+
+@param trimStr the trim string
+@return A subString which removes all of the character from the right side that is in
+trim string.

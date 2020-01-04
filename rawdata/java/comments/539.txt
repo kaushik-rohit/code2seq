@@ -1,0 +1,3 @@
+The FAST path get-byte-array - final method for speed.  Will (re)build
+the mem array from either the POJO or disk.  Never returns NULL.
+@return byte[] holding the serialized POJO

@@ -1,0 +1,8 @@
+Execute the matrix multiplication: A x B
+Note that if a or b have transposeA/B == true, then this is done internally.
+Also, if transposeResult == true, then this is also done internally - i.e., the result array - if present -
+should not be transposed beforehand.
+@param a      A array
+@param b      B array
+@param result Result array (pre resultArrayTranspose if required). May be null.
+@return Result array

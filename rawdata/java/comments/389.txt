@@ -1,0 +1,6 @@
+Sign the given content using this Algorithm instance.
+
+@param headerBytes an array of bytes representing the base64 encoded header content to be verified against the signature.
+@param payloadBytes an array of bytes representing the base64 encoded payload content to be verified against the signature.
+@return the signature in a base64 encoded array of bytes
+@throws SignatureGenerationException if the Key is invalid.

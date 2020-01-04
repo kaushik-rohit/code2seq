@@ -1,0 +1,2 @@
+Registers a handle with the server, and returns the secret the child app needs to connect
+back.

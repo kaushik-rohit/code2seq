@@ -1,0 +1,9 @@
+Apply a list of {@link KryoRegistration} to a Kryo instance. The list of registrations is
+assumed to already be a final resolution of all possible registration overwrites.
+
+<p>The registrations are applied in the given order and always specify the registration id as
+the next available id in the Kryo instance (providing the id just extra ensures nothing is
+overwritten, and isn't strictly required);
+
+@param kryo the Kryo instance to apply the registrations
+@param resolvedRegistrations the registrations, which should already be resolved of all possible registration overwrites

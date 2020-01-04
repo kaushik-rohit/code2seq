@@ -1,0 +1,11 @@
+Method to add a batch of entries if absent. Table implementation on segment store guarantees that either all or none of
+the entries are added.
+If segment store responds with success, then it is guaranteed that all entries are added to the store.
+However, it is important to note that the segment store could respond with Data Exists even if one of the entries exists.
+In such case, this method will ignore data exist and respond with success for the entire batch. It does not verify
+if all entries existed or one of the entries existed.
+Callers should use this only if they are guaranteed to never create the requested entries outside of the requested batch.
+
+@param tableName table name
+@param toAdd map of keys and values to add.
+@return CompletableFuture which when completed successfully will indicate that all entries have been added successfully.

@@ -1,0 +1,1 @@
+Accepts submission from the node configuration page.

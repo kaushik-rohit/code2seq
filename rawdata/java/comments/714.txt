@@ -1,0 +1,4 @@
+获取词频
+
+@param term
+@return

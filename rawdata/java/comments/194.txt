@@ -1,0 +1,6 @@
+去掉集合中的多个元素
+
+@param collection 集合
+@param elesRemoved 被去掉的元素数组
+@return 原集合
+@since 4.1.0

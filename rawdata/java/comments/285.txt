@@ -1,0 +1,1 @@
+Note that coordinator must be up to get segments

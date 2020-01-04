@@ -1,0 +1,3 @@
+Called by subclasses for the terminal trailer metadata on a stream.
+
+@param trailers the received terminal trailer metadata

@@ -1,0 +1,3 @@
+Builds the classpath for the application. Returns a list with one classpath entry per element;
+each entry is formatted in the way expected by <i>java.net.URLClassLoader</i> (more
+specifically, with trailing slashes for directories).

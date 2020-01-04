@@ -1,0 +1,5 @@
+NOTE: The channel for global and local strategies are different if we connect a union. The global strategy
+channel is then the channel into the union node, the local strategy channel the one from the union to the
+actual target operator.
+
+@throws CompilerException

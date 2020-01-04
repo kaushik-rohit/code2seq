@@ -1,0 +1,2 @@
+Returns a new {@code CallOptions} with {@code executor} to be used instead of the default
+executor specified with {@link ManagedChannelBuilder#executor}.

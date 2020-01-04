@@ -1,0 +1,2 @@
+/* (non-Javadoc)
+@see org.apache.hive.service.cli.CLIServiceClient#getSchemas(org.apache.hive.service.cli.SessionHandle, java.lang.String, java.lang.String)

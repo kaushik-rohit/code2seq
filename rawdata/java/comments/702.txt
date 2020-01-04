@@ -1,0 +1,4 @@
+Sets a variable as high as possible (highest parent).
+
+@param sourceExecution The execution where the variable was originally set, used for history data.
+@param fetchAllVariables If true, all existing variables will be fetched when setting the variable.

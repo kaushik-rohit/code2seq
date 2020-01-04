@@ -1,0 +1,1 @@
+Adds the reference strength methods for the key or value.

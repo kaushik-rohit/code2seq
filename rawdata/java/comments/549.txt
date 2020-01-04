@@ -1,0 +1,1 @@
+Creates a result. Might start threads or opens sockets so every created result must be closed.

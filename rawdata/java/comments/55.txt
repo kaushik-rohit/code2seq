@@ -1,0 +1,1 @@
+Removes all entries from the cache.

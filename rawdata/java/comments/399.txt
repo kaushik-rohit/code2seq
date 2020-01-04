@@ -1,0 +1,4 @@
+Returns sorted list of words in vocabulary.
+Sort is DESCENDING.
+
+@return list of VocabularyWord

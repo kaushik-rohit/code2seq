@@ -1,0 +1,7 @@
+For a given version and type (Iced class simpleName) return an appropriate new Schema object, if any.
+<p>
+If a higher version is asked for than is available (e.g., if the highest version of
+Frame is FrameV2 and the client asks for the schema for (Frame, 17) then an instance
+of FrameV2 will be returned.  This compatibility lookup is cached.
+@throws H2ONotFoundArgumentException if an appropriate schema is not found
+@deprecated

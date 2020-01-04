@@ -1,0 +1,4 @@
+Process an {@code integer} value.
+
+@param input 32-bit input value
+@return this

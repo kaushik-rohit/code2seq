@@ -1,0 +1,9 @@
+Gets the serializer that recognizes the previous serialization schema of the state.
+This is the serializer that should be used for restoring the state, i.e. when the state
+is still in the previous serialization schema.
+
+<p>This method only returns a serializer if this provider has the previous serializer's
+snapshot. Otherwise, trying to access the previous schema serializer will fail
+with an exception.
+
+@return a serializer that reads and writes in the previous schema of the state.

@@ -1,0 +1,1 @@
+Gets the configuration describing the queryable state as deactivated.

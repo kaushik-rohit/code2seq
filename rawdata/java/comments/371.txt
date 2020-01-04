@@ -1,0 +1,9 @@
+Sets whether or not circular redirects are allowed.
+<p>
+Circular redirects happen when a request redirects to itself, or when a same request was already accessed in a chain of
+redirects.
+<p>
+Since 2.5.0, the default is to allow circular redirects.
+
+@param allow {@code true} if circular redirects should be allowed, {@code false} otherwise
+@since 2.4.0

@@ -1,0 +1,5 @@
+Add a bias parameter to the layer, with the specified shape. For example, a standard fully connected layer
+could have bias parameters with shape [1, layerSize]
+
+@param paramKey   The parameter key (name) for the bias parameter
+@param paramShape Shape of the bias parameter array

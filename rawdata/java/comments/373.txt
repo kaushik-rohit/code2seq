@@ -1,0 +1,4 @@
+Notify the task of this execution about a completed checkpoint.
+
+@param checkpointId of the completed checkpoint
+@param timestamp of the completed checkpoint

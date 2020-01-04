@@ -1,0 +1,5 @@
+Reads a 32-bit integer from the given InputStream that was encoded using BitConverter.writeInt.
+
+@param source The InputStream to read from.
+@return The read number.
+@throws IOException If an exception got thrown.

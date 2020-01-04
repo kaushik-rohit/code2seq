@@ -1,0 +1,3 @@
+This method initializes the Handle OData-specific parameters checkbox.
+
+@return javax.swing.JCheckBox

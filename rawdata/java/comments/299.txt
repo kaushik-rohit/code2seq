@@ -1,0 +1,3 @@
+通知下一个weight任务可以被执行
+
+@throws InterruptedException

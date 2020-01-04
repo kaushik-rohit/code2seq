@@ -1,0 +1,14 @@
+Executes a DurableLog recovery using data from DurableDataLog. During this process, the following will happen:
+1. Metadata will be reset and put into recovery mode.
+2. DurableDataLog will be initialized. This will fail if the DurableDataLog has already been initialized.
+3. Reads the entire contents of the DurableDataLog, extracts Operations, and updates the Metadata and other
+components (via MemoryStateUpdater) based on their contents.
+4. Metadata is taken out of recovery mode.
+
+@return The number of Operations recovered.
+@throws Exception If an exception occurred. This could be one of the following:
+* DataLogWriterNotPrimaryException: If unable to acquire DurableDataLog ownership or the ownership
+has been lost in the process.
+* DataCorruptionException: If an unrecoverable corruption has been detected with the recovered data.
+* SerializationException: If a DataFrame or Operation was unable to be deserialized.
+* IOException: If a general IO exception occurred.

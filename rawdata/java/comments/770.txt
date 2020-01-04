@@ -1,0 +1,1 @@
+Extracts load balancing configs from a service config.

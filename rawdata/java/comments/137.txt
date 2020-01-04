@@ -1,0 +1,7 @@
+生成二维码到输出流
+
+@param content 文本内容
+@param width 宽度
+@param height 高度
+@param imageType 图片类型（图片扩展名），见{@link ImgUtil}
+@param out 目标流

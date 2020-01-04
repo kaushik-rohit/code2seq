@@ -1,0 +1,5 @@
+finds the element of a
+vector that has the largest absolute value.
+
+@param arr
+@return

@@ -1,0 +1,1 @@
+Read bytes into the given {@link ByteBuf} and return the amount.

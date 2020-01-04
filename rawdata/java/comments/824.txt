@@ -1,0 +1,4 @@
+will retrieve icons from the glyphs map for a certain glyphName
+
+@param glyphName the glyph name
+@return SVGGlyph node

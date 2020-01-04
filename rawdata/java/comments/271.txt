@@ -1,0 +1,1 @@
+See emptyEventsCopy in internalNext() and computeMovingAverage() documentation.

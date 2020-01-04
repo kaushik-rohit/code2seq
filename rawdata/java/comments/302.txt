@@ -1,0 +1,6 @@
+Parses the beginning of the file and determines the encoding.
+
+@throws IOException
+if failed to detect encoding.
+@return
+always non-null.

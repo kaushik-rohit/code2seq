@@ -1,0 +1,5 @@
+Generate an all index
+equal to the rank of the given array
+@param arr the array to generate the all index for
+@return an ndarray index array containing of length
+arr.rank() containing all elements

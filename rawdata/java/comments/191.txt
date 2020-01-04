@@ -1,0 +1,18 @@
+Closes this channel.
+
+<p>
+
+<p>After a channel is closed, any further attempt to invoke I/O operations upon it will cause a
+{@link ClosedChannelException} to be thrown.
+
+<p>
+
+<p>If this channel is already closed then invoking this method has no effect.
+
+<p>
+
+<p>This method may be invoked at any time. If some other thread has already invoked it,
+however, then another invocation will block until the first invocation is complete, after which
+it will return without effect.
+
+@throws IOException If an I/O error occurs

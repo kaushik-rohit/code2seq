@@ -1,0 +1,1 @@
+Compose {@code cumulation} and {@code next} into a new {@link CompositeByteBuf}.

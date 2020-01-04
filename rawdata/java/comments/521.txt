@@ -1,0 +1,6 @@
+Returns a result that indicates a reconfigured version of the new serializer is compatible, and should be
+used instead of the original new serializer.
+
+@param reconfiguredSerializer the reconfigured version of the new serializer.
+@return a result that indicates a reconfigured version of the new serializer is compatible, and should be
+used instead of the original new serializer.

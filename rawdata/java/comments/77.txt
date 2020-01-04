@@ -1,0 +1,7 @@
+Create a new {@code ServerServiceDefinition} whose {@link ServerCallHandler}s will call
+{@code interceptors} before calling the pre-existing {@code ServerCallHandler}. The first
+interceptor will have its {@link ServerInterceptor#interceptCall} called first.
+
+@param serviceDef   the service definition for which to intercept all its methods.
+@param interceptors array of interceptors to apply to the service.
+@return a wrapped version of {@code serviceDef} with the interceptors applied.

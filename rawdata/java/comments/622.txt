@@ -1,0 +1,6 @@
+Wrap map.
+
+@param <K>    the type parameter
+@param <V>    the type parameter
+@param source the source
+@return the map

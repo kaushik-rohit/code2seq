@@ -1,0 +1,6 @@
+Create a map block directly from columnar nulls, keys, values, and offsets into the keys and values.
+A null map must have no entries.
+
+@param mapType key type K
+@param keyBlockNativeEquals equality between key stack type and a block+position; signature is (K, Block, int)boolean
+@param keyNativeHashCode hash of a key stack type; signature is (K)long

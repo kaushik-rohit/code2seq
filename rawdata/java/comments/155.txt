@@ -1,0 +1,3 @@
+Returns HTTP response headers that should be added to a CORS preflight response.
+
+@return {@link HttpHeaders} the HTTP response headers to be added.

@@ -1,0 +1,5 @@
+Create a FileBatch from the specified files
+
+@param files Files to create the FileBatch from
+@return The created FileBatch
+@throws IOException If an error occurs during reading of the file content

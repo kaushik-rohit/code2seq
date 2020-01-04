@@ -1,0 +1,9 @@
+Method to check retention policy and generate new periodic cuts and/or truncate stream at an existing stream cut.
+
+@param scope scope
+@param stream stream
+@param policy retention policy
+@param recordingTime time of recording
+@param contextOpt operation context
+@param delegationToken token to be sent to segmentstore to authorize this operation.
+@return future.

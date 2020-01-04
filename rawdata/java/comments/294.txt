@@ -1,0 +1,16 @@
+Huber loss function, used for robust regression. It is similar both squared error loss and absolute difference loss,
+though is less sensitive to outliers than squared error.<br>
+Huber loss implements:
+<pre>
+{@code L = 0.5 * (label[i] - predictions[i])^2 if abs(label[i] - predictions[i]) < delta
+L = delta * abs(label[i] - predictions[i]) - 0.5 * delta^2 otherwise
+}
+</pre>
+
+@param name        Name of the operation
+@param label       Label array
+@param predictions Predictions array
+@param weights     Weights array. May be null. If null, a weight of 1.0 is used
+@param lossReduce  Reduction type for the loss. See {@link LossReduce} for more details. Default: {@link LossReduce#MEAN_BY_NONZERO_WEIGHT_COUNT}
+@param delta       Loss function delta value
+@return Huber loss variable

@@ -1,0 +1,1 @@
+gets quoted attribute value: QUOTATION *( quotechar / pair ) QUOTATION

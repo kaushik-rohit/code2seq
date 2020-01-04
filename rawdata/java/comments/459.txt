@@ -1,0 +1,5 @@
+<b>getSInt</b><br>
+public static String getSInt( int Value )<br>
+Returns int converted to string.<br>
+@param Value
+@return int as string

@@ -1,0 +1,4 @@
+A convenience method to replace a single item.
+
+This method shouldn't be used when you are replacing a lot of stuff
+as copy-on-write semantics make this rather slow.

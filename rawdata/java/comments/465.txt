@@ -1,0 +1,15 @@
+Retrieves the list of TargetHttpsProxy resources available to the specified project.
+
+<p>Sample code:
+
+<pre><code>
+try (TargetHttpsProxyClient targetHttpsProxyClient = TargetHttpsProxyClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+for (TargetHttpsProxy element : targetHttpsProxyClient.listTargetHttpsProxies(project.toString()).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param project Project ID for this request.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

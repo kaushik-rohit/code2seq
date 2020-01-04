@@ -1,0 +1,3 @@
+All words with frequency below threshold wii be removed
+
+@param threshold exclusive threshold for removal

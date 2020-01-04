@@ -1,0 +1,9 @@
+Create a wrapper object around an HLL sketch contained within a buffer. The position and limit of
+the buffer may be changed; if you do not want this to happen, you can duplicate the buffer before
+passing it in.
+
+The mark and byte order of the buffer will not be modified.
+
+@param buffer buffer containing an HLL sketch starting at its position and ending at its limit
+
+@return HLLC wrapper object

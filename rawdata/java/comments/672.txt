@@ -1,0 +1,15 @@
+Handles the provided annotation node by first finding a qualifying instance of
+{@link JavacAnnotationHandler} and if one exists, calling it with a freshly cooked up
+instance of {@link lombok.core.AnnotationValues}.
+
+Note that depending on the printASTOnly flag, the {@link lombok.core.PrintAST} annotation
+will either be silently skipped, or everything that isn't {@code PrintAST} will be skipped.
+
+The HandlerLibrary will attempt to guess if the given annotation node represents a lombok annotation.
+For example, if {@code lombok.*} is in the import list, then this method will guess that
+{@code Getter} refers to {@code lombok.Getter}, presuming that {@link lombok.javac.handlers.HandleGetter}
+has been loaded.
+
+@param unit The Compilation Unit that contains the Annotation AST Node.
+@param node The Lombok AST Node representing the Annotation AST Node.
+@param annotation 'node.get()' - convenience parameter.

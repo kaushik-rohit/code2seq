@@ -1,0 +1,6 @@
+Executes a ConnectMethod to establish a tunneled connection.
+
+@return <code>true</code> if the connect was successful
+
+@throws IOException
+@throws HttpException

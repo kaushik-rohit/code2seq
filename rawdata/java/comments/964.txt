@@ -1,0 +1,4 @@
+Append a range of bytes to the end of the given text
+@param utf8 the data to copy from
+@param start the first position to append from utf8
+@param len the number of bytes to append

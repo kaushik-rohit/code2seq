@@ -1,0 +1,6 @@
+RotN解码
+
+@param rot 被解码的消息密文
+@param offset 位移，常用位移13
+@param isDecodeNumber 是否解码数字
+@return 解码后的字符串

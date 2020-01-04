@@ -1,0 +1,4 @@
+Destroy sso sessions map.
+
+@param type the type
+@return the map

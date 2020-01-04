@@ -1,0 +1,4 @@
+Start the service with the given job leader actions.
+
+@param initialJobLeaderIdActions to use for job leader id actions
+@throws Exception which is thrown when clearing up old state

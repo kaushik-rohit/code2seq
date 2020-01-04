@@ -1,0 +1,5 @@
+Return an array with equal shape to the input, but all elements set to 'value'
+
+@param in    Input variable
+@param value Value to set
+@return Output variable

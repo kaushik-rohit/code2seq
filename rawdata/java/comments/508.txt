@@ -1,0 +1,1 @@
+放入ThreadLocal的上下文信息.

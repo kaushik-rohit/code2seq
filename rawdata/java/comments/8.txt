@@ -1,0 +1,7 @@
+This method is used to get the List of dynamic workflow tasks and their input based on the {@link WorkflowTask#getDynamicForkJoinTasksParam()}
+<p><b>NOTE:</b> This method is kept for legacy reasons, new workflows should use the {@link #getDynamicForkTasksAndInput}</p>
+
+@param taskToSchedule:   The Task of type FORK_JOIN_DYNAMIC that needs to scheduled, which has the input parameters
+@param workflowInstance: The instance of the {@link Workflow} which represents the workflow being executed.
+@throws TerminateWorkflowException : In case of the {@link WorkflowTask#getInputParameters()} does not have a payload that contains the list of the dynamic tasks
+@return {@link Pair} representing the list of dynamic fork tasks in {@link Pair#getLeft()} and the input for the dynamic fork tasks in {@link Pair#getRight()}

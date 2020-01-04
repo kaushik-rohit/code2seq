@@ -1,0 +1,5 @@
+Returns a boolean mask of equal shape to the input, where the condition is satisfied
+
+@param in        Input
+@param condition Condition
+@return Boolean mask

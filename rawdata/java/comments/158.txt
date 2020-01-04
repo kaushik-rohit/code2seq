@@ -1,0 +1,10 @@
+Reads a range of bytes from a Segment in Storage.
+
+@param segmentInfo   A SegmentProperties describing the Segment to read.
+@param startOffset   The first offset within the Segment to read from.
+@param maxReadLength The maximum number of bytes to read.
+@param readBlockSize The maximum number of bytes to read at once (the returned StreamSegmentReadResult will be
+broken down into Entries smaller than or equal to this size).
+@param storage       A ReadOnlyStorage to execute the reads against.
+@return A StreamSegmentReadResult that can be used to process the data. This will be made up of ReadResultEntries
+of the following types: Storage, Truncated or EndOfSegment.

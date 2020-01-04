@@ -1,0 +1,10 @@
+Copy from an input stream to a file (and buffer it) and close the input stream.
+<p>
+It is highly recommended to use FileUtils.retryCopy whenever possible, and not use a raw `InputStream`
+
+@param is   The input stream to copy bytes from. `is` is closed regardless of the copy result.
+@param file The file to copy bytes to. Any parent directories are automatically created.
+
+@return The count of bytes written to the file
+
+@throws IOException

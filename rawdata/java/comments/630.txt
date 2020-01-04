@@ -1,0 +1,4 @@
+Convert this map to the equivalent Erlang external representation.
+
+@param buf
+an output stream to which the encoded map should be written.

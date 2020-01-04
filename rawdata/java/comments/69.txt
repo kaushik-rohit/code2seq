@@ -1,0 +1,10 @@
+Checks if the given principal has the permission to create views within the specified view group.
+<p>
+Note that {@link #SYSTEM} can be passed in as the authentication parameter,
+in which case you should probably just assume it can create anything anywhere.
+@param a the principal.
+@param c the container of the view.
+@param d the descriptor of the view to be created.
+@return false
+if the user doesn't have the permission.
+@since 2.37

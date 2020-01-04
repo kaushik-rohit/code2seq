@@ -1,0 +1,6 @@
+Returns the partition with the given ID.
+
+@param resultPartitionId ID of the partition to look up
+@throws NullPointerException If partition ID <code>null</code>
+@throws IllegalArgumentException Thrown if unknown partition ID
+@return Intermediate result partition with the given ID

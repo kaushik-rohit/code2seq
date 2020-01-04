@@ -1,0 +1,23 @@
+Removes all bottom separators from the given pop up menu.
+<p>
+For example, calling the method on the given menu:
+<pre>
+Menu Entry
+Separator
+Menu Entry
+Separator
+Menu Entry
+Separator
+Separator
+</pre>
+would result in:
+<pre>
+Menu Entry
+Separator
+Menu Entry
+Separator
+Menu Entry
+</pre>
+
+@param popupMenu the pop up menu whose bottom separators will be removed
+@see javax.swing.JPopupMenu.Separator

@@ -1,0 +1,5 @@
+Gets login context.
+
+@param credential the credential
+@return the login context
+@throws GeneralSecurityException the general security exception

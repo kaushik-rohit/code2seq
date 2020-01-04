@@ -1,0 +1,11 @@
+Allow nexting directly to a flow.
+
+@param httpServerExchange
+The current requests server exchange.
+@param execName
+The name of the next executable to go to, ie chain or handler.
+Chain resolved first.
+@param returnToOrigFlow
+True if you want to call the next handler defined in your original
+chain after the provided execName is completed. False otherwise.
+@throws Exception exception

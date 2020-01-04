@@ -1,0 +1,2 @@
+Continues playing the animation from its current position. If speed < 0, it will play backwards
+from the current position.

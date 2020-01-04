@@ -1,0 +1,1 @@
+Starts all the threads that are used by this sorter.

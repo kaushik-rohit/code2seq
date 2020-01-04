@@ -1,0 +1,5 @@
+Tries to restore the given {@link ExecutionGraph} from the provided {@link SavepointRestoreSettings}.
+
+@param executionGraphToRestore {@link ExecutionGraph} which is supposed to be restored
+@param savepointRestoreSettings {@link SavepointRestoreSettings} containing information about the savepoint to restore from
+@throws Exception if the {@link ExecutionGraph} could not be restored

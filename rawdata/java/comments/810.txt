@@ -1,0 +1,3 @@
+Creates a snapshot of the current last processed sequence numbers of each subscribed shard.
+
+@return state snapshot

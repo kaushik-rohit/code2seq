@@ -1,0 +1,3 @@
+This method initializes jPanel1
+
+@return javax.swing.JPanel

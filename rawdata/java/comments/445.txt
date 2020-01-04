@@ -1,0 +1,4 @@
+Multiply by an integer.
+
+@param val a second number.
+@return the product of this with the value.

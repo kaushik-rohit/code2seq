@@ -1,0 +1,12 @@
+设置HTTPS安全连接协议，只针对HTTPS请求，可以使用的协议包括：<br>
+
+<pre>
+1. TLSv1.2
+2. TLSv1.1
+3. SSLv3
+...
+</pre>
+
+@see SSLSocketFactoryBuilder
+@param protocol 协议
+@return this

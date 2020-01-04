@@ -1,0 +1,4 @@
+DJB算法
+
+@param str 字符串
+@return hash值

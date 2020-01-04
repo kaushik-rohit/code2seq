@@ -1,0 +1,2 @@
+If this DereferenceExpression looks like a QualifiedName, return QualifiedName.
+Otherwise return null

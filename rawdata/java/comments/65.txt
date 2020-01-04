@@ -1,0 +1,7 @@
+Checks to see if user has write access to current working directory which many users need for
+their jobs to store temporary data/jars on the executor.
+
+Accomplishes this by using execute-as-user to try to create an empty file in the cwd.
+
+@param effectiveUser user/proxy user running the job
+@return true if user has write permissions in current working directory otherwise false

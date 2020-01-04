@@ -1,0 +1,1 @@
+Gets headers for the given size and whether the key/values should be limited to ASCII.

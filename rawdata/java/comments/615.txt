@@ -1,0 +1,3 @@
+Configures Discovery servers in other zones.
+
+@param zones The zones

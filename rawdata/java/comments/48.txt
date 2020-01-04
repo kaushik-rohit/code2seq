@@ -1,0 +1,5 @@
+用公钥检验数字签名的合法性
+
+@param data 数据
+@param sign 签名
+@return 是否验证通过

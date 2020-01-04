@@ -1,0 +1,5 @@
+拷贝ByteBuffer
+
+@param src 源ByteBuffer
+@param dest 目标ByteBuffer
+@return 目标ByteBuffer

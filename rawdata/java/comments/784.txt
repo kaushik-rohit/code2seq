@@ -1,0 +1,31 @@
+Gets the top directories of all the checked out modules.
+
+<p>
+Some SCMs support checking out multiple modules inside a workspace, which
+creates directory layout like this:
+
+<pre>{@code
+workspace  <- workspace root
++- xyz    <- directory checked out by SCM
++- .svn
++- build.xml  <- user file
++- abc    <- second module from different SCM root
++- .svn
++- build.xml  <- user file
+}</pre>
+
+This method takes the workspace root as a parameter, and is expected to return
+all the module roots that were checked out from SCM.
+
+<p>
+For normal SCMs, the array will be of length <code>1</code> and it's contents
+will be identical to calling {@link #getModuleRoot(FilePath, AbstractBuild)}.
+
+@param workspace The workspace root directory
+@param build
+The build for which the module roots are desired.
+This parameter is null when existing legacy code calls deprecated {@link #getModuleRoot(FilePath)}.
+Handle this situation gracefully if your can, but otherwise you can just fail with an exception, too.
+
+@return An array of all module roots.
+@since 1.382

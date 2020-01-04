@@ -1,0 +1,5 @@
+Creates a builder for new server-side {@link SslContext}.
+
+@param key a PKCS#8 private key
+@param keyCertChain the X.509 certificate chain
+@see #keyManager(PrivateKey, X509Certificate[])

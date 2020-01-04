@@ -1,0 +1,4 @@
+This method returns Op as set of required pointers for it
+@param op
+@param dimensions
+@return

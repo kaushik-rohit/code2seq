@@ -1,0 +1,4 @@
+Add a map to props
+
+@param map map config instance
+@return return Environment instance

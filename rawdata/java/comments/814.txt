@@ -1,0 +1,9 @@
+Returns the response body of the HTTP method, if any, as an {@link InputStream}.
+If response body is not available, returns <tt>null</tt>. If the response has been
+buffered this method returns a new stream object on every call. If the response
+has not been buffered the returned stream can only be read once.
+
+@return The response body or <code>null</code>.
+
+@throws IOException If an I/O (transport) problem occurs while obtaining the
+response body.

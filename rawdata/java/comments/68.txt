@@ -1,0 +1,11 @@
+Get the maximum number of concurrent runs for the specified flow, using the value in
+azkaban.concurrent.runs.oneflow.whitelist if explictly specified for the flow, and otherwise
+azkaban.max.concurrent.runs.oneflow or the default.
+
+@param projectName project name
+@param flowName flow name
+@param defaultMaxConcurrentRuns default max number of concurrent runs for one flow, if not
+explcitly specified for the flow.
+@param maxConcurrentRunsFlowMap map of (project, flow) to max number of concurrent runs for
+flow for which the value is explicitly specified via whitelist.
+@return the maximum number of concurrent runs for the flow.

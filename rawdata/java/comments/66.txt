@@ -1,0 +1,5 @@
+This method attempts to collect all transactions in the epoch that are marked for commit and decides if they can be
+committed in active epoch or if it needs to roll the transactions.
+
+@param event event to process
+@return Completable future which indicates completion of processing of commit event.

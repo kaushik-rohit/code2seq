@@ -1,0 +1,5 @@
+Projects a {@link Tuple} {@link DataStream} to the previously selected fields.
+
+@return The projected DataStream.
+@see Tuple
+@see DataStream

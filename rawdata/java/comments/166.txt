@@ -1,0 +1,3 @@
+Gets the session management methods combo box.
+
+@return the session management methods combo box

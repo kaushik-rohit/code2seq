@@ -1,0 +1,44 @@
+Create a number of {@link FileBatch} files from files on network storage such as HDFS (in random order).<br>
+Use cases: distributed training on compressed file formats such as images, that need to be loaded to a remote
+file storage system such as HDFS.<br>
+For example, if we were training with a minibatch size of 64 images, reading the raw images would result in 64
+different disk reads (one for each file) - which could clearly be a bottleneck during training.<br>
+Alternatively, we could create and save DataSet/INDArray objects containing a batch of images - however, storing
+images in FP32 (or ever UINT8) format - effectively a bitmap - is still much less efficient than the raw image files.<br>
+Instead, can create minibatches of {@link FileBatch} objects: these objects contain the raw file content for
+multiple files (as byte[]s) along with their original paths, which can then be used for distributed training using
+{@link RecordReaderFileBatchLoader}.<br>
+This approach gives us the benefits of the original file format (i.e., small size, compression) along with
+the benefits of a batched DataSet/INDArray format - i.e., disk reads are reduced by a factor of the minibatch size.<br>
+<br>
+See {@link #createFileBatchesLocal(File, String[], boolean, File, int)} for the local (non-Spark) version of this method.
+<br>
+Usage - image classification example - assume each FileBatch object contains a number of jpg/png etc image files
+<pre>
+{@code
+JavaSparkContext sc = ...
+SparkDl4jMultiLayer net = ...
+String baseFileBatchDir = ...
+JavaRDD<String> paths = org.deeplearning4j.spark.util.SparkUtils.listPaths(sc, baseFileBatchDir);
+
+//Image record reader:
+PathLabelGenerator labelMaker = new ParentPathLabelGenerator();
+ImageRecordReader rr = new ImageRecordReader(32, 32, 1, labelMaker);
+rr.setLabels(<labels here>);
+
+//Create DataSetLoader:
+int batchSize = 32;
+int numClasses = 1000;
+DataSetLoader loader = RecordReaderFileBatchLoader(rr, batchSize, 1, numClasses);
+
+//Fit the network
+net.fitPaths(paths, loader);
+}
+</pre>
+
+@param batchSize Batch size - i.e., minibatch size to be used for training, and the number of files to
+include in each FileBatch object
+@throws IOException If an error occurs while reading the files
+@see #createFileBatchesLocal(File, String[], boolean, File, int)
+@see org.datavec.api.records.reader.impl.filebatch.FileBatchRecordReader FileBatchRecordReader for local training on these files, if required
+@see org.datavec.api.records.reader.impl.filebatch.FileBatchSequenceRecordReader for local training on these files, if required

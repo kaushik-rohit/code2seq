@@ -1,0 +1,1 @@
+Returns the next proxy to try. May be PROXY.NO_PROXY but never null.

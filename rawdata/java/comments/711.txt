@@ -1,0 +1,4 @@
+Blocks until the rebalance interval. This wait serves multiple purposes:
+-- Ensure rebalance does not happen in quick succession since its a costly cluster level operation.
+-- Clubs multiple host events into one to reduce rebalance operations. For example:
+Fresh cluster start, cluster/multi-host/host restarts, etc.

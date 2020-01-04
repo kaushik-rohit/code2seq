@@ -1,0 +1,6 @@
+Adds a scalar multiple of compressed sparse vector to a full-storage vector.
+
+@param n The number of element
+@param alpha
+@param x a sparse vector
+@param y a dense vector

@@ -1,0 +1,5 @@
+Judge contains column from table meta data or not.
+
+@param tableName table name
+@param column column
+@return contains column from table meta data or not

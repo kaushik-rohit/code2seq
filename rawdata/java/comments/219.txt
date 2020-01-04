@@ -1,0 +1,4 @@
+精确查询
+
+@param key 键
+@return 值

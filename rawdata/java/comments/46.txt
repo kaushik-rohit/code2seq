@@ -1,0 +1,4 @@
+We can get it from server module but we don't want mutual dependency. So
+get it from config and keystore directly
+
+@return String TLS server certificate finger print

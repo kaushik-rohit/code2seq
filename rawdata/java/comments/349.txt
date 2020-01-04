@@ -1,0 +1,7 @@
+获取指定日期偏移指定时间后的时间
+
+@param date 基准日期
+@param dateField 偏移的粒度大小（小时、天、月等）{@link DateField}
+@param offset 偏移量，正数为向后偏移，负数为向前偏移
+@return 偏移后的日期
+@deprecated please use {@link DateUtil#offset(Date, DateField, int)}

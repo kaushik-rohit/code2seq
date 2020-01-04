@@ -1,0 +1,10 @@
+This method sends a WireCommand to read table entries.
+
+@param tableName           Qualified table name.
+@param keys                List of {@link TableKey}s to be read. {@link TableKey#getVersion()} is not used
+during this operation and the latest version is read.
+@param delegationToken     The token to be presented to the segmentstore.
+@param clientRequestId     Request id.
+@return A CompletableFuture that, when completed normally, will contain a list of {@link TableEntry} with
+a value corresponding to the latest version. The version will be set to {@link KeyVersion#NOT_EXISTS} if the
+key does not exist. If the operation failed, the future will be failed with the causing exception.

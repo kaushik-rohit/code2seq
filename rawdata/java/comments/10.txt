@@ -1,0 +1,1 @@
+Memory usage stats are expensive to maintain, so this method must be called periodically to update them

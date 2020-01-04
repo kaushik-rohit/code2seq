@@ -1,0 +1,8 @@
+验证是否为身份证号码（18位中国）<br>
+出生日期只支持到到2999年
+
+@param <T> 字符串类型
+@param value 值
+@param errorMsg 验证错误的信息
+@return 验证后的值
+@throws ValidateException 验证异常

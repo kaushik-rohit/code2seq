@@ -1,0 +1,8 @@
+Fail the specified allocation and release the corresponding slot if we have one.
+This may triggered by JobManager when some slot allocation failed with rpcTimeout.
+Or this could be triggered by TaskManager, when it finds out something went wrong with the slot,
+and decided to take it back.
+
+@param allocationID Represents the allocation which should be failed
+@param cause The cause of the failure
+@return Optional task executor if it has no more slots registered

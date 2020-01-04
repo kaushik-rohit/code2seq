@@ -1,0 +1,5 @@
+Returns the {@link TypeInformation} for the type of this DataSet.
+
+@return The TypeInformation for the type of this DataSet.
+
+@see TypeInformation

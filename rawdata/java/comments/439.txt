@@ -1,0 +1,4 @@
+Register view.
+
+@param type the type
+@param view the view

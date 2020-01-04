@@ -1,0 +1,3 @@
+{@inheritDoc}
+
+Will poll the interface on a regular basis until the element is present.

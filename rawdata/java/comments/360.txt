@@ -1,0 +1,5 @@
+Get layer output type.
+
+@param  inputType    Array of InputTypes
+@return              output type as InputType
+@throws InvalidKerasConfigurationException Invalid Keras config

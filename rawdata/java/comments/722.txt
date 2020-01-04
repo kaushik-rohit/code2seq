@@ -1,0 +1,7 @@
+Get the sorted distances given the
+query vector, input data, given the list of possible search candidates
+@param x the query vector
+@param X the input data to use
+@param candidates the possible search candidates
+@param similarityFunction the similarity function to use
+@return the sorted distances

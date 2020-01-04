@@ -1,0 +1,6 @@
+Returns if a message is valid or not based on a few simple conditions:
+no null values
+both index and the dimensions array must be -1 and of length 1 with an element of -1 in it
+otherwise it is a valid message.
+@param message the message to validate
+@return 1 of: NULL_VALUE,INCONSISTENT_DIMENSIONS,VALID see {@link MessageValidity}

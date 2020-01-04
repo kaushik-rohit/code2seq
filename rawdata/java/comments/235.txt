@@ -1,0 +1,8 @@
+Perform evaluation on serialized DataSet objects on disk, (potentially in any format), that are loaded using an {@link DataSetLoader}.
+@param data             List of paths to the data (that can be loaded as / converted to DataSets)
+@param evalNumWorkers   Number of workers to perform evaluation with. To reduce memory requirements and cache thrashing,
+it is common to set this to a lower value than the number of spark threads per JVM/executor
+@param evalBatchSize    Batch size to use when performing evaluation
+@param loader           Used to load DataSets from their paths
+@param emptyEvaluations Evaluations to perform
+@return Evaluation

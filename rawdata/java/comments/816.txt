@@ -1,0 +1,4 @@
+/*
+(non-Javadoc)
+
+@see org.activiti.engine.impl.history.HistoryManagerInterface# recordIdentityLinkCreated (org.activiti.engine.impl.persistence.entity.IdentityLinkEntity)

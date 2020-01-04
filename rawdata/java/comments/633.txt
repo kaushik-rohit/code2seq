@@ -1,0 +1,5 @@
+Computes the intersection between the edge set and the given edge set. For all matching pairs, both edges will be
+in the resulting data set.
+
+@param edges edges to compute intersection with
+@return edge set containing both edges from all matching pairs of the same edge

@@ -1,0 +1,3 @@
+Creates a frame of length dataSize + FRAME_HEADER_SIZE using the input bytes, if dataSize <=
+input.remaining(). Otherwise, a frame of length input.remaining() + FRAME_HEADER_SIZE is
+created.

@@ -1,0 +1,1 @@
+根据NameSpace和Name得到对应的DataMediaPair.

@@ -1,0 +1,5 @@
+生成随机颜色
+
+@param random 随机对象 {@link Random}
+@return 随机颜色
+@since 3.1.2

@@ -1,0 +1,5 @@
+提取词语
+
+@param doc  大文本
+@param size 需要提取词语的数量
+@return 一个词语列表

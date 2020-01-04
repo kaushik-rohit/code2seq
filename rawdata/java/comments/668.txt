@@ -1,0 +1,4 @@
+Adds to the input the union of the given operators.
+
+@param inputs The operator(s) that form the input.
+@deprecated This method will be removed in future versions. Use the {@link Union} operator instead.

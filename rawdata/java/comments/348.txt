@@ -1,0 +1,1 @@
+Returns a Base 64-encoded string containing a SHA-1 hash of {@code s}.

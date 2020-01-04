@@ -1,0 +1,5 @@
+找不到服务
+
+@param appName     应用
+@param serviceName 服务
+@return 找不到服务的异常响应

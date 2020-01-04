@@ -1,0 +1,29 @@
+Creates a queue.
+
+<p>Queues created with this method allow tasks to live for a maximum of 31 days. After a task
+is 31 days old, the task will be deleted regardless of whether it was dispatched or not.
+
+<p>WARNING: Using this method may have unintended side effects if you are using an App Engine
+`queue.yaml` or `queue.xml` file to manage your queues. Read [Overview of Queue Management and
+queue.yaml](https://cloud.google.com/tasks/docs/queue-yaml) before using this method.
+
+<p>Sample code:
+
+<pre><code>
+try (CloudTasksClient cloudTasksClient = CloudTasksClient.create()) {
+LocationName parent = LocationName.of("[PROJECT]", "[LOCATION]");
+Queue queue = Queue.newBuilder().build();
+Queue response = cloudTasksClient.createQueue(parent.toString(), queue);
+}
+</code></pre>
+
+@param parent Required.
+<p>The location name in which the queue will be created. For example:
+`projects/PROJECT_ID/locations/LOCATION_ID`
+<p>The list of allowed locations can be obtained by calling Cloud Tasks' implementation of
+[ListLocations][google.cloud.location.Locations.ListLocations].
+@param queue Required.
+<p>The queue to create.
+<p>[Queue's name][google.cloud.tasks.v2.Queue.name] cannot be the same as an existing
+queue.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

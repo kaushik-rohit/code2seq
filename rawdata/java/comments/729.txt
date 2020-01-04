@@ -1,0 +1,17 @@
+Creates an address resource in the specified project using the data included in the request.
+
+<p>Sample code:
+
+<pre><code>
+try (GlobalAddressClient globalAddressClient = GlobalAddressClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+Address addressResource = Address.newBuilder().build();
+Operation response = globalAddressClient.insertGlobalAddress(project, addressResource);
+}
+</code></pre>
+
+@param project Project ID for this request.
+@param addressResource A reserved address resource. (== resource_for beta.addresses ==) (==
+resource_for v1.addresses ==) (== resource_for beta.globalAddresses ==) (== resource_for
+v1.globalAddresses ==)
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

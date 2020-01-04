@@ -1,0 +1,15 @@
+Retrieves an aggregated list of usable subnetworks.
+
+<p>Sample code:
+
+<pre><code>
+try (SubnetworkClient subnetworkClient = SubnetworkClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+for (UsableSubnetwork element : subnetworkClient.listUsableSubnetworks(project).iterateAll()) {
+// doThingsWith(element);
+}
+}
+</code></pre>
+
+@param project Project ID for this request.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

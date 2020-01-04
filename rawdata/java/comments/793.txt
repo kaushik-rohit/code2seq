@@ -1,0 +1,4 @@
+创建{@link Cipher}
+
+@param algorithm 算法
+@since 4.5.2

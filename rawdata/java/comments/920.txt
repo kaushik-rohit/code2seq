@@ -1,0 +1,3 @@
+Gets attribute repository.
+
+@return the attribute repository

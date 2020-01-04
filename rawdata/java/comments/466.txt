@@ -1,0 +1,4 @@
+Returns the next value from the JSON stream as a parse tree.
+
+@throws JsonParseException if there is an IOException or if the specified
+text is not valid JSON

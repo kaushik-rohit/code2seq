@@ -1,0 +1,6 @@
+Restore a {@link SameDiff}
+instance from a configuration
+zip file
+@param file the file to restore from
+@return the associated samediff instance
+@throws IOException

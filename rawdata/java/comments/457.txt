@@ -1,0 +1,19 @@
+Returns the specified SSL policy resource. Gets a list of available SSL policies by making a
+list() request.
+
+<p>Sample code:
+
+<pre><code>
+try (SslPolicyClient sslPolicyClient = SslPolicyClient.create()) {
+ProjectName project = ProjectName.of("[PROJECT]");
+SslPolicy sslPolicyResource = SslPolicy.newBuilder().build();
+Operation response = sslPolicyClient.insertSslPolicy(project, sslPolicyResource);
+}
+</code></pre>
+
+@param project Project ID for this request.
+@param sslPolicyResource A SSL policy specifies the server-side support for SSL features. This
+can be attached to a TargetHttpsProxy or a TargetSslProxy. This affects connections between
+clients and the HTTPS or SSL proxy load balancer. They do not affect the connection between
+the load balancers and the backends.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

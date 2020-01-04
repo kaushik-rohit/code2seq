@@ -1,0 +1,2 @@
+Tries to find a concrete value (Class, ParameterizedType etc. ) for a TypeVariable by traversing the type hierarchy downwards.
+If a value could not be found it will return the most bottom type variable in the hierarchy.

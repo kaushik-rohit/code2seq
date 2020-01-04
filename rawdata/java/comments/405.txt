@@ -1,0 +1,5 @@
+Pass in a log file, this method will find all the hadoop jobs it has launched, and kills it
+
+Only works with Hadoop2
+
+@return a Set<String>. The set will contain the applicationIds that this job tried to kill.

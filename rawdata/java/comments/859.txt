@@ -1,0 +1,8 @@
+Creates a valid {@link SortTableOperation} operation.
+
+<p><b>NOTE:</b> if the collation is not explicitly specified for any expression, it is wrapped in a
+default ascending order
+
+@param orders expressions describing order,
+@param child relational expression on top of which to apply the sort operation
+@return valid sort operation

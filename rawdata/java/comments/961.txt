@@ -1,0 +1,2 @@
+Create a file system with the user-defined {@code HDFS} configuration.
+@throws IOException

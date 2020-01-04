@@ -1,0 +1,5 @@
+获得JSONArray对象<br>
+如果值为其它类型对象，尝试转换为{@link JSONArray}返回，否则抛出异常
+
+@param key KEY
+@return JSONArray对象，如果值为null或者非JSONArray类型，返回null

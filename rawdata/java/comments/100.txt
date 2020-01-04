@@ -1,0 +1,11 @@
+Returns all the {@code Extension}s of all the installed add-ons.
+<p>
+The discovery of {@code Extension}s is done by resorting to the {@link AddOn#MANIFEST_FILE_NAME manifest file} bundled in
+the add-ons.
+<p>
+Extensions with unfulfilled dependencies are not be returned.
+
+@return a list containing all {@code Extension}s of all installed add-ons
+@since 2.4.0
+@see Extension
+@see #getExtensions(AddOn)

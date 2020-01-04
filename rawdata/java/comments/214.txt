@@ -1,0 +1,5 @@
+Reads the Entry's Header from the given {@link InputStream}.
+
+@param input The {@link InputStream} to read from.
+@return The Entry Header.
+@throws IOException If an invalid header was detected or another IOException occurred.

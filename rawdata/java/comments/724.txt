@@ -1,0 +1,6 @@
+Sets the minimum and preferred resources for the iteration. This overrides the default resources.
+The lower and upper resource limits will be considered in dynamic resource resize feature for future plan.
+
+@param minResources The minimum resources for the iteration.
+@param preferredResources The preferred resources for the iteration.
+@return The iteration with set minimum and preferred resources.

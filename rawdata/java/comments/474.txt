@@ -1,0 +1,8 @@
+Obtains a bean definition for a constructor at the given index
+<p>
+Warning: this method is used by internal generated code and should not be called by user code.
+
+@param resolutionContext The resolution context
+@param context           The context
+@param argIndex          The argument index
+@return The resolved bean

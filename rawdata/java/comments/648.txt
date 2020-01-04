@@ -1,0 +1,13 @@
+Check a resource-action using the authorization fields from the request.
+
+Otherwise, if the resource-actions is authorized, return ACCESS_OK.
+
+This function will set the DRUID_AUTHORIZATION_CHECKED attribute in the request.
+
+If this attribute is already set when this function is called, an exception is thrown.
+
+@param request          HTTP request to be authorized
+@param resourceAction   A resource identifier and the action to be taken the resource.
+@param authorizerMapper The singleton AuthorizerMapper instance
+
+@return ACCESS_OK or the failed Access object returned by the Authorizer that checked the request.

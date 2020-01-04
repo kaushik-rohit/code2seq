@@ -1,0 +1,7 @@
+De-serializes the response sent to the
+{@link org.apache.flink.queryablestate.network.Client}.
+<pre>
+<b>The buffer is expected to be at the response position.</b>
+</pre>
+@param buf	The {@link ByteBuf} containing the serialized response.
+@return		The response.

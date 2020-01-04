@@ -1,0 +1,8 @@
+Reformats the input array to a length 3 array and checks that all values >= 0.
+
+If the array is length 1, returns [a, a, a]
+If the array is length 3, returns the array.
+
+@param data An array
+@param paramName The param name, for error reporting
+@return An int array of length 3 that represents the input

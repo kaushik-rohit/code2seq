@@ -1,0 +1,10 @@
+返回格式: column = value
+<br>
+默认isDeletedValue = 1  notDeletedValue = 0
+<br>
+则返回is_deleted = 1 或 is_deleted = 0
+<br>
+若没有逻辑删除注解，则返回空字符串
+
+@param column
+@param isDeleted true 已经逻辑删除  false 未逻辑删除

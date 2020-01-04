@@ -1,0 +1,2 @@
+Get the encoded length if an integer is stored in a variable-length format
+@return the encoded length

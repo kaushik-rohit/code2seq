@@ -1,0 +1,2 @@
+Returns {@code true} if and only if the specified cipher suite is available in OpenSSL.
+Both Java-style cipher suite and OpenSSL-style cipher suite are accepted.

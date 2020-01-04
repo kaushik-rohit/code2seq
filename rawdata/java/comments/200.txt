@@ -1,0 +1,14 @@
+Starts an instance that was stopped using the instances().stop method. For more information,
+see Restart an instance.
+
+<p>Sample code:
+
+<pre><code>
+try (InstanceClient instanceClient = InstanceClient.create()) {
+ProjectZoneInstanceName instance = ProjectZoneInstanceName.of("[PROJECT]", "[ZONE]", "[INSTANCE]");
+Operation response = instanceClient.startInstance(instance.toString());
+}
+</code></pre>
+
+@param instance Name of the instance resource to start.
+@throws com.google.api.gax.rpc.ApiException if the remote call fails

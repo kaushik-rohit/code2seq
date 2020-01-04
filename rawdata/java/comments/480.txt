@@ -1,0 +1,2 @@
+Evaluation for multiple-output networks.<br>
+See {@link #evaluate(MultiDataSetIterator, Map, Map)}

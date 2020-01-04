@@ -1,0 +1,6 @@
+Extract out the specified column, and merge the specified label and label mask arrays
+(i.e., concatenate the examples)
+
+@param labelsToMerge     Features to merge. Will use featuresToMerge[all][inOutIdx]
+@param labelMasksToMerge Mask arrays to merge. May be null
+@return Merged features and mask. Mask may be null

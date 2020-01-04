@@ -1,0 +1,2 @@
+Create a {@link Key} with the given debug name and default value. Multiple different keys may
+have the same name; the name is intended for debugging purposes and does not impact behavior.
